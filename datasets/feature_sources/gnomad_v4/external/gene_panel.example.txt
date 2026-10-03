@@ -1,0 +1,22 @@
+# Example cardiogenetics seed list only.
+# Replace this with the reviewed final project panel before generating labels.
+MYH7
+MYBPC3
+TNNT2
+TNNI3
+TPM1
+ACTC1
+MYL2
+MYL3
+LMNA
+TTN
+PKP2
+DSP
+DSG2
+DSC2
+PLN
+RYR2
+SCN5A
+KCNQ1
+KCNH2
+

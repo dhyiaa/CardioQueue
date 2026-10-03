@@ -1,0 +1,35 @@
+Reference 16
+PMID: 34930020
+Title: Arrhythmia Variant Associations and Reclassifications in the eMERGE-III Sequencing Study.
+Authors: Glazer AM; Davogustto G; Shaffer CM; Vanoye CG; Desai RR; Farber-Eger EH; Dikilitas O; Shang N; et al.
+Year: 2022
+Journal: Circulation
+DOI: 10.1161/CIRCULATIONAHA.121.055562
+URL: https://pubmed.ncbi.nlm.nih.gov/34930020/
+Draft use: eMERGE-III arrhythmia variant source and 21,846-participant cohort
+
+Abstract:
+BACKGROUND: Sequencing Mendelian arrhythmia genes in individuals without an indication for
+arrhythmia genetic testing can identify carriers of pathogenic or likely pathogenic (P/LP) variants.
+However, the extent to which these variants are associated with clinically meaningful phenotypes
+before or after return of variant results is unclear. In addition, the majority of discovered
+variants are currently classified as variants of uncertain significance, limiting clinical
+actionability. METHODS: The eMERGE-III study (Electronic Medical Records and Genomics Phase III) is
+a multicenter prospective cohort that included 21 846 participants without previous indication for
+cardiac genetic testing. Participants were sequenced for 109 Mendelian disease genes, including 10
+linked to arrhythmia syndromes. Variant carriers were assessed with electronic health record-derived
+phenotypes and follow-up clinical examination. Selected variants of uncertain significance (n=50)
+were characterized in vitro with automated electrophysiology experiments in HEK293 cells. RESULTS:
+As previously reported, 3.0% of participants had P/LP variants in the 109 genes. Herein, we report
+120 participants (0.6%) with P/LP arrhythmia variants. Compared with noncarriers, arrhythmia P/LP
+carriers had a significantly higher burden of arrhythmia phenotypes in their electronic health
+records. Fifty-four participants had variant results returned. Nineteen of these 54 participants had
+inherited arrhythmia syndrome diagnoses (primarily long-QT syndrome), and 12 of these 19 diagnoses
+were made only after variant results were returned (0.05%). After in vitro functional evaluation of
+50 variants of uncertain significance, we reclassified 11 variants: 3 to likely benign and 8 to
+P/LP. CONCLUSIONS: Genome sequencing in a large population without indication for arrhythmia genetic
+testing identified phenotype-positive carriers of variants in congenital arrhythmia syndrome disease
+genes. As the genomes of large numbers of people are sequenced, the disease risk from rare variants
+in arrhythmia genes can be assessed by integrating genomic screening, electronic health record
+phenotypes, and in vitro functional studies. REGISTRATION: URL: https://www. CLINICALTRIALS: gov;
+Unique identifier; NCT03394859.

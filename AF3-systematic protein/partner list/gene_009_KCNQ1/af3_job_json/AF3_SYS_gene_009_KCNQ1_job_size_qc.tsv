@@ -1,0 +1,4 @@
+job_id	protein_residue_total	ion_count	chain_lengths	server_feasibility
+AF3_SYS_G009_KCNQ1_KCNE1_CALM1_CA16_TETRAMER_DRAFT	3816	CA:16	676;676;676;676;129;129;129;129;149;149;149;149	feasible_but_complex_stoichiometry_manual_review_needed
+AF3_SYS_G009_KCNQ1_KCNE1_FULL_LENGTH_PAIR_DRAFT	805	none	676;129	feasible_by_token_count_but_manual_review_needed
+AF3_SYS_G009_KCNQ1_CALM1_CA4_FULL_LENGTH_PAIR_DRAFT	825	CA:4	676;149	feasible_by_token_count_but_manual_review_needed

@@ -1,0 +1,5 @@
+design_id	reason_not_generated	what_is_needed
+AF3_SYS_G007_CACNA1C_AID_414_458_CACNB2_CORE_114_460_HELD	Top3 limit. Generate if the full-length CACNA1C-CACNB2 pair does not provide a clear beta-subunit interface.	Manual boundary check for CACNB2 GK/core region and comparison with full-length pair output.
+AF3_SYS_G007_CACNA1C_CACNA2D_GAMMA_HELD	Auxiliary subunit sequence/isoform selection and cardiac context are not review-ready in this packet.	Assign exact CACNA2D/gamma entity, sequence, and cardiac-specific evidence before AF3 submission.
+AF3_SYS_G007_CACNA1C_STAC2_HELD	STAC2 region is annotated but not selected as a top cardiac cardiogenetics mechanism for first-pass CACNA1C.	Review cardiac specificity and exact STAC2 sequence/domain design.
+AF3_SYS_G007_CACNA1C_NTERM_47_68_CALM1_CA4_HELD	Known CaM-binding region but lower priority than C-terminal IQ/CaM CDI region.	Generate only if IQ/CaM is weak or if variants cluster in the N-terminal CaM-binding site.

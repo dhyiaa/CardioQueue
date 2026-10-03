@@ -1,0 +1,70 @@
+{
+  "inputs": {
+    "matrix": "/Users/dheyaa/Documents/Dheyaa_Research/catBoost-Largedata-synth/datasets/modeling/ready/modeling_table_with_splits_weights_hiro_emerge_rescued.tsv",
+    "matrix_sha256": "9b955cf0d9a97da2b5a19b177a1d6ebc37207ca54bb0b3a6a70d40897a0e7892",
+    "share_csv": "/tmp/share_browser-20260925/HCM_Gen_Variant_Annotation_2026Q1.csv",
+    "share_sha256": "f119e47ea6205d874c0dfe3b3a350617509d10a906a91fe1f998abc98eb53a45",
+    "plos_xlsx": "/Users/dheyaa/Documents/Dheyaa_Research/catBoost-Largedata-synth/datasets/external_validation_candidates/plos_cardiovascular_reinterpretation/pone.0297914.s001.xlsx",
+    "plos_sha256": "79eae13f642c14ddadbef5913728745a32315f0164d1f3b6be8ded8e3dd5fbce",
+    "clinvar_coordinate_resolver": "/Users/dheyaa/Documents/Dheyaa_Research/catBoost-Largedata-synth/datasets/clinvar/variant_summary.txt.gz",
+    "reference_fasta": "/Users/dheyaa/Documents/Dheyaa_Research/catBoost-Largedata-synth/datasets/feature_sources/insilico/raw/vep/fasta/Homo_sapiens.GRCh38.dna.primary_assembly.fa"
+  },
+  "source_counts": {
+    "Fernandez_Falgueras_PLOS_2024": {
+      "observations": 154,
+      "unique_variants": 154,
+      "pathogenic": 74,
+      "benign": 80
+    },
+    "SHaRe_HCM_2026Q1": {
+      "observations": 757,
+      "unique_variants": 757,
+      "pathogenic": 535,
+      "benign": 222
+    },
+    "legacy_cardioboost": {
+      "observations": 174,
+      "unique_variants": 174,
+      "pathogenic": 130,
+      "benign": 44
+    },
+    "legacy_emerge": {
+      "observations": 176,
+      "unique_variants": 176,
+      "pathogenic": 96,
+      "benign": 80
+    },
+    "legacy_hiro": {
+      "observations": 69,
+      "unique_variants": 69,
+      "pathogenic": 27,
+      "benign": 42
+    }
+  },
+  "unmapped_or_reference_invalid_by_source": {
+    "Fernandez_Falgueras_PLOS_2024": 43,
+    "SHaRe_HCM_2026Q1": 21,
+    "legacy_cardioboost": 11
+  },
+  "unique_benchmark": {
+    "variants": 1233,
+    "pathogenic": 801,
+    "benign": 432,
+    "source_label_conflicts_excluded": 1,
+    "already_in_matrix": 942,
+    "new_requiring_annotation": 291
+  },
+  "expanded_modeling_table": {
+    "rows": 85968,
+    "train": 35796,
+    "validation": 6317,
+    "external_expanded": 1233,
+    "quarantine_overlap_with_development": 0,
+    "split_seed": 20260925
+  },
+  "interpretation": [
+    "SHaRe and PLOS are retrospective source-held-out validation cohorts, not prospective clinical validation.",
+    "ClinVar supplies coordinates for PLOS records but does not supply their outcome label.",
+    "Source-specific observations are retained separately; the combined manifest excludes label-discordant alleles."
+  ]
+}

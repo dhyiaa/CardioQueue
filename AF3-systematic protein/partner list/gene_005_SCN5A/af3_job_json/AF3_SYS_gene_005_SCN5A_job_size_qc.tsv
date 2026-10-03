@@ -1,0 +1,4 @@
+job_name	total_protein_aa	af3_server_feasibility	caution
+AF3_SYS_G005_SCN5A_CALM1_CA4_FULL_LENGTH_DRAFT	2165	feasible_by_size	full-length membrane/channel context has biological caveats
+AF3_SYS_G005_SCN5A_SCN1B_FULL_LENGTH_DRAFT	2234	feasible_by_size	full-length membrane/channel context has biological caveats
+AF3_SYS_G005_SCN5A_SNTA1_FULL_LENGTH_DRAFT	2521	feasible_by_size	full-length membrane/channel context has biological caveats

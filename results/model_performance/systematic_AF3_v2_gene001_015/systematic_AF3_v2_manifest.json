@@ -1,0 +1,89 @@
+{
+  "base_table": "datasets/modeling/ready/modeling_table_with_splits_weights_hiro_emerge_rescued.tsv",
+  "merged_table": "datasets/modeling/interim/modeling_table_with_splits_weights_plus_systematicAF3_v2_gene001_015.tsv",
+  "gene_scope": "gene_001 through gene_015 systematic AF3 folders",
+  "trusted_threshold": "pair ipTM >= 0.60, pair/min PAE <= 8, max contact probability >= 0.45",
+  "strong_threshold": "pair ipTM >= 0.70, pair/min PAE <= 5, max contact probability >= 0.60",
+  "models": [
+    {
+      "model": "systematicAF3_v2_primary_binary_structuralOnly",
+      "input_table": "datasets/modeling/interim/modeling_table_with_splits_weights_plus_systematicAF3_v2_gene001_015.tsv",
+      "split_col": "split_source_heldout",
+      "n_features": 346,
+      "n_categorical_features": 222,
+      "n_numeric_features": 124,
+      "n_systematicAF3_features_used": 8,
+      "systematicAF3_features_used": [
+        "systematicAF3_best_residue_plddt",
+        "systematicAF3_mean_residue_plddt",
+        "systematicAF3_min_distance_to_partner_angstrom",
+        "systematicAF3_within_partner_interface_5A",
+        "systematicAF3_within_partner_interface_8A",
+        "systematicAF3_best_pair_iptm",
+        "systematicAF3_best_pair_min_pae",
+        "systematicAF3_best_pair_max_contact_probability"
+      ],
+      "include_coverage_flags": false,
+      "best_iteration": 435
+    },
+    {
+      "model": "systematicAF3_v2_primary_binary_structuralPlusFlags",
+      "input_table": "datasets/modeling/interim/modeling_table_with_splits_weights_plus_systematicAF3_v2_gene001_015.tsv",
+      "split_col": "split_source_heldout",
+      "n_features": 349,
+      "n_categorical_features": 222,
+      "n_numeric_features": 127,
+      "n_systematicAF3_features_used": 11,
+      "systematicAF3_features_used": [
+        "systematicAF3_best_pair_support_rank",
+        "systematicAF3_has_exploratory_or_strong_pair",
+        "systematicAF3_has_strong_pair",
+        "systematicAF3_best_residue_plddt",
+        "systematicAF3_mean_residue_plddt",
+        "systematicAF3_min_distance_to_partner_angstrom",
+        "systematicAF3_within_partner_interface_5A",
+        "systematicAF3_within_partner_interface_8A",
+        "systematicAF3_best_pair_iptm",
+        "systematicAF3_best_pair_min_pae",
+        "systematicAF3_best_pair_max_contact_probability"
+      ],
+      "include_coverage_flags": true,
+      "best_iteration": 468
+    }
+  ],
+  "coverage": [
+    {
+      "scope": "all_modeling_rows",
+      "rows": 85677,
+      "genes": 61,
+      "rows_with_any_systematicAF3_output": 40764,
+      "rows_with_exploratory_or_strong_pair": 22899,
+      "rows_with_strong_pair": 14136,
+      "pct_any_output": 47.57869673307889,
+      "pct_exploratory_or_strong_pair": 26.727126299940473,
+      "pct_strong_pair": 16.499177142056794
+    },
+    {
+      "scope": "primary_binary_rows",
+      "rows": 42990,
+      "genes": 53,
+      "rows_with_any_systematicAF3_output": 16595,
+      "rows_with_exploratory_or_strong_pair": 9109,
+      "rows_with_strong_pair": 5474,
+      "pct_any_output": 38.60200046522447,
+      "pct_exploratory_or_strong_pair": 21.188648522912302,
+      "pct_strong_pair": 12.733193765992091
+    },
+    {
+      "scope": "vus_rows",
+      "rows": 42361,
+      "genes": 61,
+      "rows_with_any_systematicAF3_output": 23977,
+      "rows_with_exploratory_or_strong_pair": 13650,
+      "rows_with_strong_pair": 8574,
+      "pct_any_output": 56.60159108614056,
+      "pct_exploratory_or_strong_pair": 32.22303533910909,
+      "pct_strong_pair": 20.240315384433796
+    }
+  ]
+}

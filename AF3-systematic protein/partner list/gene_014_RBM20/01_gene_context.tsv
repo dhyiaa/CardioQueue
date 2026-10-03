@@ -1,0 +1,10 @@
+field	value	note
+gene	RBM20	Gene 014 in AF3 systematic queue
+included_variant_rows	2000	Current rescue-aware included rows from priority table
+binary_rows	966	Benign plus pathogenic rows
+vus_rows	1034	VUS rows that may later receive AF3-derived context features
+pathogenic_rows	103	Moderate P/LP count, many variants near RS/splicing-regulatory regions
+benign_rows	863	Benign comparator rows
+frequency_rank	14	Rank 14 in included variant burden
+disease_context	dilated cardiomyopathy RNA-splicing regulator	Primary cardiogenetics gene, but mechanism is RNA/splicing not simple PPI
+af3_scope	review-grade RBM20 domain structure only; no curated protein partner assigned	Protein/RNA or snRNP designs deferred until explicit spliceosome/RNA design is scoped

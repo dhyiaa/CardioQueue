@@ -1,0 +1,16 @@
+[
+  {
+    "name": "AF3_SYS_G014_RBM20_CTERM_ZNF_1140_1227_MONOMER_DRAFT",
+    "modelSeeds": [],
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "EDVFSELSIPLGVEFVVPRTGFYCKLCGLFYTSEETAKMSHCRSAVHYRNLQKYLSQLAEEGLKETEGADSPRPEDSGIVPRFERKKL",
+          "count": 1
+        }
+      }
+    ],
+    "dialect": "alphafoldserver",
+    "version": 1
+  }
+]

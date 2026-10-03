@@ -1,0 +1,22 @@
+{
+  "matrix": "datasets/modeling/interim/final_modeling_table_local_features_gnomad_foldx_vep_hgvs_spliceai_hiro_agg.tsv",
+  "generated_at": "2026-07-02T15:20:09",
+  "rows": 86889,
+  "columns": 463,
+  "duplicate_variant_id_rows": 0,
+  "duplicate_coordinate_key_rows": 0,
+  "ref_alt_equal_rows": 17,
+  "in_clinvar_rows": 83915,
+  "in_hiro_rows": 240,
+  "in_emerge_rows": 2754,
+  "in_cardioboost_rows": 353,
+  "label_counts": {
+    "VUS": 43458,
+    "Benign": 34042,
+    "Pathogenic": 9240,
+    "<missing>": 149
+  },
+  "binary_supervised_rows": 43282,
+  "primary_model_include_rows": 86193,
+  "primary_include_binary_supervised_rows": 43217
+}

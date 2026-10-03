@@ -1,0 +1,21 @@
+{
+  "input": "/Users/dheyaa/Documents/Dheyaa_Research/catBoost-Largedata-synth/results/model_performance/cardioboost_matched_benchmark/tables/hgvs_cdot_cardioBoost_matched_benchmark.tsv",
+  "n_boot": 5000,
+  "seed": 20260703,
+  "policies": [
+    "row_stratified_paired",
+    "variant_cluster_stratified_paired"
+  ],
+  "benchmarks": [
+    "hgvs_cdot_pdot_primary_external_all",
+    "hgvs_cdot_pdot_primary_external_cardioboost",
+    "hgvs_cdot_pdot_primary_external_cm",
+    "hgvs_cdot_pdot_primary_external_arm",
+    "hgvs_cdot_primary_external_all",
+    "hgvs_cdot_primary_external_cardioboost"
+  ],
+  "outputs": {
+    "model_ci": "/Users/dheyaa/Documents/Dheyaa_Research/catBoost-Largedata-synth/results/model_performance/cardioboost_matched_benchmark/tables/hgvs_cardioBoost_matched_bootstrap_model_ci.tsv",
+    "paired_difference_ci": "/Users/dheyaa/Documents/Dheyaa_Research/catBoost-Largedata-synth/results/model_performance/cardioboost_matched_benchmark/tables/hgvs_cardioBoost_matched_bootstrap_paired_difference_ci.tsv"
+  }
+}

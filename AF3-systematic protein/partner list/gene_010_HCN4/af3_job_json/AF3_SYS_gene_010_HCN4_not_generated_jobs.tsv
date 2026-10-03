@@ -1,0 +1,4 @@
+held_job_id	why_not_generated	what_would_trigger_generation
+AF3_SYS_G010_HCN4_HCN1_HETEROMER_HELD	HCN1/2/3 heteromer evidence exists but is less cardiac-specific and not first-pass HCN4 classifier context.	Generate if homotetramer outputs are strong and reviewer asks about heteromeric HCN channels.
+AF3_SYS_G010_HCN4_FYN_ABL1_HELD	Kinase peptide-array/association evidence is not a primary channel complex and risks noisy non-cardiac features.	Generate only after targeted literature supports a cardiac variant mechanism.
+AF3_SYS_G010_HCN4_PEX5L_IRAG_HELD	UniProt notes interactions by similarity; local evidence insufficient for first-pass AF3.	Generate after manual literature review and partner sequence/boundary confirmation.

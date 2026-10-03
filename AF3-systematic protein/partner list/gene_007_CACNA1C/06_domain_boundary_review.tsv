@@ -1,0 +1,6 @@
+region	residues	source	decision	rationale	sequence_file
+full_length_CACNA1C	1-2221	UniProt Q13936 canonical sequence	used in top3 full-length channel jobs	Keeps all cytosolic channel regions available, but output must be interpreted with membrane/state caveats.	partner_sequences/CACNA1C_Q13936.fasta
+CACNA1C_AID	428-445 annotated; 414-458 padded held design	UniProt Q13936; PubMed 15141227	held as optional compact beta-interface sensitivity job	AID mediates beta-subunit interaction, but full-length CACNB2 pair is submitted first.	partner_sequences/CACNA1C_AID_414_458.fasta
+CACNA1C_IQ_CALM	1665-1685 annotated; 1648-1705 submitted window	UniProt Q13936; PubMed 16299511; 16338416; 19279214; 20953164	used in top3 compact CaM job	Focused and interpretable calcium/calmodulin regulatory interface.	partner_sequences/CACNA1C_IQ_1648_1705.fasta
+CACNA1C_N_terminal_CALM	47-68	UniProt Q13936; PubMed 22518098	held	Known calmodulin-binding region but lower first-pass priority than IQ/C-terminal CDI context.	not_generated
+CACNB2_core_approximation	114-460	UniProt Q08289 SH3 domain and beta-subunit functional annotation	held optional	Candidate compact partner window for AID sensitivity if full-length beta result is uninformative.	partner_sequences/CACNB2_CORE_114_460.fasta

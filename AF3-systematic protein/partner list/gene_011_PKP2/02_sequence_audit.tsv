@@ -1,0 +1,6 @@
+entity	uniprot_accession	entry_name	sequence_source	residues	length	status	caveat
+PKP2 canonical	Q99959	PKP2_HUMAN	local reviewed UniProt FASTA	1-881	881	ready	Canonical sequence; baseline does not model phosphorylation or isoform/proteoform state
+DSP N-terminal interaction region	P15924	DESP_HUMAN	derived from reviewed UniProt canonical	1-584	584	draft_ready	UniProt annotates DSP 1-584 as interaction with JUP and PKP2; avoids full 2871 aa DSP burden
+JUP canonical	P14923	PLAK_HUMAN	local reviewed UniProt FASTA	1-745	745	draft_ready	Full JUP is feasible; ARM repeats mediate junctional interactions
+DSC2 cytoplasmic tail	Q02487	DSC2_HUMAN	derived from reviewed UniProt canonical	716-901	186	held	Cytoplasmic-tail design needs more boundary/evidence review before default PKP2 job
+DSG2 cytoplasmic tail	Q14126	DSG2_HUMAN	derived from reviewed UniProt canonical	635-1118	484	held	PKP2-DSG2 evidence exists but is lower priority than plaque PKP2-DSP-JUP context

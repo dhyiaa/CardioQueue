@@ -1,0 +1,10 @@
+field	value	note
+gene	PKP2	Gene 011 in AF3 systematic queue
+included_variant_rows	2089	Current rescue-aware included rows from priority table
+binary_rows	1025	Benign plus pathogenic rows
+vus_rows	1062	VUS rows that may later receive AF3-derived context features
+pathogenic_rows	341	Strong P/LP count for desmosomal subgroup analysis
+benign_rows	684	Large benign comparator set
+frequency_rank	11	First rank_11_30 mid-burden gene after top-10
+disease_context	arrhythmogenic cardiomyopathy desmosomal core gene	Retained primary cardiogenetics gene-panel Tier A
+af3_scope	desmosomal plaque context	No full desmosome core; cadherin tails and channel/scaffold by-similarity partners held

@@ -1,0 +1,4 @@
+job_id	json_file	included_in_top3	notes
+AF3_SYS_G011_PKP2_DSP_NTERM_JUP_DRAFT	AF3_SYS_G011_PKP2_DSP_NTERM_JUP_DRAFT.alphafoldserver.json	yes	top3 default upload
+AF3_SYS_G011_PKP2_JUP_FULL_LENGTH_DRAFT	AF3_SYS_G011_PKP2_JUP_FULL_LENGTH_DRAFT.alphafoldserver.json	yes	top3 default upload
+AF3_SYS_G011_PKP2_DSP_NTERM_1_584_DRAFT	AF3_SYS_G011_PKP2_DSP_NTERM_1_584_DRAFT.alphafoldserver.json	yes	top3 default upload

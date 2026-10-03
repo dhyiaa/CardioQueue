@@ -1,0 +1,7 @@
+{
+  "endpoint": "https://rest.ensembl.org/vep/homo_sapiens/region",
+  "input_variants": 291,
+  "annotated": 291,
+  "not_returned": 0,
+  "backend_note": "Official Ensembl VEP REST used because the local VEP 116 Perl environment segfaulted."
+}

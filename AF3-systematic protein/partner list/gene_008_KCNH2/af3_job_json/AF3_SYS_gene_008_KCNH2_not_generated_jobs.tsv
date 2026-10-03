@@ -1,0 +1,4 @@
+design_id	reason_not_generated	what_is_needed
+AF3_SYS_G008_KCNH2_CHANNEL_CORE_398_870_TETRAMER_HELD	Top3 limit and full-length homotetramer already planned. Generate only if full-length tetramer is too disordered or near-limit output is hard to interpret.	Review full-length homotetramer output first.
+AF3_SYS_G008_KCNH2_KCNE1_HELD	KCNE1 is stronger as KCNQ1/IKs partner in this project; KCNH2/KCNE1 is lower priority than KCNE2 and homotetramer.	Only generate as sensitivity if KCNH2/KCNE2 or literature review specifically justifies it.
+AF3_SYS_G008_KCNH2_TRAFFICKING_REGULATORS_HELD	RNF207/DNAJB12/DNAJB14/NEDD4L/NDFIP are trafficking/degradation regulators, not clean channel-interface AF3 targets for first pass.	A separate trafficking/regulatory feature strategy, not first-pass AF3 interface mapping.

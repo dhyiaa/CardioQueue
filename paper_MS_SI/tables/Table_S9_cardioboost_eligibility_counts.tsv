@@ -1,0 +1,10 @@
+slice	rows	benign	pathogenic	vus	cardioboost_source_rows	hiro_rows	emerge_rows	clinvar_rows
+all_matrix_rows	85677	33923	9148	42361	353	240	2754	83915
+cardioboost_gene_rows	37528	14459	5670	17186	353	77	1304	36880
+cardioboost_gene_missense	18251	1287	2296	14465	330	67	1202	17663
+cardioboost_gene_missense_binary	3583	1287	2296	0	172	17	100	3483
+cardioboost_gene_missense_rare_strict_binary	1527	1073	454	0	101	9	82	1449
+matches_official_all_rare_any	64	34	8	22	16	0	3	46
+matches_official_all_rare_binary	42	34	8	0	16	0	0	26
+matches_official_all_rare_not_in_cardioboost_source_binary	26	21	5	0	0	0	0	26
+matches_official_all_rare_cardioboost_source_binary	16	13	3	0	16	0	0	0

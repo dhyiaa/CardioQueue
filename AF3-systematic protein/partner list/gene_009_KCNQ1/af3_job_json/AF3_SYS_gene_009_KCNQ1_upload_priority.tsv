@@ -1,0 +1,4 @@
+priority	job_id	upload_class	why
+1	AF3_SYS_G009_KCNQ1_KCNE1_CALM1_CA16_TETRAMER_DRAFT	top3_submit_first	KCNQ1 systematic top-3 design; tetrameric IKs first, pair controls second.
+2	AF3_SYS_G009_KCNQ1_KCNE1_FULL_LENGTH_PAIR_DRAFT	top3_submit_first	KCNQ1 systematic top-3 design; tetrameric IKs first, pair controls second.
+3	AF3_SYS_G009_KCNQ1_CALM1_CA4_FULL_LENGTH_PAIR_DRAFT	top3_submit_first	KCNQ1 systematic top-3 design; tetrameric IKs first, pair controls second.

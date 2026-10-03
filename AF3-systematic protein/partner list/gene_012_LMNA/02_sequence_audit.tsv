@@ -1,0 +1,8 @@
+entity	uniprot_accession	entry_name	sequence_source	residues	length	status	caveat
+LMNA canonical prelamin-A/C	P02545	LMNA_HUMAN	local reviewed UniProt FASTA	1-664	664	ready_reference	Canonical sequence is prelamin-A/C; baseline does not model farnesylation, proteolytic processing, phosphorylation, or isoform/proteoform state
+LMNA mature Lamin-A/C	P02545	LMNA_HUMAN	derived from reviewed UniProt canonical	1-646	646	top3_draft_ready	Uses mature Lamin-A/C chain boundary to avoid prelamin-A C-terminal processing confound
+LMNA IF rod	P02545	LMNA_HUMAN	derived from reviewed UniProt canonical	31-387	357	top3_draft_ready	Structured lamin intermediate-filament assembly region; omits tail partners and PTMs
+LMNA tail	P02545	LMNA_HUMAN	derived from reviewed UniProt canonical	384-646	263	top3_draft_ready	Contains LTD/NLS/tail region; may include flexible segments
+EMD canonical	P50402	EMD_HUMAN	local reviewed UniProt FASTA	1-254	254	ready_reference	Full-length emerin includes C-terminal transmembrane helix; membrane is not modeled in baseline AF3 server jobs
+EMD nucleoplasmic region	P50402	EMD_HUMAN	derived from reviewed UniProt canonical	1-222	222	top3_draft_ready	Excludes EMD transmembrane helix 223-243 because no membrane is modeled
+TMEM43 canonical	Q9BTV4	TMM43_HUMAN	local reviewed UniProt FASTA	1-400	400	held_reference	Membrane/topology-heavy partner; prior full-length trimer was weak and compact membrane design is deferred to TMEM43 packet

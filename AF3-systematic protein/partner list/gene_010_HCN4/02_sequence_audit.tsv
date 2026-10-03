@@ -1,0 +1,5 @@
+entity	uniprot_accession	entry_name	sequence_source	residues	length	status	caveat
+HCN4 canonical	Q9Y3Q4	HCN4_HUMAN	local reviewed UniProt FASTA	1-1203	1203	ready	Canonical amino-acid sequence, not tissue-specific isoform or PTM-resolved proteoform
+HCN4 channel core/C-linker/CNBD	Q9Y3Q4	HCN4_HUMAN	derived from HCN4 canonical	209-724	516	draft_ready	Boundary chosen to include assembly region, S1-S6 pore, C-linker, and CNBD ligand-binding residues
+HCN4 C-linker/CNBD	Q9Y3Q4	HCN4_HUMAN	derived from HCN4 canonical	518-724	207	draft_ready	Compact cAMP/CNBD sensitivity design; boundary should be checked against returned AF3 output and PDB structures
+cAMP ligand	CCD_CMP	PDB Chemical Component Dictionary	RCSB 4HBN nonpolymer entity 2	not sequence	1	draft_ligand	CCD code CMP is adenosine-3,5-cyclic-monophosphate in RCSB 4HBN; verify AlphaFold Server accepts CCD_CMP

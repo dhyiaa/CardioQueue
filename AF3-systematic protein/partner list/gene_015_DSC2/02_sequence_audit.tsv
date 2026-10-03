@@ -1,0 +1,8 @@
+entity	uniprot_accession	entry_name	sequence_source	residues	length	status	caveat
+DSC2 canonical	Q02487	DSC2_HUMAN	local reviewed UniProt FASTA	1-901	901	ready_reference	Full-length includes signal peptide, extracellular cadherin repeats, transmembrane helix, and cytoplasmic tail; membrane/calcium/glycosylation not modeled
+DSC2 extracellular cadherin proxy	Q02487	DSC2_HUMAN	derived from reviewed UniProt canonical	53-690	638	top3_draft_ready	Boundary excludes signal/propeptide and transmembrane/cytoplasmic regions; calcium/glycosylation omitted
+DSC2 cytoplasmic tail	Q02487	DSC2_HUMAN	derived from reviewed UniProt canonical	716-901	186	top3_draft_ready	Flexible/plaque-facing tail; phosphorylation/desmosome assembly state omitted
+DSG2 extracellular cadherin proxy	Q14126	DSG2_HUMAN	derived from reviewed UniProt canonical	50-608	559	top3_draft_ready	Compact rescue partner for prior weak full-length DSC2/DSG2 job
+PKP2 canonical	Q99959	PKP2_HUMAN	local reviewed UniProt FASTA	1-881	881	top3_draft_ready	Core plaque partner; phosphorylation/desmosome assembly state omitted
+JUP canonical	P14923	PLAK_HUMAN	local reviewed UniProt FASTA	1-745	745	top3_draft_ready	Core plaque partner; full-length retained because feasible
+DSP N-terminal interaction region	P15924	DESP_HUMAN	derived from reviewed UniProt canonical	1-584	584	held_reference	Relevant but held because DSP/PKP2/JUP plaque context covered elsewhere

@@ -1,0 +1,15 @@
+{
+  "models": {
+    "baseline": "results/models/maximized_foldx_2026/baseline/primary_binary_predictions_split_source_heldout.tsv",
+    "eligibility": "results/models/maximized_foldx_2026/eligibility_ge70/primary_binary_predictions_split_source_heldout.tsv",
+    "ddg": "results/models/maximized_foldx_2026/ddg_ge70/primary_binary_predictions_split_source_heldout.tsv"
+  },
+  "heldout_manifest": "/Users/dheyaa/Documents/Dheyaa_Research/catBoost-Largedata-synth/datasets/external_validation_candidates/final_model_heldout_2026/external_unique_variant_manifest.tsv",
+  "mapping_audit": "/Users/dheyaa/Documents/Dheyaa_Research/catBoost-Largedata-synth/datasets/feature_sources/protein_structure/interim/maximized_foldx_mapping_audit.tsv",
+  "eligibility_column": "foldx_eligible_plddt_ge70",
+  "primary_test": "DDG versus eligibility-only control on heldout_foldx_ge70",
+  "bootstrap_unit": "gene",
+  "bootstrap_replicates": 2000,
+  "metrics_output": "results/model_performance/maximized_foldx_enhancement/ge70/model_metrics.tsv",
+  "paired_output": "results/model_performance/maximized_foldx_enhancement/ge70/gene_cluster_paired_differences.tsv"
+}

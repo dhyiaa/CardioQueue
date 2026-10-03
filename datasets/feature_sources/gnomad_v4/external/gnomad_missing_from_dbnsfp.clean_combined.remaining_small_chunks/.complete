@@ -1,0 +1,5 @@
+chunks=326
+chunk_size=100
+completed_ids=12000
+skipped_rows=12000
+remaining_rows=32548

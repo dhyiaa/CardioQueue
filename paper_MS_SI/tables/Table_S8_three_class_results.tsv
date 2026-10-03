@@ -1,0 +1,7 @@
+external_set	rows	accuracy	macro_f1	weighted_kappa	mcc	ovr_macro_auroc	plp_sensitivity	specificity_non_plp	ppv_plp	note
+HiRO variant rows	179	0.8492	0.8188	0.7879	0.7160	0.9426	0.6667	0.9868	0.9000	Valid three-class external stratum
+eMERGE variant rows	1951	0.8893	0.6507	0.4977	0.4713	0.9242	0.5729	0.9763	0.5556	eMERGE is VUS-dominated; binary P/LP performance is lower than label accuracy suggests
+CardioBoost variant rows	185	0.5946	0.4693	0.6351	0.4339	NA	0.6288	0.9623	0.9765	CardioBoost has no VUS labels, so three-class interpretation is descriptive only
+HiRO source records	325	0.7662	0.7770	0.7219	0.7945	NA	0.7143	0.9931	0.9259	Predicted source records only; 157 rows lacked three-class predictions
+eMERGE source records	1974	0.8896	0.6565	0.5066	0.5472	NA	0.5816	0.9760	0.5588	Same resolved rows as eMERGE variant analysis
+CardioBoost source records	195	0.5949	0.4735	0.6436	0.5375	NA	0.6232	0.9649	0.9773	CardioBoost has no VUS labels, so not a primary comparator

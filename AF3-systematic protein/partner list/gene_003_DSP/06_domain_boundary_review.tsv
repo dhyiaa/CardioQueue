@@ -1,0 +1,121 @@
+feature_type	start	end	description	evidence
+Repeat	178	271	Spectrin 1	
+Repeat	272	375	Spectrin 2	
+Repeat	376	446	Spectrin 3a	
+Domain	458	515	SH3	PROSITE-ProRule:PRU00192:ECO:0000255
+Repeat	516	545	Spectrin 3b	
+Repeat	546	627	Spectrin 4	
+Repeat	654	769	Spectrin 5	
+Repeat	770	883	Spectrin 6	
+Repeat	2009	2045	Plectin 1	
+Repeat	2046	2083	Plectin 2	
+Repeat	2084	2121	Plectin 3	
+Repeat	2122	2159	Plectin 4	
+Repeat	2163	2197	Plectin 5	
+Repeat	2198	2233	Plectin 6	
+Repeat	2251	2288	Plectin 7	
+Repeat	2289	2326	Plectin 8	
+Repeat	2327	2364	Plectin 9	
+Repeat	2365	2402	Plectin 10	
+Repeat	2406	2440	Plectin 11	
+Repeat	2456	2493	Plectin 12	
+Repeat	2507	2544	Plectin 13	
+Repeat	2610	2647	Plectin 14	
+Repeat	2648	2685	Plectin 15	
+Repeat	2724	2761	Plectin 16	
+Repeat	2762	2799	Plectin 17	
+Region	1	1056	Globular 1	
+Region	1	883	Interaction with MAPRE1	PubMed:25225338:ECO:0000269
+Region	1	584	Interaction with JUP and PKP2	PubMed:10852826:ECO:0000269;PubMed:11790773:ECO:0000269
+Region	180	375	Interaction with PKP1	PubMed:10852826:ECO:0000269;PubMed:11790773:ECO:0000269;PubMed:21756917:ECO:0000269
+Region	1057	1945	Central fibrous rod domain	
+Region	1108	2860	Binds to telomeres	PubMed:31595153:ECO:0000269
+Region	1946	2871	Globular 2	
+Region	1960	2208	4.5 X 38 AA tandem repeats (Domain A)	PubMed:12101406:ECO:0000269
+Region	2244	2446	4.5 X 38 AA tandem repeats (Domain B)	PubMed:12101406:ECO:0000269
+Region	2609	2822	4.5 X 38 AA tandem repeats (Domain C)	PubMed:12101406:ECO:0000269
+Region	2810	2871	Disordered	SAM:MobiDB-lite:ECO:0000256
+Region	2824	2847	6 X 4 AA tandem repeats of G-S-R-[SR]	
+Compositional bias	2810	2823	Polar residues	SAM:MobiDB-lite:ECO:0000256
+Compositional bias	2824	2847	Low complexity	SAM:MobiDB-lite:ECO:0000256
+Compositional bias	2856	2871	Low complexity	SAM:MobiDB-lite:ECO:0000256
+Modified residue	22	22	Phosphoserine	PubMed:21406692:ECO:0007744;PubMed:23186163:ECO:0007744;PubMed:24275569:ECO:0007744
+Modified residue	53	53	Phosphoserine	PubMed:24275569:ECO:0007744
+Modified residue	56	56	Phosphotyrosine	UniProtKB:E9Q557:ECO:0000250
+Modified residue	61	61	Phosphothreonine	UniProtKB:E9Q557:ECO:0000250
+Modified residue	165	165	Phosphoserine	PubMed:18669648:ECO:0007744;PubMed:23186163:ECO:0007744;PubMed:24275569:ECO:0007744
+Modified residue	166	166	Phosphoserine	PubMed:18669648:ECO:0007744;PubMed:24275569:ECO:0007744
+Modified residue	176	176	Phosphoserine	PubMed:18669648:ECO:0007744
+Modified residue	2024	2024	Phosphoserine	PubMed:18669648:ECO:0007744;PubMed:20068231:ECO:0007744;PubMed:23186163:ECO:0007744
+Modified residue	2207	2207	Phosphoserine	PubMed:20068231:ECO:0007744
+Modified residue	2209	2209	Phosphoserine	PubMed:18669648:ECO:0007744;PubMed:20068231:ECO:0007744;PubMed:21406692:ECO:0007744;PubMed:23186163:ECO:0007744;PubMed:24275569:ECO:0007744
+Modified residue	2225	2225	Phosphoserine	PubMed:24275569:ECO:0007744
+Modified residue	2810	2810	Phosphoserine	PubMed:23186163:ECO:0007744
+Modified residue	2815	2815	Phosphoserine	PubMed:18669648:ECO:0007744;PubMed:20068231:ECO:0007744
+Modified residue	2817	2817	Phosphotyrosine	PubMed:23186163:ECO:0007744
+Modified residue	2820	2820	Phosphoserine	PubMed:21406692:ECO:0007744;PubMed:23186163:ECO:0007744
+Modified residue	2821	2821	Phosphoserine	PubMed:18669648:ECO:0007744
+Modified residue	2825	2825	Phosphoserine	PubMed:18220336:ECO:0007744;PubMed:18669648:ECO:0007744;PubMed:20068231:ECO:0007744;PubMed:21406692:ECO:0007744;PubMed:23186163:ECO:0007744
+Modified residue	2826	2826	Asymmetric dimethylarginine; by PRMT1	PubMed:25733715:ECO:0000269
+Modified residue	2833	2833	Phosphoserine; by GSK3-beta	PubMed:25733715:ECO:0000269
+Modified residue	2834	2834	Asymmetric dimethylarginine; by PRMT1	PubMed:25733715:ECO:0000269
+Modified residue	2835	2835	Phosphoserine; by GSK3-beta	PubMed:25733715:ECO:0000269
+Modified residue	2837	2837	Phosphoserine; by GSK3-beta	PubMed:25733715:ECO:0000269
+Modified residue	2838	2838	Asymmetric dimethylarginine; by PRMT1	PubMed:25733715:ECO:0000269
+Modified residue	2839	2839	Phosphoserine; by GSK3-beta	PubMed:25733715:ECO:0000269
+Modified residue	2841	2841	Phosphoserine; by GSK3-beta	PubMed:25733715:ECO:0000269
+Modified residue	2843	2843	Phosphoserine; by GSK3-beta	PubMed:25733715:ECO:0000269
+Modified residue	2845	2845	Phosphoserine; by GSK3-beta	PubMed:25733715:ECO:0000269
+Modified residue	2846	2846	Asymmetric dimethylarginine; by PRMT1	PubMed:25733715:ECO:0000269
+Modified residue	2847	2847	Omega-N-methylarginine	UniProtKB:E9Q557:ECO:0000250
+Modified residue	2849	2849	Phosphoserine; by GSK3-beta	PubMed:25733715:ECO:0000269;PubMed:33596089:ECO:0000269;PubMed:18669648:ECO:0007744
+Modified residue	2853	2853	Phosphothreonine	PubMed:18669648:ECO:0007744
+Modified residue	2868	2868	Phosphoserine	PubMed:18669648:ECO:0007744
+Natural variant	21	21	in ARVD8; uncertain significance; dbSNP:rs747956457	PubMed:28527814:ECO:0000269
+Natural variant	30	30	in ARVD8; uncertain significance; abolishes localization to the plasma membrane or cell-cell junctions. Abolishes interaction with JUP	PubMed:16917092:ECO:0000269
+Natural variant	81	2871	in ARVD8; uncertain significance; dbSNP:rs140965835	PubMed:30160835:ECO:0000269
+Natural variant	90	90	in ARVD8; uncertain significance; abolishes localization to the plasma membrane or cell-cell junctions	PubMed:16917092:ECO:0000269
+Natural variant	109	109	in ARVD8; uncertain significance	PubMed:28527814:ECO:0000269
+Natural variant	150	2871	in DCWHKTA; uncertain significance	PubMed:35470109:ECO:0000269
+Natural variant	233	2871	in ARVD8; likely pathogenic; results in an unstable protein that forms perinuclear aggregates	PubMed:16917092:ECO:0000269
+Natural variant	273	2871	in ARVD8 and DCWHKTA; uncertain significance	PubMed:35470109:ECO:0000269;PubMed:36768812:ECO:0000269
+Natural variant	287	287	in DCWHK; dbSNP:rs121912993	PubMed:11841538:ECO:0000269
+Natural variant	290	290	in ARVD8; uncertain significance; dbSNP:rs397516974	PubMed:28527814:ECO:0000269
+Natural variant	293	293	in DCWHKTA; uncertain significance	PubMed:32808748:ECO:0000269
+Natural variant	299	299	in ARVD8; uncertain significance; dbSNP:rs121912992	PubMed:12373648:ECO:0000269;PubMed:15941723:ECO:0000269;PubMed:20031617:ECO:0000269
+Natural variant	305	305	in dbSNP:rs17604693	PubMed:19863551:ECO:0000269;PubMed:20031617:ECO:0000269
+Natural variant	356	356	in DCWHK and DCWHKTA; uncertain significance; uncertain significance; dbSNP:rs780626687	PubMed:25227139:ECO:0000269;PubMed:36768812:ECO:0000269
+Natural variant	408	408	in ARVD8; uncertain significance; dbSNP:rs774198374	PubMed:28527814:ECO:0000269
+Natural variant	442	442	in ARVD8; likely pathogenic	PubMed:28527814:ECO:0000269
+Natural variant	445	445	in ARVD8; dbSNP:rs934142779	PubMed:20031617:ECO:0000269
+Natural variant	447	2871	in ARVD8	PubMed:25616123:ECO:0000269
+Natural variant	451	451	in DCWHKTA; uncertain significance	PubMed:36768812:ECO:0000269
+Natural variant	507	507	in ARVD8; likely pathogenic; dbSNP:rs1240326550	PubMed:28527814:ECO:0000269
+Natural variant	564	564	in DCWHKTA and DCWHK; pathogenic; dbSNP:rs606231295	PubMed:22795705:ECO:0000269;PubMed:22949226:ECO:0000269
+Natural variant	583	583	in DCWHK; pathogenic	PubMed:22949226:ECO:0000269
+Natural variant	586	586	in EPKHE; pathogenic; disassociation between keratin filament bundles and desmosomes of the spinous layer of the epidermis. Desmosomes appear disordered with mislocalization of other desmosome component proteins	PubMed:26073755:ECO:0000269
+Natural variant	597	597	in DCWHKTA; dbSNP:rs606231294	PubMed:20940358:ECO:0000269
+Natural variant	614	614	uncertain significance; found in individuals with cardiac rhythm defects	PubMed:35348702:ECO:0000269
+Natural variant	616	616	in DCWHKTA; reduces DSP protein abundance and results in accumulation of DSP membrane-associated and intracellular focal aggregates. Decreases localization of DSG1, JUP and GJA1 to intercellular junctions. Reduces the number of desmosomes in the suprabasal layers of the skin leading to wider intercellular spaces between suprabasal cells. Defects in lipid processing and secretion with premature secretion of lamellar bodies which show defective structure and supramolecular organization	PubMed:26604139:ECO:0000269
+Natural variant	618	618	in DCWHKTA; leads to a significant reduction in GJA1 localization to the plasma membrane	PubMed:26604139:ECO:0000269
+Natural variant	622	622	in DCWHKTA; leads to a significant reduction in GJA1 localization to the plasma membrane	PubMed:26604139:ECO:0000269
+Natural variant	625	2871	in ARVD8; uncertain significance; dbSNP:rs876657638	PubMed:28527814:ECO:0000269
+Natural variant	2070	2070	in EPKHE; uncertain significance; dbSNP:rs41302885	PubMed:26073755:ECO:0000269
+Natural variant	2166	2871	in EBLA; uncertain significance	PubMed:28442525:ECO:0000269
+Natural variant	2204	2871	in EBLA; uncertain significance; dbSNP:rs876657798	PubMed:28442525:ECO:0000269
+Natural variant	2295	2295	in DCWHKTA; uncertain significance; abolishes interaction with intermediate filaments	PubMed:30354334:ECO:0000269
+Natural variant	2343	2343	in DCWHKTA; uncertain significance; negligible effect on interaction with intermediate filaments	PubMed:30354334:ECO:0000269
+Natural variant	2366	2366	in DCWHK and DCWHKTA; uncertain significance; abolishes interaction with intermediate filaments; dbSNP:rs28931610	PubMed:11841538:ECO:0000269;PubMed:30354334:ECO:0000269
+Natural variant	2375	2375	in <DCWHK>; decreases interaction with intermediate filament proteins and cytokeratins; abolishes localization to cytokeratins resulting in diffuse cytoplasmic location.; dbSNP:rs376923069	PubMed:12875771:ECO:0000269;PubMed:29878302:ECO:0000269
+Natural variant	2512	2512	in DCWHKTA; uncertain significance; no effect on interaction with intermediate filaments; dbSNP:rs772574987	PubMed:30354334:ECO:0000269
+Natural variant	2535	2535	uncertain significance; found in individuals with cardiac rhythm defects; dbSNP:rs1759583033	PubMed:35348702:ECO:0000269
+Natural variant	2541	2541	in DCWHKTA; uncertain significance; negligible effect on interaction with intermediate filaments	PubMed:30354334:ECO:0000269
+Natural variant	2586	2871	in DCWHK; uncertain significance; dbSNP:rs1420689736	PubMed:25227139:ECO:0000269
+Natural variant	2639	2639	in DCWHKTA; uncertain significance; negligible effect on interaction with intermediate filaments; dbSNP:rs116888866	PubMed:30354334:ECO:0000269
+Natural variant	2655	2655	in DCWHKTA; uncertain significance; decreases interaction with intermediate filaments	PubMed:30354334:ECO:0000269
+Natural variant	2684	2684	in ARVD8; uncertain significance; dbSNP:rs147801650	PubMed:28527814:ECO:0000269
+Natural variant	2834	2834	in ARVD8; uncertain significance; no effect on localization to the plasma membrane or cell-cell junctions. Decreases interaction with GSK3B resulting in a significant decrease in GSK3B-mediated phosphorylation of multiple downstream sites within the C-terminus. Reduced trafficking of DSP to desmosome cell junctions and retention with intermediate filaments in the cytoplasm resulting in a decrease in intercellular adhesion when under mechanical stress	PubMed:16917092:ECO:0000269;PubMed:25733715:ECO:0000269
+Mutagenesis	470	470	No observable change in the secondary structure folding.	PubMed:21756917:ECO:0000269
+Mutagenesis	2845	2845	Abolishes GSK3B phosphorylation of multiple downstream sites within the C-terminus and decreases interaction with GSK3B.	PubMed:25733715:ECO:0000269
+Mutagenesis	2849	2849	Decreases cell-cell adhesion when under mechanical stress.	PubMed:25733715:ECO:0000269
+Mutagenesis	2853	2853	No effect on GSK3B-mediated phosphorylation of multiple downstream sites within the C-terminus.	PubMed:25733715:ECO:0000269

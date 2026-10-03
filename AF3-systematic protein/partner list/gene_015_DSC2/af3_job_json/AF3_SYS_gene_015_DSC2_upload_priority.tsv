@@ -1,0 +1,4 @@
+priority	job_id	upload_decision	reason
+1	AF3_SYS_G015_DSC2_ECTO_53_690_DSG2_ECTO_50_608_DRAFT	submit_first	Best compact rescue for prior weak full-length DSG2-DSC2 job, centered on DSC2
+2	AF3_SYS_G015_DSC2_CYTO_716_901_PKP2_FULL_LENGTH_DRAFT	submit_first	Strongest direct DSC2 plaque partner evidence
+3	AF3_SYS_G015_DSC2_CYTO_716_901_JUP_FULL_LENGTH_DRAFT	submit_first	Core desmosomal plaque context with curated DSC2-JUP support

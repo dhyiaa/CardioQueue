@@ -1,0 +1,11 @@
+metric	value	note
+included_variant_rows_priority_file	4603	Matches ready modeling table SCN5A count.
+pathogenic_rows	530	From priority table.
+benign_rows	1593	From priority table.
+vus_rows	2429	From priority table.
+missing_label_rows_ready_model_table	51	Present in ready table but not in B/VUS/P counts.
+vep_protein_position_rows	4603	Use VEP/UniProt reconciliation for AF3 mapping.
+dbnsfp_protein_position_rows	2603	dbNSFP position may have transcript lists; reconcile before feature extraction.
+older_protein_position_rows	89	Too sparse to use as primary SCN5A mapping field.
+completed_af3_scn5a_calm_variant_rows	4603 total; 3827 protein-position rows in previous coverage report	Existing AF3 draft coverage summary used prior mapping pipeline.
+completed_af3_scn5a_scn1b_variant_rows	4603 total; 3827 protein-position rows in previous coverage report	Existing AF3 draft coverage summary used prior mapping pipeline.

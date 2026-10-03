@@ -1,0 +1,11 @@
+{
+  "external_variants_unchanged": 1233,
+  "development_rows_quarantined": 437,
+  "same_genomic_site": 383,
+  "same_hgvsp": 87,
+  "both": 33,
+  "remaining_train": 35428,
+  "remaining_validation": 6248,
+  "external_in_development_after_quarantine": 0,
+  "interpretation": "Sensitivity split prevents exact-allele, same-site, and exact-protein-change familiarity."
+}

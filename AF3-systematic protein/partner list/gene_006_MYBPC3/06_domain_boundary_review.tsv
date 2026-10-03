@@ -1,0 +1,6 @@
+design_id	boundary_type	target_residues	partner_residues	boundary_status	reason
+MYBPC3_D1_NTERM_1_452_MYH7_S2_838_963	domain_fragment	MYBPC3 1-452	MYH7 838-963	ready_first_pass	MYBPC3 1-452 covers C0-C2/N-terminal regulatory region including early Ig domains and phosphorylation-rich region; MYH7 S2 fragment already used in gene_004.
+MYBPC3_D2_NTERM_1_452_ACTC1	domain_fragment_plus_full_partner	MYBPC3 1-452	ACTC1 1-377	ready_first_pass	Tests MYBPC3 F-actin/native thin-filament binding biology using cardiac actin proxy.
+MYBPC3_D3_CTERM_971_1274_MYH7_S2_838_963	domain_fragment	MYBPC3 971-1274	MYH7 838-963	exploratory_boundary	C7-C10/C-terminal MYBPC3 region includes Ig/Fn/Ig terminal domains; exact MYH7 partner boundary is less certain.
+MYBPC3_D4_FULL_MYBPC3_MYH7_S2	full_target_plus_fragment_partner	MYBPC3 1-1274	MYH7 838-963	held	Large modular target may produce diffuse low-confidence features.
+MYBPC3_D5_EXPANDED_THIN_FILAMENT	multi_protein	MYBPC3 1-452	not selected	held	Reserve for shared sarcomere/thin-filament design.

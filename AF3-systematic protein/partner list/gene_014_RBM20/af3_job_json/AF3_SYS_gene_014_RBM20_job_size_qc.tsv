@@ -1,0 +1,4 @@
+job_id	total_protein_residues	server_size_status	note
+AF3_SYS_G014_RBM20_ZNF_RRM_RS_390_660_MONOMER_DRAFT	271	small	Review-grade monomer/domain context; no partner
+AF3_SYS_G014_RBM20_RRM_500_610_MONOMER_DRAFT	111	small	Focused RRM context; no RNA included
+AF3_SYS_G014_RBM20_CTERM_ZNF_1140_1227_MONOMER_DRAFT	88	small	C-terminal zinc-finger/truncation context

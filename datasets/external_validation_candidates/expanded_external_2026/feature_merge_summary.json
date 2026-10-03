@@ -1,0 +1,15 @@
+{
+  "new_external_variants": 291,
+  "dbnsfp_ok": 195,
+  "alphamissense_ok": 170,
+  "vep_ok": 291,
+  "spliceai_ok": 224,
+  "protein_mapped": 170,
+  "alphafold_structure_joined": 170,
+  "gnomad_observed_from_dbnsfp": 149,
+  "foldx_new_external_variants": 0,
+  "notes": [
+    "Missing predictors remain explicit; confirmed population absence is never inferred from a failed join.",
+    "FoldX remains unavailable for newly introduced external alleles and is represented as missing."
+  ]
+}

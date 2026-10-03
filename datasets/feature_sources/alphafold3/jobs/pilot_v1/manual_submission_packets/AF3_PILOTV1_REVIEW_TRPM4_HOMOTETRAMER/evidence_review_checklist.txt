@@ -1,0 +1,15 @@
+complex_group_id: AF3_COMPLEX_TRPM4_HOMOTETRAMER
+complex_name: TRPM4 homotetramer channel context
+target_genes: TRPM4
+protein_entities: TRPM4,TRPM4,TRPM4,TRPM4
+nonprotein_entities: none
+estimated_tokens: 1214
+
+User/manual checks before submission:
+- Confirm these entities form a plausible same-complex or pairwise biological context.
+- Confirm PubMed/Reactome/PDB/IntAct support is not only pathway-level noise.
+- Confirm full-length modeling is biologically acceptable for this complex.
+- Confirm duplicate chains or homomer stoichiometry in the AlphaFold Server UI.
+
+Evidence rows:
+- TRPM4: UniProt reports TRPM4 homotetramer and Reactome maps TRPM4 to TRP channels. Evidence anchor=UniProt_SUBUNIT_Reactome_RCSB; UniProt PubMed=12015988;29211723;29217581; IntAct PubMed=31527615;33845483;33961781;39232006; Reactome=R-HSA-3295583;R-HSA-9717207; PDB=30KH;30KW;30KZ;30LA;30LD;5WP6;6BQR;6BQV;6BWI;8RCR;8RCU;8RD9;9B8W;9B8X;9B8Y;9B8Z;9B90;9B91;9B92;9B93;9B94;9I3R;9MRT;9MT8;9MTA;9MTC;9SMK;9Y2A;9Y2B;9Y2C;9YVK;9YVL;9YVM;9Z1W;9Z1X;9Z1Y;9Z1Z;9Z20;9Z21;9Z22;9Z23;9Z24;9Z25;9Z26;9Z27

@@ -1,0 +1,4 @@
+job_name	total_protein_aa	af3_server_feasibility	caution
+AF3_SYS_G006_MYBPC3_NTERM_1_452_MYH7_S2_838_963_DRAFT	578	feasible_by_size	domain-level sarcomere model; native filament context absent
+AF3_SYS_G006_MYBPC3_NTERM_1_452_ACTC1_DRAFT	829	feasible_by_size	domain-level sarcomere model; native filament context absent
+AF3_SYS_G006_MYBPC3_CTERM_971_1274_MYH7_S2_838_963_DRAFT	430	feasible_by_size	domain-level sarcomere model; native filament context absent

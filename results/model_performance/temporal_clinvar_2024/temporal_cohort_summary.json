@@ -1,0 +1,21 @@
+{
+  "snapshot": "datasets/clinvar/archive/variant_summary_2024-01.txt.gz",
+  "current": "datasets/clinvar/variant_summary.txt.gz",
+  "current_file_sha256": "b3da921c707ff50cb4822f04d961834a9e89ef864b4c28bb5308245b93ac4077",
+  "current_file_mtime_utc": "2026-07-01T00:06:30.300667+00:00",
+  "model_table": "datasets/modeling/ready/modeling_table_with_splits_weights_hiro_emerge_rescued.tsv",
+  "output": "datasets/modeling/ready/modeling_table_temporal_clinvar_2024.tsv",
+  "exact_allele_matches_2024": 53864,
+  "training_rows": 23907,
+  "validation_rows": 4220,
+  "heldout_2024_vus_resolved_currently": 457,
+  "heldout_pathogenic": 146,
+  "heldout_benign": 311,
+  "in_scope_training_rows": 23851,
+  "in_scope_validation_rows": 4210,
+  "in_scope_heldout_2024_vus_resolved_currently": 455,
+  "in_scope_heldout_pathogenic": 146,
+  "in_scope_heldout_benign": 309,
+  "label_time_boundary": "Only January 2024 B/LB and P/LP labels enter model fitting; every January 2024 VUS is excluded.",
+  "limitation": "Predictor annotations were not archived uniformly and may postdate January 2024."
+}

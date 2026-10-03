@@ -1,0 +1,24 @@
+job_folder	best_model_index	chain	entity_name	entity_type	sequence_length	chain_iptm	chain_ptm	mean_atom_plddt	median_atom_plddt	min_atom_plddt	max_atom_plddt	n_atoms
+af3_sys_g001_casq2_trdn_full_length_draft	0	A	CASQ2	protein	399	0.21	0.77	81.76	89.21	18.66	96.82	3280
+af3_sys_g001_casq2_trdn_full_length_draft	0	B	TRDN	protein	729	0.21	0.15	37.86	34.02	8.89	93.39	5733
+af3_sys_g001_ryr2_cambd1_1940_1965_calm1_ca4_draft	0	A	RYR2_fragment	protein	26	0.21	0.3	56.22	57.15	26.05	79.31	217
+af3_sys_g001_ryr2_cambd1_1940_1965_calm1_ca4_draft	0	B	CALM1	protein	149	0.87	0.74	84.36	88.41	24.78	98.62	1174
+af3_sys_g001_ryr2_cambd1_1940_1965_calm1_ca4_draft	0	C	CA	ion	1	0.56		97.94	97.94	97.94	97.94	1
+af3_sys_g001_ryr2_cambd1_1940_1965_calm1_ca4_draft	0	D	CA	ion	1	0.55		97.82	97.82	97.82	97.82	1
+af3_sys_g001_ryr2_cambd1_1940_1965_calm1_ca4_draft	0	E	CA	ion	1	0.56		97.77	97.77	97.77	97.77	1
+af3_sys_g001_ryr2_cambd1_1940_1965_calm1_ca4_draft	0	F	CA	ion	1	0.54		97.64	97.64	97.64	97.64	1
+af3_sys_g001_ryr2_cambd2_3580_3611_calm1_ca4_draft	0	A	RYR2_fragment	protein	32	0.57	0.52	79.54	90.23	31.35	97.33	269
+af3_sys_g001_ryr2_cambd2_3580_3611_calm1_ca4_draft	0	B	CALM1	protein	149	0.94	0.82	89.27	95.07	35.31	98.77	1174
+af3_sys_g001_ryr2_cambd2_3580_3611_calm1_ca4_draft	0	C	CA	ion	1	0.75		98.3	98.3	98.3	98.3	1
+af3_sys_g001_ryr2_cambd2_3580_3611_calm1_ca4_draft	0	D	CA	ion	1	0.71		97.95	97.95	97.95	97.95	1
+af3_sys_g001_ryr2_cambd2_3580_3611_calm1_ca4_draft	0	E	CA	ion	1	0.74		98.25	98.25	98.25	98.25	1
+af3_sys_g001_ryr2_cambd2_3580_3611_calm1_ca4_draft	0	F	CA	ion	1	0.71		97.24	97.24	97.24	97.24	1
+af3_sys_g001_ryr2_cambd3_4246_4275_calm1_ca5_draft	0	A	RYR2_fragment	protein	30	0.2	0.36	54.03	53.81	30.99	74.65	252
+af3_sys_g001_ryr2_cambd3_4246_4275_calm1_ca5_draft	0	B	CALM1	protein	149	0.83	0.75	83.41	86.91	27.36	98.67	1174
+af3_sys_g001_ryr2_cambd3_4246_4275_calm1_ca5_draft	0	C	CA	ion	1	0.55		97.72	97.72	97.72	97.72	1
+af3_sys_g001_ryr2_cambd3_4246_4275_calm1_ca5_draft	0	D	CA	ion	1	0.56		97.73	97.73	97.73	97.73	1
+af3_sys_g001_ryr2_cambd3_4246_4275_calm1_ca5_draft	0	E	CA	ion	1	0.57		97.58	97.58	97.58	97.58	1
+af3_sys_g001_ryr2_cambd3_4246_4275_calm1_ca5_draft	0	F	CA	ion	1	0.56		97.88	97.88	97.88	97.88	1
+af3_sys_g001_ryr2_cambd3_4246_4275_calm1_ca5_draft	0	G	CA	ion	1	0.42		52.88	52.88	52.88	52.88	1
+af3_sys_g001_ryr2_ll1_4521_4573_casq2_draft	0	A	RYR2_LL1_fragment	protein	53	0.16	0.1	25.02	23.31	14.8	41.54	405
+af3_sys_g001_ryr2_ll1_4521_4573_casq2_draft	0	B	CASQ2	protein	399	0.16	0.8	81.0	88.6	17.69	98.41	3280

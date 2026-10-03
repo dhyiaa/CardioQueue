@@ -1,0 +1,5 @@
+held_design	reason	what_would_be_needed
+Full-length DSC2 1-901 + DSG2 1-1118 repeat	Already ran and was not interface-usable	Only rerun for server/model-version sensitivity
+DSC2 cytoplasmic tail + DSP N-terminal 1-584	Relevant but lower priority than PKP2/JUP and overlaps DSP/PKP2 packets	Run as sensitivity if top-3 plaque jobs are promising
+Full desmosome core DSC2/DSG2/PKP2/DSP/JUP	Too large and biologically overpacked; local complex planning says full core exceeds token limit	Split into extracellular and plaque subcomplexes
+DSC2-GJA1/DSG3/broad candidates	Not strongest first-pass cardiomyocyte desmosome context	Targeted literature and cardiac-context support

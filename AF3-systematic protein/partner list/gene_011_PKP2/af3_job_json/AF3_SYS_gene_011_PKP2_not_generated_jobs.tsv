@@ -1,0 +1,5 @@
+held_job_id	why_not_generated	what_would_trigger_generation
+AF3_SYS_G011_PKP2_DSC2_CYTO_HELD	Cadherin-tail context needs DSG2/DSC2-specific boundary review and membrane/desmosome context.	Generate in DSC2/DSG2 packets or if PKP2 plaque outputs are strong and cadherin bridge is needed.
+AF3_SYS_G011_PKP2_DSG2_CYTO_HELD	PKP2-DSG2 evidence exists but is lower priority than DSP/JUP plaque context for PKP2.	Generate after DSG2 packet boundary review.
+AF3_SYS_G011_PKP2_SCN5A_GJA1_HELD	SCN5A/GJA1/ANK3 notes are by similarity in UniProt and need targeted cardiac conduction review.	Generate only after direct literature support and domain boundaries are established.
+AF3_SYS_G011_PKP2_FULL_DSP_FULL_JUP_HELD	Full DSP 2871 plus PKP2 plus JUP is 4497 aa and includes large regions not needed for PKP2 interface.	Generate only if reduced DSP N-terminal outputs fail and server/token budget allows.

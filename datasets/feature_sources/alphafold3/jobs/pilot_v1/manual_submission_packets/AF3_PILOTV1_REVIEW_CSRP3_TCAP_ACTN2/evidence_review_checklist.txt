@@ -1,0 +1,16 @@
+complex_group_id: AF3_COMPLEX_CSRP3_TCAP_ACTN2
+complex_name: CSRP3-telethonin-alpha-actinin Z-disc context
+target_genes: CSRP3,TCAP
+protein_entities: CSRP3,TCAP,ACTN2
+nonprotein_entities: none
+estimated_tokens: 1255
+
+User/manual checks before submission:
+- Confirm these entities form a plausible same-complex or pairwise biological context.
+- Confirm PubMed/Reactome/PDB/IntAct support is not only pathway-level noise.
+- Confirm full-length modeling is biologically acceptable for this complex.
+- Confirm duplicate chains or homomer stoichiometry in the AlphaFold Server UI.
+
+Evidence rows:
+- CSRP3: UniProt reports CSRP3 interactions with TCAP and ACTN2; this is a cardiac Z-disc context. Evidence anchor=UniProt_SUBUNIT; UniProt PubMed=9645487;10984498;11842093;12507422;15136035;15205937;15582318;16407954;16713295;19752190;24860983;24934443; IntAct PubMed=16713569;16962094;21988832;23414517;25814554;28514442;31391242;32296183;32814053;33961781; Reactome=R-HSA-390522; PDB=1YA5;2F8V;2O10;2O13
+- TCAP: UniProt reports TCAP interaction with CSRP3 and titin, and CSRP3 interaction with TCAP/ACTN2; use compact Z-disc context. Evidence anchor=UniProt_SUBUNIT_Reactome_RCSB; UniProt PubMed=9645487;10984498;11842093;12507422;15136035;15205937;15582318;16407954;16713295;19752190;24860983;24934443; IntAct PubMed=16713569;16962094;21988832;23414517;25814554;28514442;31391242;32296183;32814053;33961781; Reactome=R-HSA-390522; PDB=1YA5;2F8V;2O10;2O13

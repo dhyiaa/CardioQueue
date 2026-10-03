@@ -1,0 +1,29 @@
+{
+  "predictions": "results/models/primary_binary_catboost_v0_strict_source_heldout_hiro_emerge_rescued/primary_binary_predictions_split_source_heldout.tsv",
+  "output": "results/manuscript_figures_tables/tables/external_validation_bootstrap_ci.tsv",
+  "subsets": {
+    "external_all": [
+      "external_hiro",
+      "external_emerge",
+      "external_cardioboost"
+    ],
+    "external_hiro": [
+      "external_hiro"
+    ],
+    "external_emerge": [
+      "external_emerge"
+    ],
+    "external_cardioboost": [
+      "external_cardioboost"
+    ]
+  },
+  "bootstrap_replicates": 5000,
+  "seed": 20260916,
+  "resampling": "stratified within binary outcome class",
+  "interval": "2.5th and 97.5th bootstrap percentiles",
+  "thresholds": {
+    "binary": 0.5,
+    "benign_call_max": 0.1,
+    "pathogenic_call_min": 0.9
+  }
+}

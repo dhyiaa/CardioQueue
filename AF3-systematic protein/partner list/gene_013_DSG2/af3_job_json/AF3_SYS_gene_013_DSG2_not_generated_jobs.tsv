@@ -1,0 +1,6 @@
+held_design	reason	what_would_be_needed
+Full-length DSG2 1-1118 + DSC2 1-901 repeat	Already ran and was not interface-usable	Only rerun for server/model-version sensitivity
+DSG2 cytoplasmic tail + JUP/DSP	Potentially relevant but lower direct DSG2-specific support than PKP2 and overlaps other desmosome packets	Review PKP2/DSP/JUP outputs and targeted literature
+Full desmosome core DSG2/DSC2/PKP2/DSP/JUP	Too large and biologically overpacked; local complex planning says full core exceeds token limit	Split into extracellular and plaque subcomplexes
+DSG2-CTNNB1	Broader junction/EMT biology, not first-pass cardiomyocyte desmosome context	Sensitivity analysis only
+DSG2-adenovirus fiber proteins	Infection biology, excluded from inherited cardiogenetics AF3 layer	None for this study

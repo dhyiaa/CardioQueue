@@ -1,0 +1,79 @@
+---
+name: write-scientific-manuscripts
+description: Draft, revise, condense, or review scientific manuscripts, sections, abstracts, and reviewer responses using verified results and literature. Use for evidence-linked scientific writing, manuscript display assembly, and substantive publication-quality review.
+---
+
+# Write Scientific Manuscripts
+
+Produce the requested scientific text or artifact with traceable claims, exact quantitative reporting, and conclusions bounded by the study design. A polished draft is not proof of scientific validity or readiness for submission.
+
+## 1. Set the scope
+
+Identify the requested deliverable, sections, allowed edits, destination, journal constraints, and authoritative source artifacts. Inspect the named files and current changes. A request to edit one paragraph, citation, or caption authorizes that edit and its necessary consistency checks; it does not authorize rewriting the manuscript, changing analyses, or creating displays.
+
+Use the relevant workflow:
+
+- **Narrow edit or condensation:** preserve meaning, values, and structure; verify changed claims and their immediate dependencies.
+- **Draft or substantive revision:** build the evidence ledger, apply the relevant section contracts, and perform the substantive audits below.
+- **Full manuscript assembly:** also inventory, select, reconcile, and render the in-scope tables, figures, and supplement.
+- **Review only:** report source-verified findings with locations and suggested corrections; do not edit files unless requested.
+- **Reviewer response:** address each comment, cite the supporting evidence and actual revision location, and distinguish completed changes from proposed work. Never invent analyses or revisions to satisfy a reviewer.
+
+Read [references/manuscript-contracts.md](references/manuscript-contracts.md) for the relevant section or display rules when drafting, restructuring, or assembling those components. Do not apply unused sections to a small edit.
+
+Explicit user formatting takes precedence over these defaults. When the user requests a journal-compliant submission, verify the journal's current official instructions and use its required format. If two explicit constraints conflict, ask about that conflict while completing independent work.
+
+## 2. Establish the evidence
+
+Record substantive claims in working notes with exact evidence, source and locator, and `verified` or `unresolved` status. Include the numbers, methods, literature comparisons, and displays in scope. Keep these notes outside the manuscript unless they describe a reproducible method or material limitation.
+
+- Verify provenance and freshness before treating an output as authoritative. When a manuscript and analysis output disagree, reconcile the discrepancy; do not silently choose either by file type or timestamp alone.
+- Trace numbers to source data or verified outputs, including denominator, unit, population, time point, effect scale, and uncertainty. Recalculate straightforward totals and percentages where possible.
+- Verify methods as actually performed. A package dependency does not prove that an analysis used that package or version. Distinguish planned, exploratory, manual, experimental, external, and clinical validation.
+- Open literature sources and match identity and relevant content to each claim. Search current literature when drafting comparisons, checking novelty, or verifying mutable facts. A wording-only edit with supplied evidence does not require an unrelated literature search.
+- Do not fabricate results, methods, dates, citations, or missing analyses. Where an essential fact is unavailable, use a specific marker such as `[VERIFY: denominator]`, continue the supported draft, and report the gap. Do not place an invented fact behind a marker.
+
+## 3. Write and assemble only the requested material
+
+Use concise free-form prose for Introduction and Discussion unless another format is requested. Keep procedures in Methods, estimates in Results, and interpretation in Discussion. The abstract may summarize essential results; remove redundant repetition within the body.
+
+Report effect sizes and uncertainty with the relevant denominator and comparison. Include tests and P values only when reported or validly calculated within scope. Distinguish percentage changes from percentage-point differences, adjusted from unadjusted estimates, and absence of evidence from evidence of no effect.
+
+Explain limitations through their effect on interpretation. State bias direction only when supported; use `direction uncertain` when it cannot be determined. Do not convert associations or computational performance into causal claims, clinical utility, or clinical validation.
+
+For displays in scope:
+
+- Open rendered candidates and verify data, values, axes, units, labels, uncertainty, and readability at intended size. File names and captions alone are insufficient.
+- Select the smallest set supporting distinct claims. Preserve existing selections for narrow edits unless they contain a directly relevant problem.
+- Create or revise a display only when authorized by the requested deliverable and necessary to convey a verified result. Preserve analysis logic; separately identify any required new analysis.
+- Use the linked display contract for assembled Markdown: standard tables at the end, followed by figures and captions; supplementary XLSX for tables exceeding 50 body rows, 12 columns, or the journal limit. Reopen generated workbooks and reconcile their contents.
+- When rendering is part of the deliverable, inspect the actual rendered artifact. A source edit or successful build alone does not establish correct output.
+
+## 4. Apply the writing and citation defaults
+
+- Write brief, concrete, natural sentences. Keep scientific terminology consistent and preserve the author's voice.
+- Remove filler, inflated claims, repetition, em dashes, `rather than`, and `x, not y` framing.
+- Keep workflow commentary out of the article unless it defines reproducible methods or limitations. Describe what was included, measured, or unavailable directly. Do not remove scientifically necessary exclusions, imputation methods, or provenance simply because they are workflow facts.
+- In generated manuscript text, use direct inline `[https://...]` citations and no reference page unless the user or requested journal format overrides this default. In conversation, follow the environment's citation rules.
+- Cite the exact supporting source and verify its identity and content; do not add decorative citations.
+- Place figure callouts after their supported claim, for example `The response increased by 14% (**Figure 2A**).` Use the complete bold label inside parentheses.
+- Preserve quotations, official titles, identifiers, and required technical wording. Style edits must not falsify them.
+
+## 5. Audit before delivery
+
+For a full draft or substantive revision, perform each applicable pass. For a narrow edit, apply the passes to the changed material and directly affected cross-references; do not imply the entire manuscript was audited.
+
+1. **Factual consistency:** trace claims, values, units, methods, and citations to the ledger; reconcile abstract, body, displays, captions, and supplement within scope.
+2. **Design validity:** test causal identification, selection, confounding, missingness, multiplicity, leakage, overfitting, precision, and validation where applicable. Narrow unsupported conclusions.
+3. **Skeptical review:** identify the strongest evidence-based objection. Resolve it from existing evidence or disclose it as an unresolved limitation. An unknown effect is not automatically evidence of bias in a particular direction.
+4. **Citation and duplication:** inspect cited evidence, verify claim support and format, and remove redundant claims without losing necessary abstract summaries or cross-references.
+5. **Displays and rendering:** inspect all in-scope selected/generated displays, check manuscript callouts and placement, and reconcile values with their sources. Verify final output paths and supplementary files.
+6. **Language:** run `python3 <skill-directory>/scripts/check_manuscript_style.py <file.md>` when the default text/Markdown contract applies. For DOCX/PDF or a user-overridden format, inspect the relevant content manually or in an extracted copy. The checker is a heuristic: review flagged occurrences and correct actual violations; preserve required scientific wording and disclose justified exceptions. A zero exit code does not establish factual accuracy.
+
+Use a fresh skeptical pass for self-review. Delegate independent review only when explicitly requested or separately authorized; provide the draft and raw evidence without an expected verdict, then verify the criticisms before revision.
+
+## 6. Deliver the artifact and its actual status
+
+Lead with the requested text or edited file. Briefly state what changed, what was verified, and any unresolved evidence, analysis, access, rendering, or journal requirement. Mention display and supplement changes only when applicable.
+
+An unverified substantive claim, missing essential citation, unsupported conclusion, or unchecked display keeps the affected manuscript a draft. Disclose unresolved design limitations. Use `publication-ready` only after all applicable evidence, design, citation, language, display, rendering, and journal checks pass; never imply acceptance or independent clinical validation.

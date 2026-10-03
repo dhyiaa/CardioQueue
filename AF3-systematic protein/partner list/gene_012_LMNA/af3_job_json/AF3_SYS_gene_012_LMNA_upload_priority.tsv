@@ -1,0 +1,4 @@
+priority	job_id	upload_decision	reason
+1	AF3_SYS_G012_LMNA_MATURE_1_646_HOMODIMER_DRAFT	submit_first	Best basic lamin assembly model; avoids prelamin processing tail
+2	AF3_SYS_G012_LMNA_TAIL_384_646_EMD_NUC_1_222_DRAFT	submit_first	Compact rescue of prior weak full-length LMNA-EMD job
+3	AF3_SYS_G012_LMNA_IF_ROD_31_387_HOMODIMER_DRAFT	submit_first	Interpretable IF-rod assembly proxy

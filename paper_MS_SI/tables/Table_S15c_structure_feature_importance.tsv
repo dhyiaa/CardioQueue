@@ -1,0 +1,14 @@
+feature	importance
+structure_freesasa_relative	0.6222461821048396
+structure_plddt_bin	0.5744821308896331
+structure_plddt	0.1345755341924391
+structure_freesasa_polar	0.1035313925232234
+structure_freesasa_exposure_bin	0.0705033522102682
+structure_freesasa_apolar	0.0498627143984991
+structure_dssp_class	0.0453871583827244
+structure_dssp_acc	0.0313850419001117
+structure_dssp_code	0.0115530138445223
+structure_freesasa_total	0.0098833944067711
+structure_dssp_phi	0.0084295512871744
+structure_dssp_psi	2.7313441460581586e-08
+structure_available	0.0

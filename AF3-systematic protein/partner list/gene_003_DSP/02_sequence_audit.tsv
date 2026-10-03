@@ -1,0 +1,2 @@
+gene	uniprot_accession	uniprot_entry	protein_name	reviewed	canonical_sequence_length	sequence_source	baseline_sequence_policy	full_length_af3_recommendation
+DSP	P15924	DESP_HUMAN	Desmoplakin	True	2871	/Users/dheyaa/Documents/Dheyaa_Research/catBoost-Largedata-synth/datasets/feature_sources/protein_structure/raw/uniprot_human_reviewed_2026_02.fasta	reviewed UniProt canonical amino-acid sequence for desmoplakin isoform DPI/P15924-1; no PTMs or alternative isoforms in baseline	not recommended as first design; use N-terminal plaque and C-terminal intermediate-filament regions

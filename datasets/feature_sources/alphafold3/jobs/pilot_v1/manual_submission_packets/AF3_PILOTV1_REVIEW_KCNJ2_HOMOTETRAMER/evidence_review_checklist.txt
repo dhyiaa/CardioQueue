@@ -1,0 +1,15 @@
+complex_group_id: AF3_COMPLEX_KCNJ2_HOMOTETRAMER
+complex_name: KCNJ2/Kir2.1 homotetramer channel context
+target_genes: KCNJ2
+protein_entities: KCNJ2,KCNJ2,KCNJ2,KCNJ2
+nonprotein_entities: none
+estimated_tokens: 427
+
+User/manual checks before submission:
+- Confirm these entities form a plausible same-complex or pairwise biological context.
+- Confirm PubMed/Reactome/PDB/IntAct support is not only pathway-level noise.
+- Confirm full-length modeling is biologically acceptable for this complex.
+- Confirm duplicate chains or homomer stoichiometry in the AlphaFold Server UI.
+
+Evidence rows:
+- KCNJ2: UniProt reports KCNJ2 homotetramer and Reactome maps it to classical Kir channels/resting membrane potential. Evidence anchor=UniProt_SUBUNIT_Reactome_RCSB; UniProt PubMed=12032359;16571646;21209095;36149965; IntAct PubMed=11287423;12923176;30126976;32296183;32541000; Reactome=R-HSA-1296041;R-HSA-1296053;R-HSA-5576886;R-HSA-9729555;R-HSA-997272; PDB=6SPZ;7ZDZ;8QQL

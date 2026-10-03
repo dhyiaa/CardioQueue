@@ -1,0 +1,26 @@
+complex_group_id: AF3_COMPLEX_TROPONIN_THIN_FILAMENT_CA
+complex_name: Cardiac troponin/thin-filament calcium complex
+combined_readiness_status: structured_evidence_ready_for_manual_af3_design
+estimated_af3_tokens: 1331
+
+Evidence rows:
+- ACTC1 -> CA (ion): reactome_target_context_for_nonprotein_entity; PubMed=; Reactome=; PDB=
+- ACTC1 -> TNNC1 (protein): reactome_shared_pathway_context; PubMed=; Reactome=R-HSA-390522; PDB=
+- ACTC1 -> TNNI3 (protein): reactome_shared_pathway_context; PubMed=; Reactome=R-HSA-390522; PDB=
+- ACTC1 -> TNNT2 (protein): reactome_shared_pathway_context; PubMed=; Reactome=R-HSA-390522; PDB=
+- TNNI3 -> ACTC1 (protein): reactome_shared_pathway_context; PubMed=; Reactome=R-HSA-390522; PDB=
+- TNNI3 -> CA (ion): uniprot_calcium_context; PubMed=; Reactome=; PDB=
+- TNNT2 -> ACTC1 (protein): reactome_shared_pathway_context; PubMed=; Reactome=R-HSA-390522; PDB=
+- TNNT2 -> CA (ion): uniprot_calcium_context; PubMed=; Reactome=; PDB=
+- TPM1 -> CA (ion): uniprot_calcium_context; PubMed=; Reactome=; PDB=
+- ACTC1 -> TPM1 (protein): intact_psicquic_pair_support; PubMed=26496610;30021884; Reactome=R-HSA-390522; PDB=8ZB7;9ZBL;9ZBP
+- TNNI3 -> TNNC1 (protein): direct_uniprot_intact_interaction; PubMed=12060657;15601779;18986304; Reactome=R-HSA-390522; PDB=1J1D;1J1E;1LXF;1MXL;1OZS;2KGB;2KRD;2L1R;2MZP;2N7L;4Y99;5VLN;5W88;5WCL;6KN7;6KN8;6MV3;7JGI;7SC2;7SC3;7SUP;7SVC;7SWG;7SWI;7SXC;7SXD;7UH9;7UHA;7UTI;7UTL;8FMM;8FMN;8FMO;8FMP;8FMQ;8FMR;8FMS;8FMT
+- TNNI3 -> TNNT2 (protein): rcsb_shared_pdb_support; PubMed=; Reactome=R-HSA-390522; PDB=1J1D;1J1E;4Y99;6KN7;6KN8;7UTI;7UTL;8FMM;8FMN;8FMO;8FMP;8FMQ;8FMR;8FMS;8FMT
+- TNNI3 -> TPM1 (protein): rcsb_shared_pdb_support; PubMed=; Reactome=R-HSA-390522; PDB=6KN7;6KN8;7UTI;7UTL
+- TNNT2 -> TNNC1 (protein): intact_psicquic_pair_support; PubMed=12840750; Reactome=R-HSA-390522; PDB=1J1D;1J1E;4Y99;6KN7;6KN8;7UTI;7UTL;8FMM;8FMN;8FMO;8FMP;8FMQ;8FMR;8FMS;8FMT
+- TNNT2 -> TNNI3 (protein): rcsb_shared_pdb_support; PubMed=; Reactome=R-HSA-390522; PDB=1J1D;1J1E;4Y99;6KN7;6KN8;7UTI;7UTL;8FMM;8FMN;8FMO;8FMP;8FMQ;8FMR;8FMS;8FMT
+- TNNT2 -> TPM1 (protein): rcsb_shared_pdb_support; PubMed=; Reactome=R-HSA-390522; PDB=6KN7;6KN8;7UTI;7UTL
+- TPM1 -> ACTC1 (protein): intact_psicquic_pair_support; PubMed=30021884; Reactome=R-HSA-390522; PDB=8ZB7;9ZBL;9ZBP
+- TPM1 -> TNNC1 (protein): rcsb_shared_pdb_support; PubMed=; Reactome=R-HSA-390522; PDB=6KN7;6KN8;7UTI;7UTL
+- TPM1 -> TNNI3 (protein): rcsb_shared_pdb_support; PubMed=; Reactome=R-HSA-390522; PDB=6KN7;6KN8;7UTI;7UTL
+- TPM1 -> TNNT2 (protein): rcsb_shared_pdb_support; PubMed=; Reactome=R-HSA-390522; PDB=6KN7;6KN8;7UTI;7UTL

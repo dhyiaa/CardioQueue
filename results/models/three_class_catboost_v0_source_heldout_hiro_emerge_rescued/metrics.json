@@ -1,0 +1,206 @@
+{
+  "input_table": "datasets/modeling/ready/modeling_table_three_class_splits_weights_hiro_emerge_rescued.tsv",
+  "output_dir": "results/models/three_class_catboost_v0_source_heldout_hiro_emerge_rescued",
+  "split_col": "split_three_class_source_heldout",
+  "labels": [
+    "Benign",
+    "VUS",
+    "Pathogenic"
+  ],
+  "n_features": 338,
+  "n_categorical_features": 222,
+  "n_numeric_features": 116,
+  "best_iteration": 318,
+  "splits": {
+    "train": {
+      "rows": 70045,
+      "label_counts": {
+        "Benign": 28631,
+        "VUS": 33869,
+        "Pathogenic": 7545
+      },
+      "accuracy": 0.9431936612177886,
+      "balanced_accuracy": 0.943755618103363,
+      "macro_f1": 0.9283326773122345,
+      "weighted_f1": 0.9435522630218253,
+      "weighted_kappa": 0.9325699689208948,
+      "multiclass_mcc": 0.9048378260494475,
+      "log_loss": 0.1816821663043235,
+      "per_class": {
+        "Benign": {
+          "precision": 0.9557878089868326,
+          "recall": 0.971010443225874,
+          "f1": 0.9633389930351017,
+          "support": 28631
+        },
+        "VUS": {
+          "precision": 0.9620714131407586,
+          "recall": 0.9204287106203313,
+          "f1": 0.9407894736842105,
+          "support": 33869
+        },
+        "Pathogenic": {
+          "precision": 0.8288720046756283,
+          "recall": 0.9398277004638834,
+          "f1": 0.8808695652173913,
+          "support": 7545
+        }
+      },
+      "ovr_macro_auroc": 0.9898611609805602,
+      "ovr_weighted_auroc": 0.9884585386155298
+    },
+    "validation": {
+      "rows": 12361,
+      "label_counts": {
+        "Benign": 5053,
+        "VUS": 5977,
+        "Pathogenic": 1331
+      },
+      "accuracy": 0.9338241242617911,
+      "balanced_accuracy": 0.9229229457014609,
+      "macro_f1": 0.9101196749412729,
+      "weighted_f1": 0.9343449022758227,
+      "weighted_kappa": 0.9231904898431407,
+      "multiclass_mcc": 0.88876857515559,
+      "log_loss": 0.19833210455934522,
+      "per_class": {
+        "Benign": {
+          "precision": 0.9587810119163899,
+          "recall": 0.9713041757371859,
+          "f1": 0.9650019661816752,
+          "support": 5053
+        },
+        "VUS": {
+          "precision": 0.9487224057013732,
+          "recall": 0.9131671407060398,
+          "f1": 0.9306052855924979,
+          "support": 5977
+        },
+        "Pathogenic": {
+          "precision": 0.7904633982538617,
+          "recall": 0.8842975206611571,
+          "f1": 0.8347517730496454,
+          "support": 1331
+        }
+      },
+      "ovr_macro_auroc": 0.9866368251298286,
+      "ovr_weighted_auroc": 0.9858560292901645
+    },
+    "external_cardioboost": {
+      "rows": 185,
+      "label_counts": {
+        "Benign": 53,
+        "VUS": 0,
+        "Pathogenic": 132
+      },
+      "accuracy": 0.5945945945945946,
+      "balanced_accuracy": 0.5691109205260149,
+      "macro_f1": 0.46927803379416283,
+      "weighted_f1": 0.7299912816041849,
+      "weighted_kappa": 0.6351239581786948,
+      "multiclass_mcc": 0.4339128709757688,
+      "log_loss": 1.1198224575531446,
+      "per_class": {
+        "Benign": {
+          "precision": 0.8709677419354839,
+          "recall": 0.5094339622641509,
+          "f1": 0.6428571428571429,
+          "support": 53
+        },
+        "VUS": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "Pathogenic": {
+          "precision": 0.9764705882352941,
+          "recall": 0.6287878787878788,
+          "f1": 0.7649769585253456,
+          "support": 132
+        }
+      },
+      "ovr_macro_auroc": NaN,
+      "ovr_weighted_auroc": 0.9299116869871589
+    },
+    "external_emerge": {
+      "rows": 1951,
+      "label_counts": {
+        "Benign": 80,
+        "VUS": 1775,
+        "Pathogenic": 96
+      },
+      "accuracy": 0.8892875448487955,
+      "balanced_accuracy": 0.7213243348982785,
+      "macro_f1": 0.6506964320491866,
+      "weighted_f1": 0.899579854194625,
+      "weighted_kappa": 0.4977070125094488,
+      "multiclass_mcc": 0.4713411962490462,
+      "log_loss": 0.29341601761097885,
+      "per_class": {
+        "Benign": {
+          "precision": 0.3375,
+          "recall": 0.675,
+          "f1": 0.45,
+          "support": 80
+        },
+        "VUS": {
+          "precision": 0.9609929078014184,
+          "recall": 0.916056338028169,
+          "f1": 0.9379867320449957,
+          "support": 1775
+        },
+        "Pathogenic": {
+          "precision": 0.5555555555555556,
+          "recall": 0.5729166666666666,
+          "f1": 0.5641025641025641,
+          "support": 96
+        }
+      },
+      "ovr_macro_auroc": 0.9242359312052267,
+      "ovr_weighted_auroc": 0.8991922887463825
+    },
+    "external_hiro": {
+      "rows": 179,
+      "label_counts": {
+        "Benign": 42,
+        "VUS": 110,
+        "Pathogenic": 27
+      },
+      "accuracy": 0.8491620111731844,
+      "balanced_accuracy": 0.795093795093795,
+      "macro_f1": 0.8188461750182624,
+      "weighted_f1": 0.8469114559960957,
+      "weighted_kappa": 0.7879239984202905,
+      "multiclass_mcc": 0.7160454394198325,
+      "log_loss": 0.39905133086219535,
+      "per_class": {
+        "Benign": {
+          "precision": 0.8095238095238095,
+          "recall": 0.8095238095238095,
+          "f1": 0.8095238095238095,
+          "support": 42
+        },
+        "VUS": {
+          "precision": 0.8547008547008547,
+          "recall": 0.9090909090909091,
+          "f1": 0.8810572687224669,
+          "support": 110
+        },
+        "Pathogenic": {
+          "precision": 0.9,
+          "recall": 0.6666666666666666,
+          "f1": 0.7659574468085106,
+          "support": 27
+        }
+      },
+      "ovr_macro_auroc": 0.9426187983307138,
+      "ovr_weighted_auroc": 0.9329332341471928
+    }
+  },
+  "notes": [
+    "Exploratory 3-class model: Benign / VUS / Pathogenic.",
+    "VUS is an evidence-status class, so interpret VUS performance cautiously.",
+    "Feature selection excludes labels, review stars, source flags, and source-derived label counts."
+  ]
+}

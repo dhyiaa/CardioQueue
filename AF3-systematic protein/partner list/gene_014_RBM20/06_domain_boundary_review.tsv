@@ -1,0 +1,9 @@
+region	residues	source	used_in_design	boundary_confidence	caveat
+RBM20 full canonical protein	1-1227	UniProt Q5T481 reviewed canonical sequence	reference only	high	Large disordered RNA-binding protein; full-length monomer not default
+U1-type zinc finger	409-443	UniProt Q5T481 feature	included in 390-660 domain job	high	Zinc coordination/metal state not explicitly modeled
+RRM domain	518-593	UniProt Q5T481 feature	included in 390-660 and 500-610 jobs	high	RNA target omitted
+RS region	628-655	UniProt Q5T481 feature	included in 390-660 job	high	Phosphorylation of Ser-635/637 and nearby residues affects localization; baseline has no PTMs
+pathogenic hotspot / localization-sensitive residues	634-638	UniProt natural variants and PTM/function comments	included in 390-660 job	high	Likely functional/localization effect may not be captured by static structure
+disordered acidic/basic region	624-906	UniProt Q5T481 region/compositional bias	partially included in 390-660 job	medium	May produce low pLDDT; interpret with caution
+C-terminal matrin-type zinc finger	1161-1192	UniProt Q5T481 feature	included in 1140-1227 job	high	C-terminal surrounding sequence may be flexible
+C-terminal truncation-sensitive region	1031-1227	UniProt natural variant annotation	partially represented by 1140-1227 job	medium	Full truncation mechanism may be loss-of-function, not local folding/interface

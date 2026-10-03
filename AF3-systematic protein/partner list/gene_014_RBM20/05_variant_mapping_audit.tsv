@@ -1,0 +1,9 @@
+metric	value	note
+included_RBM20_rows	2000	Rows currently available for AF3 feature mapping context
+binary_rows	966	Benign plus pathogenic rows
+pathogenic_rows	103	Moderate P/LP count; many clinically important variants cluster in RS/domain regions
+benign_rows	863	Benign comparator rows
+vus_rows	1034	Large VUS burden for domain-aware prioritization
+mapping_policy	VEP/UniProt protein positions preferred	Final mapping should reconcile transcript residue numbering to RBM20 Q5T481 canonical sequence
+main_feature_context	domain/region flags more reliable than AF3 PPI for RBM20 currently	Use AF3 monomer/domain features only if local confidence is interpretable
+no_curated_partner_reason	mechanism is RNA/splicing and U1/U2 snRNP association is not yet entity-specific	Avoid fake PPI features until RNA/snRNP design is explicitly scoped

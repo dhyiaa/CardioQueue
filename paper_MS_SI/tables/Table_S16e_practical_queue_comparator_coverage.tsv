@@ -1,0 +1,7 @@
+comparator	score_column	rows	coverage_fraction	pathogenic	benign	genes	sources	cardioqueue_auroc	comparator_auroc	cardioqueue_auprc	comparator_auprc
+VEP consequence severity	vep_consequence	430	1.0	255	175	28	external_cardioboost:185;external_emerge:176;external_hiro:69	0.9780056022408964	0.6830028011204481	0.984757459606768	0.723569383879034
+CADD PHRED	cadd	348	0.8093023255813954	214	134	25	external_cardioboost:167;external_emerge:135;external_hiro:46	0.9845166689914912	0.9123134328358209	0.988668016887954	0.9293121297594811
+gnomAD rarity	gnomad_rarity	358	0.8325581395348837	188	170	27	external_cardioboost:149;external_emerge:146;external_hiro:63	0.9732947434292866	0.8531914893617021	0.976606294726938	0.762020944170352
+REVEL	revel	305	0.7093023255813954	173	132	23	external_cardioboost:161;external_emerge:108;external_hiro:36	0.9866438956034332	0.927132597652829	0.9887292332434464	0.9176181628183553
+AlphaMissense direct	alphamissense_direct	271	0.6302325581395349	164	107	21	external_cardioboost:151;external_emerge:87;external_hiro:33	0.9847845908365626	0.9445520857077729	0.9891488558110632	0.96076015280291
+AlphaMissense direct+fallback	alphamissense_composite	307	0.713953488372093	175	132	23	external_cardioboost:163;external_emerge:108;external_hiro:36	0.9864069264069264	0.9403896103896103	0.9886005922431488	0.9546848494250213

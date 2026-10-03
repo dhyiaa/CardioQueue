@@ -1,0 +1,73 @@
+{
+  "Fernandez_Falgueras_PLOS_2024": {
+    "comparison_to_current_clinvar": {
+      "concordant_binary_clinvar": 10,
+      "discordant_or_nonbinary_clinvar": 78
+    },
+    "current_clinvar_significance": {
+      "-": 1,
+      "Benign/Likely benign": 2,
+      "Conflicting classifications of pathogenicity": 66,
+      "Conflicting classifications of pathogenicity; other; risk factor": 1,
+      "Likely benign": 1,
+      "Likely pathogenic": 2,
+      "Pathogenic": 3,
+      "Pathogenic/Likely pathogenic": 2,
+      "Uncertain significance": 10
+    },
+    "eligible_observations": 88,
+    "exact_current_clinvar_records": 88
+  },
+  "SHaRe_HCM_2026Q1": {
+    "comparison_to_current_clinvar": {
+      "absent_from_current_clinvar": 77,
+      "concordant_binary_clinvar": 50,
+      "discordant_or_nonbinary_clinvar": 210
+    },
+    "current_clinvar_significance": {
+      "Benign": 5,
+      "Benign/Likely benign": 6,
+      "Conflicting classifications of pathogenicity": 175,
+      "Likely benign": 4,
+      "Likely pathogenic": 5,
+      "Pathogenic": 9,
+      "Pathogenic/Likely pathogenic": 21,
+      "Uncertain significance": 35
+    },
+    "eligible_observations": 337,
+    "exact_current_clinvar_records": 260
+  },
+  "SHaRe_browser_internal_fields": {
+    "clinvar_browser_class": {
+      "B/LB": 14,
+      "P/LP": 44,
+      "VUS": 31,
+      "missing": 78,
+      "other": 170
+    },
+    "interpretation": "SHaRe stores SHaRe and ClinVar classifications in separate fields and explicitly flags disagreement; this supports a distinct SHaRe curation layer but not complete evidence independence.",
+    "matched_eligible_rows": 337,
+    "share_clinvar_conflict_flag": {
+      "FALSE": 70,
+      "TRUE": 267
+    },
+    "varclass_status": {
+      "manually curated": 299,
+      "manually curated/check": 2,
+      "nonconflicting": 23,
+      "nonconflicting single site": 5,
+      "single carrier": 8
+    }
+  },
+  "final_benchmark_current_clinvar_presence": {
+    "absent_from_current_clinvar": 114,
+    "exact_current_clinvar_records": 661,
+    "total": 775
+  },
+  "interpretation_limits": [
+    "Current ClinVar presence is not equivalent to use in CardioQueue training.",
+    "A distinct source label can still use literature or database evidence shared with ClinVar.",
+    "Only PLOS/SHaRE alleles absent from the original train and validation partitions enter the final benchmark.",
+    "ClinVar coordinate resolution for PLOS does not determine the PLOS outcome label."
+  ]
+}

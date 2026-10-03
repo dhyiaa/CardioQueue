@@ -1,0 +1,14 @@
+field	value	note
+gene	KCNH2	Systematic AF3 gene #8
+rank_in_priority_queue	8	Top 10 high-burden gene
+included_variant_rows	3478	Current ready/modeling table
+binary_rows	1870	Benign plus Pathogenic
+benign_rows	1169	Clean 3-class label
+vus_rows	1575	VUS rows are scored but not binary supervised labels
+pathogenic_rows	701	P/LP collapsed to Pathogenic
+missing_label_rows	33	Rows without clean model label
+top_sources	clinvar:3174;clinvar|emerge:160;emerge:94;cardioboost|clinvar:17;cardioboost|clinvar|emerge:12;cardioboost:6;clinvar|hiro:6;cardioboost|emerge:5;emerge|hiro:2;clinvar|emerge|hiro:1	Source composition for KCNH2
+hiro_overlap_rows	10	Small patient-linked overlap in current KCNH2 table
+prior_af3_result	KCNH2-KCNE2 completed but not interface-usable	Best prior pair ipTM about 0.31; keep as warning and comparator
+primary_biological_context	hERG/Kv11.1 IKr repolarization channel	AF3 jobs focus on channel assembly and regulatory domain context
+main_caveat	full-length KCNH2 is a membrane tetramer and AF3 server jobs do not include membrane voltage state or trafficking environment	Do not overinterpret full-length docking alone

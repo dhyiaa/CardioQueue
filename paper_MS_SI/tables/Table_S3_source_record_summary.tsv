@@ -1,0 +1,5 @@
+source	source_records	linked_source_records	unresolved_source_records	unique_resolved_source_variants	variant_rows_in_final_matrix	matrix_rows_also_in_clinvar	matrix_rows_not_in_clinvar	source_specific_review_stars_nonmissing
+ClinVar	83915	83915	0	83915	83915	83915	0	83915
+HiRO	482	408	74	239	240	133	107	0
+eMERGE	2754	2754	0	2754	2754	2	2752	0
+CardioBoost	355	355	0	353	353	236	117	0

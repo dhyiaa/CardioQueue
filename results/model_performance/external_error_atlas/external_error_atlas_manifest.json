@@ -1,0 +1,9 @@
+{
+  "threshold": 0.5,
+  "external_rows": 430,
+  "false_negatives": 9,
+  "false_positives": 16,
+  "errors_with_structure_features": 17,
+  "errors_with_numeric_foldx_in_frozen_matrix": 12,
+  "note": "These are model/held-out-label discordances for audit, not proven label errors."
+}

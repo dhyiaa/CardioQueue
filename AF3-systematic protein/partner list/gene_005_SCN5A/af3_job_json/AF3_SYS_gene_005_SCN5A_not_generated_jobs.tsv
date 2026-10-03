@@ -1,0 +1,5 @@
+job_name	reason
+AF3_SYS_G005_SCN5A_FGF13_HELD	FGF13 is strong biology but missing local sequence and top-3 filled; revisit after sequence/evidence expansion.
+AF3_SYS_G005_SCN5A_ANK3_DOMAIN_HELD	ANK3 domain boundary needed; do not substitute ANK2 automatically.
+AF3_SYS_G005_SCN5A_PKP2_HELD	By-similarity/desmosome context, better handled in PKP2/DSP packets or sensitivity analysis.
+AF3_SYS_G005_SCN5A_NEDD4L_HELD	Regulatory/trafficking/PTM biology, not a clean first-pass structural interface.

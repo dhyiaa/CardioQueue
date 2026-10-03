@@ -1,0 +1,30 @@
+{
+  "cdna_panel_rows": 2462,
+  "cdna_unique_variants": 2344,
+  "protein_fallback_panel_rows": 18,
+  "protein_fallback_unique_variants": 15,
+  "combined_panel_rows": 2477,
+  "combined_unique_variants": 2359,
+  "cdna_panels": {
+    "CM": 1765,
+    "ARM": 697
+  },
+  "combined_panels": {
+    "CM": 1776,
+    "ARM": 701
+  },
+  "cdna_split_counts": {
+    "train": 1897,
+    "validation": 315,
+    "external_cardioboost": 164,
+    "external_emerge": 73,
+    "external_hiro": 13
+  },
+  "combined_split_counts": {
+    "train": 1909,
+    "validation": 315,
+    "external_cardioboost": 165,
+    "external_emerge": 75,
+    "external_hiro": 13
+  }
+}

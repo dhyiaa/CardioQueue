@@ -1,0 +1,169 @@
+{
+  "input_table": "datasets/modeling/ready/modeling_table_three_class_splits_weights_hiro_emerge_rescued.tsv",
+  "output_dir": "results/models/three_class_catboost_v0_gene_stress_hiro_emerge_rescued",
+  "split_col": "split_three_class_gene_stress",
+  "labels": [
+    "Benign",
+    "VUS",
+    "Pathogenic"
+  ],
+  "n_features": 338,
+  "n_categorical_features": 222,
+  "n_numeric_features": 116,
+  "best_iteration": 309,
+  "splits": {
+    "train": {
+      "rows": 50698,
+      "label_counts": {
+        "Benign": 19764,
+        "VUS": 24726,
+        "Pathogenic": 6208
+      },
+      "accuracy": 0.9369600378713164,
+      "balanced_accuracy": 0.9397267480601301,
+      "macro_f1": 0.9222426999896025,
+      "weighted_f1": 0.9375142407149049,
+      "weighted_kappa": 0.9275036994556871,
+      "multiclass_mcc": 0.896305636330695,
+      "log_loss": 0.19269445777167024,
+      "per_class": {
+        "Benign": {
+          "precision": 0.9549078226208271,
+          "recall": 0.969692369965594,
+          "f1": 0.962243309735402,
+          "support": 19764
+        },
+        "VUS": {
+          "precision": 0.9606863875016007,
+          "recall": 0.9102159669983014,
+          "f1": 0.9347704192885179,
+          "support": 24726
+        },
+        "Pathogenic": {
+          "precision": 0.809748646021386,
+          "recall": 0.9392719072164949,
+          "f1": 0.8697143709448878,
+          "support": 6208
+        }
+      },
+      "ovr_macro_auroc": 0.9892393913450842,
+      "ovr_weighted_auroc": 0.9877405143966409
+    },
+    "validation": {
+      "rows": 10864,
+      "label_counts": {
+        "Benign": 4233,
+        "VUS": 5299,
+        "Pathogenic": 1332
+      },
+      "accuracy": 0.9259941089837997,
+      "balanced_accuracy": 0.9165005865278867,
+      "macro_f1": 0.905383307081598,
+      "weighted_f1": 0.9264082331811613,
+      "weighted_kappa": 0.915193897014459,
+      "multiclass_mcc": 0.8773269393576025,
+      "log_loss": 0.22431797580156979,
+      "per_class": {
+        "Benign": {
+          "precision": 0.9491447064262598,
+          "recall": 0.9699976376092606,
+          "f1": 0.9594578805935273,
+          "support": 4233
+        },
+        "VUS": {
+          "precision": 0.9443677253896232,
+          "recall": 0.9033779958482733,
+          "f1": 0.9234182098765432,
+          "support": 5299
+        },
+        "Pathogenic": {
+          "precision": 0.7944179714091218,
+          "recall": 0.8761261261261262,
+          "f1": 0.8332738307747233,
+          "support": 1332
+        }
+      },
+      "ovr_macro_auroc": 0.9825749259083557,
+      "ovr_weighted_auroc": 0.9814287427186051
+    },
+    "sparse_gene_stress_test": {
+      "rows": 12295,
+      "label_counts": {
+        "Benign": 5626,
+        "VUS": 6405,
+        "Pathogenic": 264
+      },
+      "accuracy": 0.8736884912566084,
+      "balanced_accuracy": 0.8100161943574845,
+      "macro_f1": 0.6901897366423966,
+      "weighted_f1": 0.8967043756081189,
+      "weighted_kappa": 0.8199319117124962,
+      "multiclass_mcc": 0.7827224921515575,
+      "log_loss": 0.3599540910114544,
+      "per_class": {
+        "Benign": {
+          "precision": 0.9516213847502191,
+          "recall": 0.9649840028439388,
+          "f1": 0.9582561115523784,
+          "support": 5626
+        },
+        "VUS": {
+          "precision": 0.9493717664449371,
+          "recall": 0.8021857923497268,
+          "f1": 0.8695946517728695,
+          "support": 6405
+        },
+        "Pathogenic": {
+          "precision": 0.14855687606112053,
+          "recall": 0.6628787878787878,
+          "f1": 0.24271844660194175,
+          "support": 264
+        }
+      },
+      "ovr_macro_auroc": 0.9574321641950343,
+      "ovr_weighted_auroc": 0.9739630654577689
+    },
+    "well_represented_test": {
+      "rows": 10864,
+      "label_counts": {
+        "Benign": 4236,
+        "VUS": 5301,
+        "Pathogenic": 1327
+      },
+      "accuracy": 0.9277430044182622,
+      "balanced_accuracy": 0.9183596583478403,
+      "macro_f1": 0.9059468946223411,
+      "weighted_f1": 0.9283154112760474,
+      "weighted_kappa": 0.916278866017938,
+      "multiclass_mcc": 0.8802946851020487,
+      "log_loss": 0.2179875456740287,
+      "per_class": {
+        "Benign": {
+          "precision": 0.9547248664964012,
+          "recall": 0.9707271010387157,
+          "f1": 0.9626594872995435,
+          "support": 4236
+        },
+        "VUS": {
+          "precision": 0.9463828109599842,
+          "recall": 0.9056781739294473,
+          "f1": 0.9255831887410835,
+          "support": 5301
+        },
+        "Pathogenic": {
+          "precision": 0.7857142857142857,
+          "recall": 0.8786737000753579,
+          "f1": 0.8295980078263963,
+          "support": 1327
+        }
+      },
+      "ovr_macro_auroc": 0.9834056829941132,
+      "ovr_weighted_auroc": 0.9826434665445395
+    }
+  },
+  "notes": [
+    "Exploratory 3-class model: Benign / VUS / Pathogenic.",
+    "VUS is an evidence-status class, so interpret VUS performance cautiously.",
+    "Feature selection excludes labels, review stars, source flags, and source-derived label counts."
+  ]
+}

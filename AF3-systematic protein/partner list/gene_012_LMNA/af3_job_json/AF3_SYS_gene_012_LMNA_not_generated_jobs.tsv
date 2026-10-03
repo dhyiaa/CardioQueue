@@ -1,0 +1,6 @@
+held_design	reason	what_would_be_needed
+Full-length LMNA 1-664 + EMD 1-254 repeat	Already ran and was not interface-usable	Only rerun if server/model version comparison is required
+TMEM43-EMD-LMNA full-length trimer	Already ran and was not interface-usable; membrane/topology context likely missing	Membrane-aware compact design in TMEM43 or EMD packet
+SUN1/SUN2/SYNE2 LINC complex	Important but not top-3; needs partner sequence and cardiac boundary review	Systematic SUN/SYNE packet with domain boundaries
+BANF1/LEM-domain complex	Potentially useful for EMD more than LMNA; not primary LMNA cardiomyopathy interface	EMD gene packet and BAF/BANF1 sequence review
+NARF/TMEM201/IFFO1/MLIP/DMPK	Curated/interesting but not strongest first-pass cardiac structural context	Targeted literature and boundary evidence

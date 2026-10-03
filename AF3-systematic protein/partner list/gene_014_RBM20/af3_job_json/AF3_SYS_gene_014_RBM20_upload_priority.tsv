@@ -1,0 +1,4 @@
+priority	job_id	upload_decision	reason
+1	AF3_SYS_G014_RBM20_ZNF_RRM_RS_390_660_MONOMER_DRAFT	submit_only_as_review_grade_domain_context	Most clinically relevant RBM20 domain/hotspot region
+2	AF3_SYS_G014_RBM20_RRM_500_610_MONOMER_DRAFT	submit_only_as_review_grade_domain_context	Focused RNA-recognition motif context
+3	AF3_SYS_G014_RBM20_CTERM_ZNF_1140_1227_MONOMER_DRAFT	submit_only_as_review_grade_domain_context	C-terminal matrin-type zinc finger and truncation-sensitive region

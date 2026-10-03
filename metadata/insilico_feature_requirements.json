@@ -1,0 +1,111 @@
+{
+  "purpose": "Track required in silico feature coverage for the current project.",
+  "minimum_from_previous_si": [
+    {
+      "feature": "REVEL",
+      "status": "implemented_dbnsfp_feature_layer",
+      "preferred_source": "dbNSFP v5.3.1 academic branch",
+      "notes": "Required to match previous SI feature panel."
+    },
+    {
+      "feature": "CADD_PHRED",
+      "status": "implemented_targeted_api",
+      "preferred_source": "CADD v1.7 GRCh38",
+      "current_output_column": "cadd_phred",
+      "notes": "Targeted API workflow validated on example variants; bulk scaling still deferred."
+    },
+    {
+      "feature": "SIFT",
+      "status": "implemented_dbnsfp_feature_layer",
+      "preferred_source": "dbNSFP v5.3.1 academic branch",
+      "notes": "Required to match previous SI feature panel."
+    },
+    {
+      "feature": "PolyPhen2_HDIV",
+      "status": "implemented_dbnsfp_feature_layer",
+      "preferred_source": "dbNSFP v5.3.1 academic branch",
+      "notes": "Required to match previous SI feature panel."
+    },
+    {
+      "feature": "MetaLR",
+      "status": "implemented_dbnsfp_feature_layer",
+      "preferred_source": "dbNSFP v5.3.1 academic branch",
+      "notes": "Required to match previous SI feature panel."
+    },
+    {
+      "feature": "FATHMM_XF",
+      "status": "implemented_dbnsfp_feature_layer",
+      "preferred_source": "dbNSFP v5.3.1 academic branch",
+      "notes": "Required to match previous SI feature panel."
+    },
+    {
+      "feature": "AlphaMissense",
+      "status": "implemented_local_download",
+      "preferred_source": "AlphaMissense hg38 precomputed scores",
+      "current_output_column": "am_pathogenicity",
+      "notes": "Downloaded, checksum/gzip/line count validated, and example join validated."
+    }
+  ],
+  "new_proposal_additions": [
+    {
+      "feature_group": "dbNSFP aggregate predictors",
+      "status": "implemented_dbnsfp_feature_layer",
+      "features": [
+        "MutationTaster",
+        "MutationAssessor",
+        "FATHMM",
+        "PROVEAN",
+        "VEST",
+        "M-CAP",
+        "MetaSVM",
+        "Eigen",
+        "GERP++",
+        "PhyloP",
+        "PhastCons",
+        "SiPhy"
+      ],
+      "notes": "dbNSFP v5.3.1 GRCh38 is downloaded, MD5-validated, and joined to the master registry. Final modeling table still needs selected column merge/standardization."
+    },
+    {
+      "feature_group": "VEP consequence and SpliceAI plugin",
+      "status": "planned_deferred_large_cache",
+      "features": [
+        "VEP consequence",
+        "SpliceAI"
+      ],
+      "notes": "Local VEP cache is about 27.6 GB compressed; use only after deciding local VEP is required."
+    },
+    {
+      "feature_group": "CADD",
+      "status": "implemented_targeted_api_bulk_deferred",
+      "features": [
+        "CADD RawScore",
+        "CADD PHRED"
+      ],
+      "notes": "API is appropriate for small QC/test sets only; whole-genome SNV bulk file is 81G."
+    },
+    {
+      "feature_group": "AlphaMissense",
+      "status": "implemented_local_download",
+      "features": [
+        "AlphaMissense pathogenicity",
+        "AlphaMissense class"
+      ],
+      "notes": "Available now from local hg38 precomputed file."
+    },
+    {
+      "feature_group": "ESM1b/ESM-variant",
+      "status": "planned_mapping_unresolved",
+      "features": [
+        "ESM1b variant-effect score"
+      ],
+      "notes": "Requires exact precomputed human proteome source and transcript/protein mapping QC."
+    }
+  ],
+  "qc_policy": [
+    "Every in silico output must include source-specific status and missing-reason columns.",
+    "A failed query, schema mismatch, failed download, or failed checksum must stop the pipeline rather than create blank/null feature cells.",
+    "Minimum old-SI parity is not complete until REVEL, SIFT, PolyPhen2_HDIV, MetaLR, and FATHMM_XF are added through dbNSFP or an equally verified source.",
+    "New proposal coverage is not complete until dbNSFP, VEP/SpliceAI, and ESM1b decisions are resolved."
+  ]
+}

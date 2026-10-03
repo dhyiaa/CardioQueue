@@ -1,0 +1,9 @@
+metric	value	note
+included_variant_rows_priority_file	4236	Matches ready modeling table MYBPC3 count.
+pathogenic_rows	1041	Large pathogenic burden; high-value AF3 target.
+benign_rows	1306	From priority table.
+vus_rows	1872	Large VUS burden; AF3 features may help prioritize VUS.
+missing_label_rows_ready_model_table	17	Rows present but not B/VUS/P labeled.
+vep_protein_position_rows	4235	Use VEP/UniProt reconciliation for AF3 mapping.
+dbnsfp_protein_position_rows	2024	Secondary protein-position source.
+older_protein_position_rows	48	Too sparse for primary mapping.

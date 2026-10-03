@@ -1,0 +1,2 @@
+gene	uniprot_accession	uniprot_entry	protein_name	reviewed	canonical_sequence_length	sequence_source	baseline_sequence_policy	full_length_af3_recommendation
+MYH7	P12883	MYH7_HUMAN	Myosin-7 / beta-cardiac myosin heavy chain	True	1935	/Users/dheyaa/Documents/Dheyaa_Research/catBoost-Largedata-synth/datasets/feature_sources/protein_structure/raw/uniprot_human_reviewed_2026_02.fasta	reviewed UniProt canonical MYH7/P12883 amino-acid sequence; no PTMs or alternative isoforms in baseline	not recommended; use motor, lever-arm, and S2/regulatory fragments

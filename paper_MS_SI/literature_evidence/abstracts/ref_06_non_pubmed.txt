@@ -1,0 +1,9 @@
+ref_no: 6
+title: Language models enable zero-shot prediction of the effects of mutations on protein function
+authors: Meier J; Rao R; Verkuil R; et al.
+year: 2021
+journal: NeurIPS
+doi: NR
+url: https://proceedings.neurips.cc/paper/2021/hash/f51338d736f95dd42427296047067694-Abstract.html
+draft_use: ESM1b protein language model feature context
+abstract: Conference paper introducing protein language models for zero-shot mutation-effect prediction; PubMed abstract not available.

@@ -1,0 +1,8 @@
+region	residues	source	used_in_design	boundary_confidence	caveat
+PKP2 N-terminal/plaque-regulatory region	1-340	UniProt Q99959 function/subunit/PTM features	all PKP2 jobs	medium	Contains many phosphosites and possible regulatory/disordered elements; baseline omits PTM state
+PKP2 ARM repeat region	341-849	UniProt Q99959 repeat annotations	all PKP2 jobs	high	Likely structured scaffold region; variants here may map well to AF3 geometry
+PKP2 low-complexity/disordered patch	282-314	UniProt Q99959 region/compositional bias	all PKP2 jobs	medium	May reduce local confidence; check pLDDT and interface PAE
+DSP N-terminal PKP2/JUP interaction region	1-584	UniProt P15924 region annotation	trimer and PKP2-DSP pair	high	Pragmatic boundary chosen to avoid full 2871 aa DSP
+JUP ARM repeats	132-661	UniProt P14923 repeat/domain notes	trimer and PKP2-JUP pair	high	Full JUP retained because 745 aa is feasible
+DSC2 cytoplasmic tail	716-901	UniProt Q02487 topology	held	medium	Held for DSC2/DSG2 packet because membrane/cadherin context matters
+DSG2 cytoplasmic tail	635-1118	UniProt Q14126 topology	held	medium	Held for DSG2/DSC2 packet because membrane/cadherin context matters

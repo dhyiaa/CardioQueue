@@ -1,0 +1,6 @@
+This is a draft manual AlphaFold 3 server submission packet.
+Do not treat it as submitted or final until manually reviewed.
+Use canonical reviewed human UniProt protein sequences from entities.fasta.
+After AF3 returns output, verify actual chain mapping from the mmCIF/job JSON.
+CALM note: CALM1/CALM2/CALM3 canonical protein sequences are identical in the local UniProt FASTA; CALM1 is used as the sequence entity while variants remain mapped back to their original CALM gene.
+Design note: Full-length token-feasible draft.

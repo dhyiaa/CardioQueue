@@ -1,0 +1,4 @@
+priority	job_id	upload_class	why
+1	AF3_SYS_G007_CACNA1C_CACNB2_CALM1_CA4_FULL_LENGTH_DRAFT	top3_submit_first	CACNA1C systematic top-3 design; submit in this order unless quota is tight.
+2	AF3_SYS_G007_CACNA1C_CACNB2_FULL_LENGTH_DRAFT	top3_submit_first	CACNA1C systematic top-3 design; submit in this order unless quota is tight.
+3	AF3_SYS_G007_CACNA1C_IQ_1648_1705_CALM1_CA4_DRAFT	top3_submit_first	CACNA1C systematic top-3 design; submit in this order unless quota is tight.

@@ -1,0 +1,6 @@
+design_id	boundary_type	target_residues	partner_residues	boundary_status	reason
+SCN5A_D1_CALM1_CA_FULL_LENGTH	full_length	1-2016	CALM1 1-149	ready	Prior AF3 full-length SCN5A-CALM1 job was successful and interface-supported.
+SCN5A_D2_SCN1B_FULL_LENGTH	full_length	1-2016	SCN1B 1-218	ready	Prior AF3 full-length SCN5A-SCN1B job was successful and interface-supported.
+SCN5A_D3_SNTA1_FULL_LENGTH	full_length	1-2016	SNTA1 1-505	ready_but_lower_evidence	Feasible size and biologically relevant scaffold; needs result QC before feature promotion.
+SCN5A_D4_FGF13	unknown	not selected	not selected	not_ready	Local sequence missing and partner choice/domain boundary not reviewed.
+SCN5A_D5_ANK3_DOMAIN	domain_fragment_needed	boundary needed	ANK3 domain boundary needed	not_ready	Full ANK3 is too large and exact SCN5A/ANK3 interface boundaries need citation-backed design.

@@ -1,0 +1,2 @@
+gene	frequency_rank	systematic_order	included_variant_rows_priority_file	current_matrix_rows	binary_rows_priority_file	vus_rows_priority_file	pathogenic_rows_priority_file	benign_rows_priority_file	frequency_tier	cardiac_context	af3_strategy	do_not_touch_previous_model_outputs
+MYH7	4	4	5228	5228	2333	2869	423	1910	top_10_high_burden	beta-cardiac myosin heavy chain, core thick-filament motor protein for cardiac contraction	top-3 only: actomyosin motor, light-chain lever arm, and MYBPC3/S2 regulatory context	true

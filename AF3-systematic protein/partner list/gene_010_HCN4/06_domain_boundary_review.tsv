@@ -1,0 +1,7 @@
+region	residues	source	used_in_design	boundary_confidence	caveat
+N-terminal cytoplasmic/disordered	1-182	UniProt Q9Y3Q4 region/topological features	full-length only	medium	Likely flexible; may reduce full-length tetramer confidence
+Subunit assembly region	209-260	UniProt Q9Y3Q4 region	full-length; core tetramer	high	Useful reason to start compact core at 209
+S1-S6 transmembrane/channel core	264-517	UniProt Q9Y3Q4 topological features	full-length; core tetramer	high	No membrane/lipid/voltage context in baseline AF3
+C-linker/CNBD cytoplasmic region	518-724	UniProt domain comment and binding-site features; PDB 4HBN/4NVP	full-length; core tetramer; CNBD+cAMP tetramer	medium_high	Exact CNBD boundary is a pragmatic modeling choice and should be reviewed against AF3 output
+C-terminal low complexity/disordered tail	836-1203	UniProt Q9Y3Q4 disordered regions	full-length only	medium	May lower confidence; excluded from compact core/CNBD designs
+cAMP binding residues	559,562,564,566,659,660,662,669,670,673,710	UniProt Q9Y3Q4 binding site annotations	CNBD+cAMP tetramer	high	Ligand placement still needs AF3 output QC

@@ -1,0 +1,32 @@
+{
+  "matrix": "datasets/modeling/ready/modeling_table_three_class_splits_weights_hiro_emerge_rescued.tsv",
+  "hiro_source_records": "datasets/hiro/full_dataset/interim/hiro_linked_source_records.tsv",
+  "model": "results/models/three_class_catboost_v0_source_heldout_hiro_emerge_rescued/three_class_catboost_model.cbm",
+  "feature_spec": "results/models/three_class_catboost_v0_source_heldout_hiro_emerge_rescued/feature_columns.json",
+  "out_dir": "results/model_performance/hiro_source_record_true_three_class",
+  "variant_level_hiro_rows_scored": 240,
+  "source_record_metrics": {
+    "rows_total": 482,
+    "rows_with_prediction": 408,
+    "rows_no_prediction": 74,
+    "true_label_counts_total": {
+      "Benign": 220,
+      "VUS": 207,
+      "Pathogenic": 55
+    },
+    "predicted_call_counts_total": {
+      "VUS": 246,
+      "Benign": 129,
+      "No_prediction": 74,
+      "Pathogenic": 33
+    },
+    "called_exact_3class_accuracy": 0.7254901960784313,
+    "recall_Benign": 0.5947368421052631,
+    "recall_VUS": 0.8895348837209303,
+    "recall_Pathogenic": 0.6521739130434783,
+    "pathogenic_to_benign_errors": 0,
+    "pathogenic_to_vus_errors": 16,
+    "benign_to_pathogenic_escalations": 0,
+    "vus_to_pathogenic_escalations": 3
+  }
+}

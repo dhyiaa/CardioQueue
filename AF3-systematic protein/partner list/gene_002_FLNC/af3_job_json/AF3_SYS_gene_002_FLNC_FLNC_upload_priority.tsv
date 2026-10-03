@@ -1,0 +1,5 @@
+rank	job_name	upload_set	reason
+1	AF3_SYS_G002_FLNC_TAIL_2593_2725_HOMODIMER_DRAFT	top3_submit_first	top jobs cover dimerization, actin-binding, and a mapped Z-disc XIRP1 interaction; PGM5 is optional because partner-side boundary still needs refinement.
+2	AF3_SYS_G002_FLNC_ABD_1_259_ACTC1_DRAFT	top3_submit_first	top jobs cover dimerization, actin-binding, and a mapped Z-disc XIRP1 interaction; PGM5 is optional because partner-side boundary still needs refinement.
+3	AF3_SYS_G002_FLNC_R20_2244_2306_XIRP1_DRAFT	top3_submit_first	top jobs cover dimerization, actin-binding, and a mapped Z-disc XIRP1 interaction; PGM5 is optional because partner-side boundary still needs refinement.
+4	AF3_SYS_G002_FLNC_R18_21_1947_2401_PGM5_DRAFT	optional_4th_only_if_quota	top jobs cover dimerization, actin-binding, and a mapped Z-disc XIRP1 interaction; PGM5 is optional because partner-side boundary still needs refinement.

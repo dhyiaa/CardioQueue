@@ -1,0 +1,17 @@
+field	value
+systematic_gene_number	6
+gene	MYBPC3
+protein_name	cardiac myosin-binding protein C
+uniprot_accession	Q14896
+reviewed_uniprot_sequence	yes
+canonical_length_aa	1274
+priority_reason	Top-10 high-burden cardiomyopathy gene with strong pathogenic sample size.
+included_variant_rows_priority_file	4236
+binary_rows_priority_file	2347
+vus_rows_priority_file	1872
+pathogenic_rows_priority_file	1041
+benign_rows_priority_file	1306
+missing_label_rows_ready_model_table	17
+source_mix_ready_model_table	clinvar 4187; cardioboost/clinvar 26; cardioboost 14; hiro-linked 9
+protein_position_mapping_note	Ready table has VEP protein position for 4235/4236 MYBPC3 rows, dbNSFP protein position for 2024 rows, older protein_position for 48 rows.
+main_caveat	MYBPC3 is modular and partly disordered/phosphorylated; AF3 jobs are domain-level regulatory-context models, not a full thick-filament model.

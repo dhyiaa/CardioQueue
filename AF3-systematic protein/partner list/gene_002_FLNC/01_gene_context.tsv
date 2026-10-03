@@ -1,0 +1,2 @@
+gene	frequency_rank	systematic_order	included_variant_rows_priority_file	current_matrix_rows	binary_rows_priority_file	vus_rows_priority_file	pathogenic_rows_priority_file	benign_rows_priority_file	frequency_tier	cardiac_context	af3_strategy	do_not_touch_previous_model_outputs
+FLNC	2	2	5671	5671	2969	2702	608	2361	top_10_high_burden	filamin-C, a muscle/Z-disc actin-crosslinking protein linked to cardiomyopathy and myofibrillar myopathy	domain-level jobs only; full-length FLNC multi-partner jobs are avoided because FLNC is 2725 aa and modular	true

@@ -1,0 +1,12 @@
+{
+  "input_prediction_file": "results/models/cardioqueue_v1_source_heldout/primary_binary_predictions_split_source_heldout.tsv",
+  "input_matrix": "datasets/modeling/ready/modeling_table_with_splits_weights_hiro_emerge_rescued.tsv",
+  "official_cardioboost_cm_predictions": "results/model_performance/cardioboost_matched_benchmark/tables/official_cardioboost_cm_all_rare_predictions.tsv",
+  "official_cardioboost_arm_predictions": "results/model_performance/cardioboost_matched_benchmark/tables/official_cardioboost_arm_all_rare_predictions.tsv",
+  "exact_matched_binary_rows": 71,
+  "exact_matched_unique_variants": 42,
+  "exact_matched_panels": {
+    "CM": 37,
+    "ARM": 34
+  }
+}

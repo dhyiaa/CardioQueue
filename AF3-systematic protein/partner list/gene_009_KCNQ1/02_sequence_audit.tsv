@@ -1,0 +1,5 @@
+entity	gene	uniprot_accession	entry_name	sequence_length	reviewed	sequence_policy	ptm_or_isoform_caveat	local_sequence_file
+target	KCNQ1	P51787	KCNQ1_HUMAN	676	true	reviewed UniProt canonical amino-acid sequence	baseline excludes membrane, voltage state, PIP2 occupancy, phosphorylation, isoform 2 modulation, and cell-type context	partner_sequences/KCNQ1_P51787.fasta
+partner	KCNE1	P15382	KCNE1_HUMAN	129	true	reviewed UniProt canonical amino-acid sequence	included for AF3 IKs biology despite mixed modeling scope; preserve separate KCNE1 source/gene provenance	partner_sequences/KCNE1_P15382.fasta
+held_partner	KCNE2	Q9Y6J6	KCNE2_HUMAN	123	true	reviewed UniProt canonical amino-acid sequence	KCNQ1-KCNE2 is broader/non-primary cardiac IKs context; hold for sensitivity	partner_sequences/KCNE2_Q9Y6J6.fasta
+partner	CALM1	P0DP23	CALM1_HUMAN	149	true	CALM1 used as calmodulin protein-sequence proxy for CALM1/2/3 when sequence-equivalent	calcium occupancy modeled with CA ions; gene-specific CALM variants still need gene provenance	partner_sequences/CALM1_P0DP23.fasta

@@ -1,0 +1,3 @@
+design_id	reason	needed_before_json	source_ids
+DSP_D7_FULL_LENGTH_DSP_JUP	Do not repeat as systematic first-line job unless a later reason appears.	targeted boundary/literature review or do not repeat weak prior design	SRC_PRIOR_AF3_DSP_PKP2_JUP;SRC_DSP_JUP_PMID9348293
+DSP_D8_DSG2_DSC2_FULL_DESMOSOME	Handle under DSG2/DSC2 gene packets or a later desmosome complex packet.	targeted boundary/literature review or do not repeat weak prior design	SRC_UNIPROT_DSC2;SRC_UNIPROT_DSG2;SRC_DSP_DSC2_PMID21062920

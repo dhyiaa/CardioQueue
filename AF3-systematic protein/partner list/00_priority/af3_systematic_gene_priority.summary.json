@@ -1,0 +1,8 @@
+{
+  "created": "2026-07-04",
+  "total_genes": 53,
+  "phase_1_top30_common": 30,
+  "phase_2_top10_rare": 10,
+  "phase_3_remaining_middle": 13,
+  "note": "The user requested top 30 common + top 10 rare + rest 20. The current included panel has 53 genes, so after top30 and rare10, the actual remaining middle group is 13 genes."
+}

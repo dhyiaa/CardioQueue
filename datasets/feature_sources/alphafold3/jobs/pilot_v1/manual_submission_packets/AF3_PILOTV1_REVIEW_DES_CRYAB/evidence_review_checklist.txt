@@ -1,0 +1,15 @@
+complex_group_id: AF3_COMPLEX_DES_CRYAB
+complex_name: Desmin-alphaB-crystallin intermediate-filament stress context
+target_genes: DES
+protein_entities: DES,CRYAB
+nonprotein_entities: none
+estimated_tokens: 645
+
+User/manual checks before submission:
+- Confirm these entities form a plausible same-complex or pairwise biological context.
+- Confirm PubMed/Reactome/PDB/IntAct support is not only pathway-level noise.
+- Confirm full-length modeling is biologically acceptable for this complex.
+- Confirm duplicate chains or homomer stoichiometry in the AlphaFold Server UI.
+
+Evidence rows:
+- DES: UniProt reports DES interaction with CRYAB and desmin homomeric filament assembly. Evidence anchor=UniProt_SUBUNIT; UniProt PubMed=10852826;16923132;21135508;23615443;24940650;27733623;28470624; IntAct PubMed=17353931;20706999;21314824;22304920;23414517;25277244;25416956;26816005;26871637;27107012;28514442;29128334;30886144;32296183;32814053;33961781;34232536;34316702;34446781;37207277;38554706; Reactome=R-HSA-390522; PDB=

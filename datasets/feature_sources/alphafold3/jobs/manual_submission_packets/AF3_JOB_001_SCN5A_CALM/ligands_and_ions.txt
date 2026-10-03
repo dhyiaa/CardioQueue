@@ -1,0 +1,3 @@
+ions: CA
+ligands: none
+manual_note: enter non-protein entities through the AlphaFold Server UI and verify supported CCD/entity names.

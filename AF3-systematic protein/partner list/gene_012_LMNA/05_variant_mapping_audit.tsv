@@ -1,0 +1,9 @@
+metric	value	note
+included_LMNA_rows	2073	Rows currently available for AF3 feature mapping context
+binary_rows	1153	Benign plus pathogenic rows
+pathogenic_rows	529	Large pathogenic count for LMNA subgroup analysis
+benign_rows	624	Benign comparator rows
+vus_rows	912	Large VUS burden for AF3-informed prioritization
+prior_AF3_full_length_feature_coverage	1603 mapped LMNA rows in old pilot-v1 feature table	Old full-length LMNA-EMD features were not interface-usable; do not treat coverage as usable interaction evidence
+mapping_policy	VEP/UniProt protein positions preferred	Final mapping should reconcile transcript residue numbering to LMNA P02545 canonical sequence and mature-Lamin-A/C boundary
+main_feature_context	lamin assembly and compact LMNA-EMD nuclear-envelope interface	Feature extraction should use only AF3 designs passing pairwise ipTM/PAE/contact QC

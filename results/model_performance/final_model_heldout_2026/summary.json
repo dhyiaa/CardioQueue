@@ -1,0 +1,81 @@
+{
+  "design": "HiRO, eMERGE, and CardioBoost plus PLOS/SHaRE alleles absent from original train and validation",
+  "unique_variants": 775,
+  "pathogenic": 436,
+  "benign": 339,
+  "source_counts": {
+    "Fernandez_Falgueras_PLOS_2024": {
+      "observations": 88,
+      "pathogenic": 24,
+      "benign": 64
+    },
+    "SHaRe_HCM_2026Q1": {
+      "observations": 337,
+      "pathogenic": 198,
+      "benign": 139
+    },
+    "legacy_cardioboost": {
+      "observations": 173,
+      "pathogenic": 129,
+      "benign": 44
+    },
+    "legacy_emerge": {
+      "observations": 176,
+      "pathogenic": 96,
+      "benign": 80
+    },
+    "legacy_hiro": {
+      "observations": 69,
+      "pathogenic": 27,
+      "benign": 42
+    }
+  },
+  "combined_performance": {
+    "subset": "combined_unique",
+    "rows": 775,
+    "pathogenic": 436,
+    "benign": 339,
+    "auroc": 0.9841073313306812,
+    "auprc": 0.988132138124202,
+    "brier": 0.06293914542053285,
+    "sensitivity": 0.9793577981651376,
+    "specificity": 0.8407079646017699,
+    "ppv": 0.8877338877338877,
+    "npv": 0.9693877551020408,
+    "tp": 427,
+    "fp": 54,
+    "tn": 285,
+    "fn": 9
+  },
+  "multi_source_consensus_performance": {
+    "subset": "multi_source_consensus",
+    "rows": 64,
+    "pathogenic": 36,
+    "benign": 28,
+    "auroc": 0.9930555555555556,
+    "auprc": 0.994876614613457,
+    "brier": 0.046536131066080635,
+    "sensitivity": 1.0,
+    "specificity": 0.8928571428571429,
+    "ppv": 0.9230769230769231,
+    "npv": 1.0,
+    "tp": 36,
+    "fp": 3,
+    "tn": 25,
+    "fn": 0
+  },
+  "cross_source_label_conflicts": 1,
+  "bootstrap": {
+    "unit": "gene",
+    "samples": 2000,
+    "seed": 20260925
+  },
+  "source_interpretation": {
+    "legacy_hiro": "model-external/source-held-out but institutionally internal",
+    "legacy_emerge": "model-external and institutionally external",
+    "legacy_cardioboost": "model-external and institutionally external",
+    "Fernandez_Falgueras_PLOS_2024": "model-external and institutionally external; study-team ACMG/AMP reinterpretation distinct from the current ClinVar aggregate",
+    "SHaRe_HCM_2026Q1": "model-external and institutionally external; SHaRE classification retained separately from ClinVar"
+  },
+  "important_limitation": "Prior-nondevelopment status is not equivalent to complete absence from ClinVar or public evidence."
+}

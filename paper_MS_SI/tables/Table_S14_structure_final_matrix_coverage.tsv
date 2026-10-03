@@ -1,0 +1,6 @@
+feature	all_matrix_rows	train	validation	external_hiro	external_emerge	external_cardioboost	not_eligible
+Reviewed UniProt accession	567	0	0	51	9	185	322
+AlphaFold residue pLDDT	524	0	0	42	9	185	288
+FoldX delta-delta-G	313	0	0	19	4	144	146
+DSSP numeric residue features	0	0	0	0	0	0	0
+FreeSASA numeric residue features	0	0	0	0	0	0	0

@@ -1,0 +1,148 @@
+{
+  "purpose": "Eligibility audit for a separate same-ecosystem ClinVar challenge cohort",
+  "frozen_primary_external_rows": 430,
+  "frozen_primary_external_label_counts": {
+    "Pathogenic": 255,
+    "Benign": 175
+  },
+  "eligible_rows": 12341,
+  "eligible_expert_panel_rows": 113,
+  "eligible_cardiac_vcep_verified_rows": 92,
+  "eligible_two_star_rows": 12228,
+  "eligible_by_star_and_label": [
+    {
+      "clinvar_review_stars": 2,
+      "model_label_3class": "Benign",
+      "n": 9985
+    },
+    {
+      "clinvar_review_stars": 2,
+      "model_label_3class": "Pathogenic",
+      "n": 2243
+    },
+    {
+      "clinvar_review_stars": 3,
+      "model_label_3class": "Benign",
+      "n": 53
+    },
+    {
+      "clinvar_review_stars": 3,
+      "model_label_3class": "Pathogenic",
+      "n": 60
+    }
+  ],
+  "expert_panel_by_gene": [
+    {
+      "primary_gene": "ACTC1",
+      "n": 2
+    },
+    {
+      "primary_gene": "KCNQ1",
+      "n": 8
+    },
+    {
+      "primary_gene": "MYBPC3",
+      "n": 4
+    },
+    {
+      "primary_gene": "MYH7",
+      "n": 88
+    },
+    {
+      "primary_gene": "MYL2",
+      "n": 1
+    },
+    {
+      "primary_gene": "SCN1B",
+      "n": 1
+    },
+    {
+      "primary_gene": "TNNI3",
+      "n": 3
+    },
+    {
+      "primary_gene": "TNNT2",
+      "n": 4
+    },
+    {
+      "primary_gene": "TPM1",
+      "n": 2
+    }
+  ],
+  "cardiac_vcep_verified_by_panel_and_label": [
+    {
+      "cardiac_vcep_panel": "Cardiomyopathy VCEP",
+      "model_label_3class": "Benign",
+      "n": 49
+    },
+    {
+      "cardiac_vcep_panel": "Cardiomyopathy VCEP",
+      "model_label_3class": "Pathogenic",
+      "n": 34
+    },
+    {
+      "cardiac_vcep_panel": "Potassium Channel Arrhythmia VCEP",
+      "model_label_3class": "Benign",
+      "n": 3
+    },
+    {
+      "cardiac_vcep_panel": "Potassium Channel Arrhythmia VCEP",
+      "model_label_3class": "Pathogenic",
+      "n": 6
+    }
+  ],
+  "cardiac_vcep_verified_by_gene": [
+    {
+      "primary_gene": "ACTC1",
+      "n": 2
+    },
+    {
+      "primary_gene": "KCNQ1",
+      "n": 9
+    },
+    {
+      "primary_gene": "MYBPC3",
+      "n": 5
+    },
+    {
+      "primary_gene": "MYH7",
+      "n": 65
+    },
+    {
+      "primary_gene": "MYL2",
+      "n": 1
+    },
+    {
+      "primary_gene": "TNNI3",
+      "n": 3
+    },
+    {
+      "primary_gene": "TNNT2",
+      "n": 5
+    },
+    {
+      "primary_gene": "TPM1",
+      "n": 2
+    }
+  ],
+  "provisional_570_target": {
+    "Benign": 325,
+    "Pathogenic": 245
+  },
+  "provisional_condition_filtered_remainder_after_cardiac_vcep_seed": {
+    "Benign": 273,
+    "Pathogenic": 205
+  },
+  "combined_1000_label_counts_if_target_met": {
+    "Benign": 500,
+    "Pathogenic": 500
+  },
+  "claim_boundaries": [
+    "The 430 HiRO/eMERGE/CardioBoost rows remain the primary source-held-out evaluation.",
+    "ClinVar candidates are a separate same-ecosystem challenge set, not external validation.",
+    "Cardiac-VCEP verification comes from the local ClinGen Evidence Repository panel identity and a concordant current binary label.",
+    "Other three-star records have expert-panel review status but not locally verified cardiogenetics-panel identity; two-star records are not expert-panel records.",
+    "Cardiac phenotype keyword matching is an audit screen and does not identify the reviewing expert panel affiliation.",
+    "No candidate should be frozen until condition and expert-panel affiliation are checked at the assertion level."
+  ]
+}

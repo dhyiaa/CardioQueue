@@ -1,0 +1,79 @@
+{
+  "interpretation": "The specificity change reflects both an upward score/operating-point shift and a harder final benign case mix; ranking discrimination remained stable on identical legacy alleles.",
+  "feature_schema_identity": {
+    "old_feature_count": 300,
+    "new_feature_count": 300,
+    "schemas_identical": true,
+    "original_rows_compared": 85677,
+    "missing_rows": 0,
+    "feature_value_differences": 0,
+    "note": "Recorded from the full streamed identity audit; see progress log for command provenance."
+  },
+  "benign_score_shift_same_legacy_assertions": {
+    "rows": 166,
+    "old_mean": 0.136947421975604,
+    "new_mean": 0.20019063729503386,
+    "old_median": 0.01067206393272975,
+    "new_median": 0.036137334199677254,
+    "old_correct_to_new_false_positive": 13,
+    "old_false_positive_to_new_correct": 0
+  },
+  "validation_only_logistic_recalibration": {
+    "validation_rows": 6317,
+    "intercept": -0.9737178669044433,
+    "slope": 1.1451974542377783,
+    "raw_final_775": {
+      "rows": 775,
+      "pathogenic": 436,
+      "benign": 339,
+      "auroc": 0.9841073313306812,
+      "auprc": 0.9881321381242025,
+      "brier": 0.06293914542053285,
+      "log_loss": 0.21342621100523912,
+      "threshold": 0.5,
+      "sensitivity": 0.9793577981651376,
+      "specificity": 0.8407079646017699,
+      "tp": 427,
+      "fp": 54,
+      "tn": 285,
+      "fn": 9,
+      "mean_probability": 0.6289099237734074
+    },
+    "recalibrated_final_775": {
+      "rows": 775,
+      "pathogenic": 436,
+      "benign": 339,
+      "auroc": 0.9841073313306812,
+      "auprc": 0.9881321381242025,
+      "brier": 0.05138590611075268,
+      "log_loss": 0.17780714482561444,
+      "threshold": 0.5,
+      "sensitivity": 0.9678899082568807,
+      "specificity": 0.8790560471976401,
+      "tp": 422,
+      "fp": 41,
+      "tn": 298,
+      "fn": 14,
+      "mean_probability": 0.5950910017906997
+    },
+    "status": "post_hoc sensitivity; not a replacement primary result"
+  },
+  "post_hoc_threshold_for_at_least_90_percent_specificity": {
+    "rows": 775,
+    "pathogenic": 436,
+    "benign": 339,
+    "auroc": 0.9841073313306812,
+    "auprc": 0.9881321381242025,
+    "brier": 0.06293914542053285,
+    "log_loss": 0.21342621100523912,
+    "threshold": 0.7771969187359561,
+    "sensitivity": 0.9655963302752294,
+    "specificity": 0.9026548672566371,
+    "tp": 421,
+    "fp": 33,
+    "tn": 306,
+    "fn": 15,
+    "mean_probability": 0.6289099237734074,
+    "status": "descriptive only; selected on the test set and unsuitable as a validated clinical cutoff"
+  }
+}

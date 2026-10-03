@@ -1,0 +1,26 @@
+variant_id	primary_gene	model_label_3class	sample_weight	split_source_heldout	y_true	pathogenic_probability	foldx_ddg_status	alphafold_residue_plddt	protein_structure_features_available	vep_worst_consequence	vep_hgvsp	predicted_label	error_type	distance_from_threshold	source
+12-2504526-G-A	CACNA1C	Pathogenic	2.0	external_cardioboost	1	0.475195888824803	ok	74.06	True	missense_variant	-	0	false_negative	0.024804111175196986	cardioboost
+11-2528023-G-A	KCNQ1	Pathogenic	2.4	external_emerge	1	0.4179902373780108	not_available		False	intron_variant	-	0	false_negative	0.08200976262198922	emerge
+11-2445103-C-G	KCNQ1	Pathogenic	2.0	external_cardioboost	1	0.2590134645916822	not_available	36.47	True	missense_variant	ENSP00000155840.2:p.Ala2Gly	0	false_negative	0.24098653540831783	cardioboost
+11-47349804-C-G	MYBPC3	Pathogenic	2.0	external_cardioboost	1	0.187927648821006	ok	87.81	True	missense_variant	ENSP00000442795.1:p.Gln208His	0	false_negative	0.312072351178994	cardioboost
+1-201363370-T-MISSING	TNNT2	Pathogenic	2.8	external_hiro	1	0.1642468705129971	not_available	97.38	False	coding_sequence_variant	-	0	false_negative	0.33575312948700287	hiro
+3-38551151-C-T	SCN5A	Pathogenic	2.0	external_emerge	1	0.0497965128323593						0	false_negative	0.4502034871676407	emerge
+14-23899864-G-T	MYH7	Pathogenic	2.0	external_cardioboost	1	0.0044007270363825	ok	92.94	True	intergenic_variant	-	0	false_negative	0.4955992729636175	cardioboost
+14-23900686-T-A	MYH7	Pathogenic	2.0	external_cardioboost	1	0.0044007270363825	ok	84.62	True	intergenic_variant	-	0	false_negative	0.4955992729636175	cardioboost
+14-23900832-T-G	MYH7	Pathogenic	2.0	external_cardioboost	1	0.0044007270363825	ok	89.56	True	intergenic_variant	-	0	false_negative	0.4955992729636175	cardioboost
+12-2688518-TGCCACCCCACCA-T	CACNA1C	Benign	1.0	external_emerge	0	0.5623454467065092	not_available		False	inframe_deletion	ENSP00000382563.1:p.Pro1956_Pro1959del	1	false_positive	0.06234544670650921	emerge
+11-2587690-G-A	KCNQ1	Benign	1.0	external_emerge	0	0.644460831863927	not_available		False	missense_variant	ENSP00000155840.2:p.Val417Met	1	false_positive	0.144460831863927	emerge
+1-237832618-C-T	RYR2	Benign	1.0	external_emerge	0	0.6675879591352212						1	false_positive	0.16758795913522118	emerge
+X-101403984-C-G	GLA	Benign	1.0	external_cardioboost	0	0.6925271621639985	ok	98.81	True	missense_variant	ENSP00000218516.4:p.Glu66Gln	1	false_positive	0.19252716216399846	cardioboost
+14-23413845-C-G	MYH7	Benign	1.2	external_cardioboost	0	0.7496901780797206	ok	77.62	True	missense_variant	ENSP00000347507.3:p.Glu1902Gln	1	false_positive	0.2496901780797206	cardioboost
+1-115768344-CGT-TGC	CASQ2	Benign	1.4	external_hiro	0	0.7732711290864394	ok	92.12	True	missense_variant	ENSP00000261448.5:p.Thr66Ala	1	false_positive	0.27327112908643936	hiro
+14-23419533-C-T	MYH7	Benign	1.0	external_cardioboost	0	0.8781582960695792	not_available	69.88	True	missense_variant	ENSP00000347507.3:p.Arg1268His	1	false_positive	0.3781582960695792	cardioboost
+12-32896506-C-G	PKP2	Benign	1.4	external_hiro	0	0.8904659739296387	not_available		False	intron_variant	-	1	false_positive	0.39046597392963867	hiro
+3-38603948-C-G	SCN5A	Benign	1.0	external_cardioboost	0	0.8953138667053299	not_available	28.69	True	missense_variant	ENSP00000398266.2:p.Gly552Arg	1	false_positive	0.39531386670532986	cardioboost
+18-31524750-CA-TG	DSG2	Benign	1.4	external_hiro	0	0.939006398687184	ok	95.81	True	missense_variant	ENSP00000261590.8:p.Ile293Val	1	false_positive	0.43900639868718405	hiro
+19-55151911-G-A	TNNI3	Benign	1.0	external_cardioboost	0	0.9662916834557772	not_available	59.31	True	missense_variant	ENSP00000341838.5:p.Arg186Trp	1	false_positive	0.4662916834557772	cardioboost
+7-150948445-CT-GG	KCNH2	Benign	1.4	external_hiro	0	0.9843078508287438	not_available	36.38	True	missense_variant	ENSP00000262186.5:p.Lys897Thr	1	false_positive	0.48430785082874384	hiro
+3-38566465-C-T	SCN5A	Benign	1.0	external_cardioboost	0	0.9903801130849732	ok	84.75	True	missense_variant	ENSP00000398266.2:p.Gly1261Ser	1	false_positive	0.4903801130849732	cardioboost
+1-156137203-C-T	LMNA	Benign	1.0	external_cardioboost	0	0.9968551507527046	ok	93.94	True	stop_gained	ENSP00000357283.4:p.Arg527Cys	1	false_positive	0.4968551507527046	cardioboost
+7-150950216-G-A	KCNH2	Benign	1.0	external_cardioboost	0	0.9980363394486405	ok	92.0	True	missense_variant	ENSP00000262186.5:p.Arg784Trp	1	false_positive	0.49803633944864045	cardioboost
+1-237388086-G-A	RYR2	Benign	1.0	external_emerge	0	0.9987831945964072	not_available		False	splice_acceptor_variant	-	1	false_positive	0.4987831945964072	emerge

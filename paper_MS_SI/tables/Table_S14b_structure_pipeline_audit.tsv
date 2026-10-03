@@ -1,0 +1,9 @@
+stage	rows	interpretation
+Source protein-feature input	3591	Rows from HiRO, eMERGE, and CardioBoost
+Reviewed UniProt mapping successful	3284	Source-level mapping
+AlphaFold residue pLDDT successful	2336	Source-level residue lookup
+DSSP and FreeSASA calculated	2336	Upstream source rows; numeric fields were not retained in the final ready matrix
+FoldX selected at pLDDT >=70	1230	Source rows submitted for stability calculation
+FoldX successful	1169	Source-level calculations
+FoldX reference mismatch	61	Excluded from numeric delta-delta-G; no imputation
+FoldX numeric value in final matrix	313	Variant rows after collapse, joins, and final filtering

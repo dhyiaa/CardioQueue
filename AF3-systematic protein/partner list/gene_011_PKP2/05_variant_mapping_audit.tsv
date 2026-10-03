@@ -1,0 +1,8 @@
+metric	value	note
+included_PKP2_rows	2089	Rows currently available for AF3 feature mapping context
+binary_rows	1025	Benign plus pathogenic rows
+pathogenic_rows	341	Enough P/LP for meaningful PKP2 subgroup analysis
+benign_rows	684	Benign comparator rows
+vus_rows	1062	Large VUS burden for AF3-informed prioritization
+mapping_policy	VEP/UniProt protein positions preferred	Final mapping should reconcile transcript residue numbering to PKP2 Q99959 canonical sequence
+main_feature_context	desmosomal plaque interface	Focus on PKP2-DSP/JUP interface/proximity features after AF3 output QC

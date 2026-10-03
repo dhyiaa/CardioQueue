@@ -1,0 +1,17 @@
+model	metric_type	target	review_rows	pathogenic_found	pathogenic_recall	precision	enrichment_over_prevalence	rows	unique_variants
+CardioQueue	fixed_review_budget	0.1	25	25	0.14792899408284024	1.0	1.4792899408284024	250	219
+CardioQueue	fixed_review_budget	0.2	50	50	0.2958579881656805	1.0	1.4792899408284024	250	219
+CardioQueue	fixed_review_budget	0.3	75	75	0.4437869822485207	1.0	1.4792899408284024	250	219
+CardioQueue	fixed_review_budget	0.5	125	123	0.727810650887574	0.984	1.4556213017751478	250	219
+CardioQueue	target_pathogenic_recall	0.5	85	85	0.5			250	219
+CardioQueue	target_pathogenic_recall	0.8	138	136	0.8			250	219
+CardioQueue	target_pathogenic_recall	0.9	155	153	0.9			250	219
+CardioQueue	target_pathogenic_recall	0.95	167	161	0.95			250	219
+Official CardioBoost	fixed_review_budget	0.1	25	23	0.13609467455621302	0.92	1.3609467455621302	250	219
+Official CardioBoost	fixed_review_budget	0.2	50	47	0.2781065088757396	0.94	1.390532544378698	250	219
+Official CardioBoost	fixed_review_budget	0.3	75	69	0.40828402366863903	0.92	1.3609467455621302	250	219
+Official CardioBoost	fixed_review_budget	0.5	125	112	0.6627218934911243	0.896	1.3254437869822484	250	219
+Official CardioBoost	target_pathogenic_recall	0.5	93	85	0.5			250	219
+Official CardioBoost	target_pathogenic_recall	0.8	160	136	0.8			250	219
+Official CardioBoost	target_pathogenic_recall	0.9	185	153	0.9			250	219
+Official CardioBoost	target_pathogenic_recall	0.95	198	161	0.95			250	219

@@ -1,0 +1,4 @@
+priority	job_id	upload_decision	reason
+1	AF3_SYS_G011_PKP2_DSP_NTERM_JUP_DRAFT	submit_first	Best reduced desmosomal plaque context for PKP2
+2	AF3_SYS_G011_PKP2_JUP_FULL_LENGTH_DRAFT	submit_first	Clean PKP2-JUP pair-control
+3	AF3_SYS_G011_PKP2_DSP_NTERM_1_584_DRAFT	submit_first	Clean PKP2-DSP N-terminal pair-control

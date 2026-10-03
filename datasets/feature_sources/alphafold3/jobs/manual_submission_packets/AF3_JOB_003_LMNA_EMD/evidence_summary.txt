@@ -1,0 +1,8 @@
+complex_group_id: AF3_COMPLEX_LMNA_EMD
+complex_name: Lamin A/C-emerin nuclear-envelope complex
+combined_readiness_status: structured_evidence_ready_for_manual_af3_design
+estimated_af3_tokens: 918
+
+Evidence rows:
+- EMD -> LMNA (protein): direct_uniprot_intact_interaction; PubMed=11792822;12493765;12755701;15009215;15328537;16858403;16972941;17785515;19323649;21610090;32923640; Reactome=R-HSA-2980766;R-HSA-2995383;R-HSA-4419969; PDB=6GHD;6RPR
+- LMNA -> EMD (protein): direct_uniprot_intact_interaction; PubMed=10514485;12475961;15476822;16339967;19323649;19933576;21498514;21949239;23695662;23977161;29599122;31434876;31548606;33706103;35311970; Reactome=R-HSA-2980766;R-HSA-2995383;R-HSA-4419969; PDB=6GHD;6RPR

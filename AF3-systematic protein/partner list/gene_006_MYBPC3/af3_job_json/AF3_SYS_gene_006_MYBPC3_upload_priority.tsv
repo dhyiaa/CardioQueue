@@ -1,0 +1,4 @@
+rank	job_name	upload_set	reason
+1	AF3_SYS_G006_MYBPC3_NTERM_1_452_MYH7_S2_838_963_DRAFT	top3	Best MYBPC3 regulatory thick-filament design; reciprocal to MYH7 packet.
+2	AF3_SYS_G006_MYBPC3_NTERM_1_452_ACTC1_DRAFT	top3	Captures MYBPC3 F-actin/native thin-filament binding with cardiac actin proxy.
+3	AF3_SYS_G006_MYBPC3_CTERM_971_1274_MYH7_S2_838_963_DRAFT	top3	Tests C-terminal thick-filament anchoring region separately; exploratory.

@@ -1,0 +1,41 @@
+feature_type	start	end	description	evidence
+Domain	36	142	Calponin-homology (CH) 1	PROSITE-ProRule:PRU00044:ECO:0000255
+Domain	159	262	Calponin-homology (CH) 2	PROSITE-ProRule:PRU00044:ECO:0000255
+Repeat	1947	2033	Filamin 18	
+Repeat	2036	2128	Filamin 19	
+Repeat	2244	2306	Filamin 20; mediates interaction with XIRP1	
+Repeat	2309	2401	Filamin 21	
+Repeat	2403	2496	Filamin 22	
+Repeat	2500	2592	Filamin 23	
+Repeat	2630	2724	Filamin 24	
+Region	1	259	Actin-binding	
+Region	1	28	Disordered	SAM:MobiDB-lite:ECO:0000256
+Region	1735	1758	Hinge 1	
+Region	1740	1765	Disordered	SAM:MobiDB-lite:ECO:0000256
+Region	1947	2401	Required for interaction with PGM5	UniProtKB:Q8VHX6:ECO:0000250
+Region	2162	2243	Intradomain insert; mediate targeting to Z lines	
+Region	2240	2260	Disordered	SAM:MobiDB-lite:ECO:0000256
+Region	2403	2724	Interaction with INPPL1	PubMed:11739414:ECO:0000269
+Region	2593	2725	Self-association site, tail	::ECO:0000250
+Region	2593	2629	Hinge 2	
+Modified residue	2042	2042	Phosphoserine	PubMed:23186163:ECO:0007744
+Modified residue	2233	2233	Phosphoserine	Reference:Ref.8:ECO:0000269;PubMed:19369195:ECO:0007744;PubMed:21406692:ECO:0007744;PubMed:23186163:ECO:0007744;PubMed:24275569:ECO:0007744
+Modified residue	2236	2236	Phosphoserine	PubMed:23186163:ECO:0007744
+Modified residue	2238	2238	Phosphothreonine	PubMed:23186163:ECO:0007744
+Modified residue	2586	2586	Phosphoserine	PubMed:23186163:ECO:0007744
+Modified residue	2617	2617	Phosphoserine	PubMed:23186163:ECO:0007744
+Modified residue	2620	2620	Phosphoserine	PubMed:23186163:ECO:0007744
+Modified residue	2623	2623	Phosphoserine	PubMed:23186163:ECO:0007744
+Modified residue	2632	2632	Phosphoserine	PubMed:23186163:ECO:0007744
+Modified residue	2714	2714	Phosphoserine	PubMed:23186163:ECO:0007744
+Modified residue	2718	2718	Phosphoserine	PubMed:23186163:ECO:0007744
+Natural variant	2133	2133	in CMH26; increased aggregation; localized in perinuclear region of cytoplasm; dbSNP:rs1808925531	PubMed:25351925:ECO:0000269
+Natural variant	2135	2135	in dbSNP:rs1063261	PubMed:10658210:ECO:0000269
+Natural variant	2151	2151	in CMH26; uncertain significance; dbSNP:rs1563003159	PubMed:25351925:ECO:0000269
+Natural variant	2160	2160	in RCM5; no effect on cytoplasm localization; no effect on expression; dbSNP:rs879255640	PubMed:26666891:ECO:0000269
+Natural variant	2203	2203	in dbSNP:rs1063262	PubMed:10658210:ECO:0000269;PubMed:9791010:ECO:0000269
+Natural variant	2430	2430	in CMH26; uncertain significance; increased aggregation; localized in perinuclear region of cytoplasm; dbSNP:rs200516164	PubMed:25351925:ECO:0000269
+Natural variant	2626	2626	in dbSNP:rs2639142	
+Natural variant	2637	2637	in dbSNP:rs767794768	
+Natural variant	2710	2725	in MFM5; likely pathogenic; the mutant is unable to dimerize	PubMed:15929027:ECO:0000269;PubMed:25208129:ECO:0000269
+Mutagenesis	2669	2669	Abolishes dimerization.	PubMed:15642266:ECO:0000269

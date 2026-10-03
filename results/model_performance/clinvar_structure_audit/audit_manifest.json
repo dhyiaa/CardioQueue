@@ -1,0 +1,16 @@
+{
+  "matrix": "datasets/modeling/ready/modeling_table_with_splits_weights_hiro_emerge_rescued.tsv",
+  "primary_model": "results/models/cardioqueue_v1_source_heldout",
+  "high_star_model": "results/models/cardioqueue_v1_clinvar_2plus_source_heldout",
+  "bootstrap_samples": 5000,
+  "seed": 20260916,
+  "outputs": [
+    "paper_MS_SI/tables/Table_S13_clinvar_star_distribution.tsv",
+    "paper_MS_SI/tables/Table_S13b_clinvar_star_sensitivity.tsv",
+    "paper_MS_SI/tables/Table_S13c_clinvar_star_paired_differences.tsv",
+    "paper_MS_SI/tables/Table_S14_structure_final_matrix_coverage.tsv",
+    "paper_MS_SI/tables/Table_S14b_structure_pipeline_audit.tsv",
+    "paper_MS_SI/tables/Table_S14c_structure_feature_importance.tsv",
+    "results/model_performance/clinvar_structure_audit/CLINVAR_STRUCTURE_AUDIT.md"
+  ]
+}

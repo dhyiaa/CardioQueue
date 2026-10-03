@@ -1,0 +1,12 @@
+gene_or_group	issue	primary_handling	manuscript_note
+AKAP9	Weak or disputed long-QT evidence and very low local P/LP signal	Excluded from primary model	Excluded to avoid adding high-volume low-signal noise
+DMD	Primary neuromuscular disease gene with cardiomyopathy often secondary	Excluded from primary cardiogenetics model	Can be revisited only with cardiomyopathy-specific phenotype filtering
+FPGT	Read-through or locus artifact risk	Excluded/quarantined	Not treated as an independent cardiogenetics gene
+FPGT-TNNI3K	Read-through locus artifact risk	Excluded/quarantined	Handled separately from TNNI3K
+KCNE1B	Alias or panel-artifact risk	Excluded/quarantined	Not used as a primary gene symbol
+KNCH2-like entries	Typographic or alias artifact risk	Excluded/quarantined	Resolved against KCNH2 where possible
+TTN	Large gene with strong truncating-variant relevance but missense-heavy VUS burden	Special handling	Not treated as equivalent to the rare missense CardioBoost-style task
+ANK2	Real cardiac relevance but sparse P/LP signal	Sensitivity or subgroup handling	Included only with careful sparse-gene interpretation
+SOS1	Syndromic RASopathy context and mixed cardiac specificity	Sensitivity handling	Useful for phenocopy analysis, not primary cardiac-only signal
+TNNI3K	Cardiac relevance but very sparse P/LP count	Sensitivity or pooled analysis	Not relied on for per-gene training claims
+TRPM4	Mixed evidence and sparse pathogenic signal	Sensitivity or subgroup handling	Reported with caution in sparse-gene analysis

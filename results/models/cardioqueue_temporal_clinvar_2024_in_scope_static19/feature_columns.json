@@ -1,0 +1,46 @@
+{
+  "features": [
+    "primary_gene",
+    "gerp_rs",
+    "phylop100way_vertebrate",
+    "phastcons100way_vertebrate",
+    "vep_feature_type",
+    "vep_consequence",
+    "vep_worst_consequence",
+    "vep_impact",
+    "vep_protein_position",
+    "vep_amino_acids",
+    "vep_codons",
+    "vep_all_consequences",
+    "vep_all_impacts",
+    "vep_any_high_impact",
+    "vep_any_moderate_impact",
+    "vep_any_missense",
+    "vep_any_splice_region",
+    "vep_any_frameshift",
+    "vep_any_stop_gained"
+  ],
+  "categorical_features": [
+    "primary_gene",
+    "vep_feature_type",
+    "vep_consequence",
+    "vep_worst_consequence",
+    "vep_impact",
+    "vep_protein_position",
+    "vep_amino_acids",
+    "vep_codons",
+    "vep_all_consequences",
+    "vep_all_impacts",
+    "vep_any_high_impact",
+    "vep_any_moderate_impact",
+    "vep_any_missense",
+    "vep_any_splice_region",
+    "vep_any_frameshift",
+    "vep_any_stop_gained"
+  ],
+  "numeric_features": [
+    "gerp_rs",
+    "phylop100way_vertebrate",
+    "phastcons100way_vertebrate"
+  ]
+}

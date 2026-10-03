@@ -1,0 +1,5 @@
+target_pathogenic_recall	required_pathogenic_variants	score_ranked_review_rows	score_ranked_review_fraction	random_review_rows_median	random_review_rows_ci_95_low	random_review_rows_ci_95_high	reviews_avoided_vs_random_median	relative_workload_reduction
+0.5	128	129	0.3	215.0	199.0	232.0	86.0	0.4
+0.8	204	207	0.4813953488372093	344.0	329.0	356.0	137.0	0.3982558139534884
+0.9	230	235	0.5465116279069767	388.0	376.0	396.0	153.0	0.39432989690721654
+0.95	243	255	0.5930232558139535	410.0	401.0	415.0	155.0	0.3780487804878049

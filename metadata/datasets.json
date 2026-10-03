@@ -1,0 +1,590 @@
+{
+  "clinvar_variant_summary": {
+    "dataset_number": 1,
+    "local_path": "datasets/clinvar/variant_summary.txt.gz",
+    "source_url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/variant_summary.txt.gz",
+    "source_md5_url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/variant_summary.txt.gz.md5",
+    "validated_utc": "2026-07-01",
+    "md5": "f03eea5e87f0ef5f696bbc958359fa78",
+    "rows": 8991566,
+    "columns": 43,
+    "notes": [
+      "Generated weekly by ClinVar and archived monthly, usually the first Thursday of each month.",
+      "Use as primary clinical-significance label and review-status source.",
+      "Do not treat variant_summary as a complete structured ACMG evidence-code table."
+    ]
+  },
+  "gnomad_v4": {
+    "dataset_number": 2,
+    "api_endpoint": "https://gnomad.broadinstitute.org/api",
+    "downloads_page": "https://gnomad.broadinstitute.org/downloads",
+    "open_data_registry": "https://registry.opendata.aws/broad-gnomad/",
+    "dataset_enum": "gnomad_r4",
+    "reference_genome": "GRCh38",
+    "checked_utc": "2026-07-01",
+    "reported_release": "v4.1",
+    "reported_sample_counts": {
+      "exomes": 730947,
+      "genomes": 76215
+    },
+    "planned_features": [
+      "exome_af",
+      "genome_af",
+      "joint_ac",
+      "joint_an",
+      "joint_homozygote_count",
+      "joint_hemizygote_count",
+      "popmax_af",
+      "popmax_population",
+      "faf95_popmax",
+      "faf99_popmax",
+      "variant_filters",
+      "major_consequence",
+      "gene_constraint_pLI",
+      "gene_constraint_mis_z",
+      "gene_constraint_lof_z",
+      "gene_constraint_LOEUF_or_oe_lof_upper"
+    ],
+    "notes": [
+      "Use GraphQL API for targeted annotation of ClinVar variants and reviewed gene panels.",
+      "Use bulk VCF/Hail Table only after the final gene panel, benign proxy criteria, and storage plan are fixed.",
+      "The public registry currently describes v4.1 as GRCh38 with 730,947 exomes and 76,215 genomes.",
+      "Keep gnomAD terms/data-use notes separate from code-package licenses.",
+      "gnomAD API outputs must include query_status, found, missing_reason, and has_* provenance columns before they are used for modeling.",
+      "Run datasets/feature_sources/gnomad_v4/scripts/gnomad_api.py doctor before large API jobs to catch schema or request-syntax changes."
+    ]
+  },
+  "insilico_annotations": {
+    "dataset_number": 3,
+    "role": "Feature engineering only; not a variant source and not a clinical label source.",
+    "checked_utc": "2026-07-01",
+    "sources": {
+      "alphamissense_hg38": {
+        "status": "downloaded",
+        "local_path": "datasets/feature_sources/insilico/raw/alphamissense/AlphaMissense_hg38.tsv.gz",
+        "source_url": "https://storage.googleapis.com/dm_alphamissense/AlphaMissense_hg38.tsv.gz",
+        "compressed_bytes": 642961469,
+        "md5": "9fd167735f16a1b87da6eb3e4c25fcb5",
+        "lines": 71697560,
+        "license_in_file": "CC BY-NC-SA 4.0",
+        "features": [
+          "am_pathogenicity",
+          "am_class",
+          "uniprot_id",
+          "transcript_id",
+          "protein_variant"
+        ],
+        "qc": [
+          "gzip integrity passed",
+          "example ClinVar GRCh38 join validated",
+          "output includes alphamissense_status and alphamissense_missing_reason"
+        ]
+      },
+      "cadd_v1_7_grch38": {
+        "status": "targeted_api_workflow_added_bulk_files_deferred",
+        "download_page": "https://cadd.gs.washington.edu/download",
+        "api_page": "https://cadd.gs.washington.edu/api",
+        "api_version_used_for_examples": "GRCh38-v1.7",
+        "whole_genome_snvs_listed_size": "81G",
+        "gnomad_r4_genome_indels_bytes": 1257151321,
+        "decision": "Do not download whole-genome CADD at this stage; use targeted API only for small QC/test sets and use tabix/download subsets for scale.",
+        "qc": [
+          "CADD doctor query passed for GRCh38-v1.7",
+          "example ClinVar GRCh38 SNV annotation validated",
+          "output includes cadd_status and cadd_missing_reason"
+        ]
+      },
+      "ensembl_vep_116_grch38": {
+        "status": "deferred_large_cache",
+        "cache_url": "https://ftp.ensembl.org/pub/current_variation/indexed_vep_cache/homo_sapiens_vep_116_GRCh38.tar.gz",
+        "compressed_bytes": 27644657162,
+        "decision": "Do not download local VEP cache until local VEP is selected over smaller targeted annotation."
+      },
+      "dbnsfp": {
+        "status": "downloaded_checksum_failed_redownload_required",
+        "official_site": "https://www.dbnsfp.org/",
+        "download_page": "https://www.dbnsfp.org/download",
+        "release_page": "https://www.dbnsfp.org/releases",
+        "license_page": "https://www.dbnsfp.org/license",
+        "current_release_checked": "dbNSFP v5.3.1 (January 1, 2026)",
+        "academic_license": "CC BY-NC-ND 4.0",
+        "stated_download_size": "about 50 GB",
+        "local_files": {
+          "grch38_bgzf": "redownload_required",
+          "failed_grch38_bgzf": "datasets/feature_sources/insilico/raw/dbnsfp/downloads/dbNSFP5.3.1a_grch38.gz.bad-md5",
+          "grch38_tbi": "datasets/feature_sources/insilico/raw/dbnsfp/downloads/dbNSFP5.3.1a_grch38.gz.tbi",
+          "grch38_md5": "datasets/feature_sources/insilico/raw/dbnsfp/downloads/dbNSFP5.3.1a_grch38.gz.md5",
+          "gene_table": "datasets/feature_sources/insilico/raw/dbnsfp/downloads/dbNSFP5.3_gene.gz"
+        },
+        "checksum_qc": {
+          "expected_md5": "afff632f13325c687477d64ca0c63b1a",
+          "observed_md5": "20455a079a050daa96bff5593e118889",
+          "status": "failed"
+        },
+        "decision": "High priority. Official access obtained and supporting files downloaded, but the completed GRCh38 BGZF failed MD5 validation, likely due to earlier duplicate resumed downloads. Re-download cleanly before use; do not annotate from the failed-checksum file."
+      },
+      "esm1b": {
+        "status": "not_downloaded_mapping_unresolved",
+        "decision": "Confirm exact precomputed human proteome source and transcript/protein mapping before download."
+      }
+    },
+    "required_output_qc": [
+      "Every in silico join output must include a status column and missing-reason column.",
+      "Schema/download/API failures must fail the run instead of writing silent nulls.",
+      "Use GRCh38 coordinates for genomic-score joins unless a liftover step is explicitly documented.",
+      "Protein-level tools require transcript/protein mapping QC.",
+      "Old-SI in silico parity requires REVEL, CADD PHRED, SIFT, PolyPhen-2 HDIV, MetaLR, FATHMM-XF, and AlphaMissense.",
+      "Current implemented old-SI predictors are AlphaMissense and targeted CADD PHRED; remaining old-SI predictors are pending dbNSFP or another verified source."
+    ]
+  },
+  "clingen_curated_evidence": {
+    "dataset_number": 4,
+    "role": "Expert-curated evidence and gene/variant context; inferred Point D from the checked-in project proposal.",
+    "status": "gene_validity_variant_pathogenicity_and_dosage_examples_validated",
+    "checked_utc": "2026-07-01",
+    "documentation": "docs/clingen/point_d_clingen_plan.md",
+    "project_level_tracker": "docs/dataset_source_status.md",
+    "assumption": "The checked-in PROJECT_PROPOSAL.md names ClinGen Evidence Repository as a better source for expert-curated variant classifications and evidence, but does not contain the full A/B/C/D source list. Confirm exact Point D wording before implementation.",
+    "candidate_resources": {
+      "evidence_repository_browse": "https://erepo.clinicalgenome.org/evrepo/",
+      "downloads_and_apis": "https://search.clinicalgenome.org/kb/downloads",
+      "gene_disease_validity": "https://search.clinicalgenome.org/kb/gene-validity",
+      "gene_disease_validity_api": "https://search.clinicalgenome.org/api/validity",
+      "gene_lookup_api_template": "https://search.clinicalgenome.org/api/genes/look/{query}",
+      "variant_pathogenicity": "https://search.clinicalgenome.org/kb/variant-pathogenicity/all"
+    },
+    "validated_outputs": {
+      "doctor": {
+        "status": "ok",
+        "validity_rows": 3640,
+        "myh7_validity_rows": 5,
+        "gene_lookup_hits_for_myh7": 3
+      },
+      "example_gene_panel": {
+        "input_path": "datasets/feature_sources/gnomad_v4/external/gene_panel.example.txt",
+        "output_path": "datasets/feature_sources/clingen/interim/gene_validity.example.tsv",
+        "raw_json_path": "datasets/feature_sources/clingen/raw/gene_validity.full_response.example.json",
+        "input_genes": 19,
+        "output_rows": 65,
+        "genes_with_curations": 19,
+        "genes_without_curations": 0,
+        "status_counts": {
+          "ok": 65
+        }
+      },
+      "variant_pathogenicity_example": {
+        "input_path": "datasets/feature_sources/gnomad_v4/external/gene_panel.example.txt",
+        "output_path": "datasets/feature_sources/clingen/interim/variant_pathogenicity.example.tsv",
+        "input_genes": 19,
+        "output_rows": 189,
+        "ok_rows": 179,
+        "genes_with_variant_curations": 9,
+        "genes_without_variant_curations": 10
+      },
+      "dosage_downloads": {
+        "gene_dosage_csv": "datasets/feature_sources/clingen/raw/dosage_sensitivity/gene_dosage.csv",
+        "gene_dosage_grch38_tsv": "datasets/feature_sources/clingen/raw/dosage_sensitivity/gene_dosage_GRCh38.tsv"
+      }
+    },
+    "planned_feature_groups": [
+      "ClinGen expert-panel or VCEP variant assertion metadata",
+      "gene-disease validity classification and disease context",
+      "dosage sensitivity / haploinsufficiency / triplosensitivity context where relevant",
+      "gene-specific ACMG/AMP rule guidance or VCEP specification flags"
+    ],
+    "required_output_qc": [
+      "Use exact variant matching where possible; same-gene evidence must not be treated as exact-variant evidence.",
+      "Prefer ClinGen Allele Registry CA ID or exact GRCh38 chrom-pos-ref-alt when available.",
+      "Preserve disease identifiers and expert panel provenance.",
+      "Every output must include clingen-specific status and missing-reason columns.",
+      "Do not use ClinGen features as direct replacement labels unless a separate high-confidence validation analysis is explicitly defined."
+    ]
+  },
+  "protein_structure_features": {
+    "dataset_number": 5,
+    "role": "Protein structure, AlphaFold confidence, structural context, and mutation stability features; feature engineering only.",
+    "status": "basic_protein_features_generated_dssp_freesasa_installed_ddg_pending",
+    "checked_utc": "2026-07-01",
+    "documentation": "docs/protein_structure/point_e_protein_structure_plan.md",
+    "requirements": "metadata/protein_structure_feature_requirements.json",
+    "candidate_resources": {
+      "alphafold_api_template": "https://alphafold.ebi.ac.uk/api/prediction/{uniprot_accession}",
+      "alphafold_human_bulk_tar": "https://ftp.ebi.ac.uk/pub/databases/alphafold/latest/UP000005640_9606_HUMAN_v6.tar",
+      "uniprot_search_api": "https://rest.uniprot.org/uniprotkb/search"
+    },
+    "bulk_size_notes": {
+      "alphafold_human_v6_tar_bytes": 5177506304,
+      "alphafold_human_v6_tar_listed_size": "4.8G",
+      "decision": "Downloaded because it is below the 20 GB local-download threshold."
+    },
+    "downloaded_files": {
+      "alphafold_human_v6_tar": {
+        "path": "datasets/feature_sources/protein_structure/raw/alphafold/UP000005640_9606_HUMAN_v6.tar",
+        "bytes": 5177506304,
+        "sha256": "1de6f3d7df0373be7d49e61cb4a9eb501b0a2216aeec262471812fac9faeeaa6"
+      },
+      "alphafold_human_v6_manifest": {
+        "path": "datasets/feature_sources/protein_structure/raw/alphafold/UP000005640_9606_HUMAN_v6.manifest.txt",
+        "members": 47172
+      },
+      "alphafold_human_v6_summary": {
+        "path": "datasets/feature_sources/protein_structure/raw/alphafold/UP000005640_9606_HUMAN_v6.summary.json"
+      },
+      "uniprot_human_reviewed_fasta": {
+        "path": "datasets/feature_sources/protein_structure/raw/uniprot_human_reviewed_2026_02.fasta",
+        "sequences": 20431,
+        "sha256": "d624e83ef4670ba0a7b9d36d91b77018bf766e9441f0f867f576a21d25603085"
+      },
+      "uniprot_human_reviewed_features_tsv": {
+        "path": "datasets/feature_sources/protein_structure/raw/uniprot_human_reviewed_features_2026_02.tsv",
+        "lines_including_header": 20432,
+        "sha256": "208f07a89132ddead12f0b8b7525c7ae96dff8799b2ad34febd0b08387706d1f"
+      },
+      "sha256sums": {
+        "path": "datasets/feature_sources/protein_structure/raw/SHA256SUMS"
+      }
+    },
+    "validated_outputs": {
+      "doctor": {
+        "status": "ok",
+        "gene": "MYH7",
+        "uniprot_accession": "P12883",
+        "alphafold_entry_id": "AF-P12883-F1",
+        "alphafold_latest_version": 6,
+        "alphafold_global_plddt": 74.25
+      },
+      "example_gene_panel": {
+        "input_path": "datasets/feature_sources/gnomad_v4/external/gene_panel.example.txt",
+        "output_path": "datasets/feature_sources/protein_structure/interim/alphafold_gene_panel.example.tsv",
+        "raw_json_path": "datasets/feature_sources/protein_structure/raw/alphafold/alphafold_gene_panel.example.json",
+        "input_genes": 19,
+        "output_rows": 19,
+        "alphafold_status_counts": {
+          "ok": 16,
+          "not_found": 3
+        },
+        "not_found_genes": [
+          "TTN",
+          "DSP",
+          "RYR2"
+        ]
+      },
+      "example_bulk_manifest_gene_panel": {
+        "output_path": "datasets/feature_sources/protein_structure/interim/alphafold_bulk_manifest_gene_panel.example.tsv",
+        "summary_path": "datasets/feature_sources/protein_structure/interim/alphafold_bulk_manifest_gene_panel.summary.json",
+        "input_rows": 19,
+        "manifest_accessions": 20550,
+        "status_counts": {
+          "ok": 19
+        },
+        "large_segmented_examples": {
+          "TTN": 166,
+          "DSP": 9,
+          "RYR2": 19
+        }
+      },
+      "example_residue_features": {
+        "input_path": "datasets/feature_sources/protein_structure/external/residue_positions.example.tsv",
+        "output_path": "datasets/feature_sources/protein_structure/interim/alphafold_residue_features.example.tsv",
+        "output_rows": 2,
+        "status": "ok"
+      },
+      "unified_protein_features": {
+        "output_path": "datasets/feature_sources/protein_structure/interim/protein_features.tsv",
+        "summary_path": "datasets/feature_sources/protein_structure/interim/protein_features.summary.json",
+        "input_rows": 3591,
+        "output_rows": 3591,
+        "source_rows": {
+          "hiro": 482,
+          "emerge": 2754,
+          "cardioboost": 355
+        },
+        "protein_feature_status_counts": {
+          "ok": 3284,
+          "not_mapped": 303,
+          "no_uniprot_mapping": 4
+        },
+        "alphafold_plddt_status_counts": {
+          "ok": 2336,
+          "fragment_mapping_unresolved": 948,
+          "not_queryable": 307
+        },
+        "uniprot_feature_hit_counts": {
+          "any_functional_feature": 1736,
+          "domain": 474,
+          "region": 1475,
+          "motif": 7,
+          "binding_site": 10
+        }
+      },
+      "dssp_freesasa_tooling": {
+        "environment": ".tools/envs/protein-structure",
+        "runner": ".tools/micromamba/micromamba run -p .tools/envs/protein-structure",
+        "mkdssp_version": "4.6.1",
+        "freesasa_python": "2.2.1",
+        "smoke_test_model": "AF-P12883-F1-model_v6.pdb",
+        "smoke_test_status": "ok"
+      },
+      "foldxpro_smoke_test": {
+        "tool_path": ".tools/foldx/bin/foldxpro",
+        "script": "datasets/feature_sources/protein_structure/scripts/run_foldxpro_smoke.py",
+        "output_path": "datasets/feature_sources/protein_structure/interim/foldxpro_smoke_test.tsv",
+        "work_dir": "datasets/feature_sources/protein_structure/interim/foldxpro_smoke/ACTC1_M134T",
+        "variant": "ACTC1 p.M134T",
+        "mutation": "MA134T;",
+        "ddg_method": "FoldXPro_2025_BuildModel",
+        "ddg_kcal_mol": -0.168657,
+        "status": "ok"
+      }
+    },
+    "planned_feature_groups": [
+      "AlphaFold protein-level model metadata",
+      "AlphaFold residue-level pLDDT confidence",
+      "PAE/domain structural context",
+      "secondary structure and solvent accessibility",
+      "domain/repeat/functional-site membership",
+      "missense mutation delta-delta-G stability features"
+    ],
+    "required_output_qc": [
+      "Variant-to-protein mapping must be validated before residue-level features are populated.",
+      "Wild-type amino acid must match selected UniProt sequence.",
+      "AlphaFold not_found must be distinguished from API failure.",
+      "Delta-delta-G features must record ddg_method and method-specific status.",
+      "Every output must include status and missing-reason columns."
+    ]
+  },
+  "emerge_glazer_arrhythmia_full": {
+    "dataset_number": "core_variant_source",
+    "role": "Real variant-level training/evaluation source for the Cardiogenetics model.",
+    "status": "local_interim_handoff_profiled_old_model_summary_removed",
+    "checked_utc": "2026-07-01",
+    "base_path": "datasets/emerge/full_arrhythmia_gene_dataset",
+    "source_description": "Public eMERGE/Glazer arrhythmia-gene supplementary dataset previously processed for the Cardiogenetics project.",
+    "files": {
+      "variant_level_full": {
+        "path": "datasets/emerge/full_arrhythmia_gene_dataset/data/emerge_arrhythmia_variant_level_full.csv",
+        "rows": 2754,
+        "columns": 47,
+        "sha256": "d8c12c9f8e99b5f66d5b8f5376ffe4b9ce5956c206d61579567ec4773895e2f9"
+      },
+      "ml_baseline_features": {
+        "path": "datasets/emerge/full_arrhythmia_gene_dataset/data/emerge_arrhythmia_ml_baseline_features.csv",
+        "rows": 2754,
+        "columns": 89,
+        "sha256": "67961f4501df9f298449382deee44af99374c1af0e70d5211f3d664735454924"
+      },
+      "ml_enriched_features": {
+        "path": "datasets/emerge/full_arrhythmia_gene_dataset/data/emerge_arrhythmia_ml_enriched_features.csv",
+        "rows": 2754,
+        "columns": 95,
+        "sha256": "03e2e5ca258dc42d886a6dfc3b22a74dfd331b984fbe82834e502902c7b4ac70"
+      }
+    },
+    "label_counts_post_invitro": {
+      "VUS": 2490,
+      "Benign": 137,
+      "Pathogenic": 127
+    },
+    "label_counts_pre_invitro": {
+      "VUS": 2501,
+      "Benign": 134,
+      "Pathogenic": 119
+    },
+    "gene_counts": {
+      "RYR2": 685,
+      "ANK2": 661,
+      "SCN5A": 436,
+      "CACNA1C": 302,
+      "KCNH2": 274,
+      "KCNQ1": 162,
+      "LMNA": 130,
+      "KCNE1": 48,
+      "KCNJ2": 39,
+      "KCNE2": 17
+    },
+    "feature_completeness_model_ready": {
+      "gnomad_max_af": "2754/2754",
+      "cadd_phred": "2631/2754",
+      "revel": "0/2754",
+      "sift": "0/2754",
+      "polyphen2_hdiv": "0/2754",
+      "metalr": "0/2754",
+      "fathmm_xf": "0/2754",
+      "alphamissense": "0/2754"
+    },
+    "notes": [
+      "Use as a real variant-level data source with source-aware splits and deduplication.",
+      "Public eMERGE supplement lacks row-level patient phenotype values comparable to internal cohorts.",
+      "The enriched table name does not mean all in silico fields are populated; current completeness must be checked before modeling.",
+      "Previous weighted-CatBoost scoring summary was removed because it was an old model-result artifact."
+    ]
+  },
+  "cardioboost_public": {
+    "dataset_number": "core_variant_source",
+    "role": "Public variant-level training/evaluation source; mostly binary benign/pathogenic labels.",
+    "status": "local_interim_handoff_profiled_old_model_artifacts_removed",
+    "checked_utc": "2026-07-01",
+    "base_path": "datasets/cardioboost/public_dataset",
+    "source_description": "Public CardioBoost manuscript repository plus local Cardiogenetics-ready processed CSVs.",
+    "files": {
+      "reannotated_ml_baseline_features": {
+        "path": "datasets/cardioboost/public_dataset/processed_for_cardiogenetics/model_inputs/reannotated_ml_baseline_features.csv",
+        "rows": 355,
+        "columns": 89,
+        "sha256": "fcca6566362f7c88405071ec6e12a63ec6f08ff723cea1643eb422ceb9488a3a"
+      },
+      "reannotated_ml_enriched_features": {
+        "path": "datasets/cardioboost/public_dataset/processed_for_cardiogenetics/model_inputs/reannotated_ml_enriched_features.csv",
+        "rows": 355,
+        "columns": 95,
+        "sha256": "baa124869c5037ce9b4d3a02cfac8de334db0ecc1cb57418886230ade4b23b6e"
+      },
+      "reannotated_modeling_cohort": {
+        "path": "datasets/cardioboost/public_dataset/processed_for_cardiogenetics/model_inputs/reannotated_modeling_cohort.csv",
+        "rows": 355,
+        "columns": 150,
+        "sha256": "0f0f003f8bc0361ac40df6bcdccb6214ac1fe7fa9cdb5f6627ee1164d42a5e97"
+      }
+    },
+    "label_counts_processed": {
+      "Pathogenic": 199,
+      "Benign": 156,
+      "VUS": 0
+    },
+    "gene_counts_processed": {
+      "MYH7": 77,
+      "SCN5A": 68,
+      "KCNH2": 41,
+      "MYBPC3": 41,
+      "KCNQ1": 37,
+      "CACNA1C": 22,
+      "LMNA": 12,
+      "TNNI3": 12,
+      "TNNT2": 10,
+      "PRKAG2": 9,
+      "TPM1": 9,
+      "CALM2": 6,
+      "GLA": 6,
+      "PTPN11": 3,
+      "ACTC1": 1,
+      "PLN": 1
+    },
+    "feature_completeness_reannotated_model_ready": {
+      "gnomad_max_af": "340/355",
+      "revel": "355/355",
+      "cadd_phred": "329/355",
+      "sift": "354/355",
+      "polyphen2_hdiv": "349/355",
+      "metalr": "355/355",
+      "fathmm_xf": "331/355",
+      "alphamissense": "334/355"
+    },
+    "removed_artifacts": [
+      "processed_for_cardiogenetics/results/",
+      "raw_public_cardioBoost_repo/data/arrhythmia/ml/",
+      "raw_public_cardioBoost_repo/data/arrhythmia/prediction/",
+      "raw_public_cardioBoost_repo/data/cardiomyopathy/ml/",
+      "raw_public_cardioBoost_repo/data/cardiomyopathy/prediction/"
+    ],
+    "notes": [
+      "CardioBoost processed data are binary benign/pathogenic and contain no VUS rows.",
+      "Use source-aware training/evaluation splits and do not use the same CardioBoost rows for both training and validation.",
+      "Raw variant .RData files were retained; old model/prediction artifact folders were removed."
+    ]
+  },
+  "hiro_480": {
+    "dataset_number": "core_variant_source",
+    "role": "Internal/high-value Cardiogenetics variant and phenotype data source.",
+    "status": "local_profiled",
+    "checked_utc": "2026-07-01",
+    "base_path": "datasets/hiro/full_dataset",
+    "files": {
+      "normalized_variants": {
+        "path": "datasets/hiro/full_dataset/processed_normalized/normalized_variants.csv",
+        "rows": 512,
+        "columns": 20
+      },
+      "variant_only_cohort": {
+        "path": "datasets/hiro/full_dataset/model_inputs/variant_only_cohort.csv",
+        "rows": 510,
+        "columns": 127
+      },
+      "modeling_cohort": {
+        "path": "datasets/hiro/full_dataset/model_inputs/modeling_cohort.csv",
+        "rows": 482,
+        "columns": 127
+      },
+      "ml_baseline_features": {
+        "path": "datasets/hiro/full_dataset/model_inputs/ml_baseline_features.csv",
+        "rows": 482,
+        "columns": 89
+      },
+      "ml_enriched_features": {
+        "path": "datasets/hiro/full_dataset/model_inputs/ml_enriched_features.csv",
+        "rows": 482,
+        "columns": 95
+      }
+    },
+    "label_counts_primary_modeling": {
+      "Benign": 220,
+      "VUS": 207,
+      "Pathogenic": 55
+    },
+    "label_counts_variant_only": {
+      "Benign": 225,
+      "VUS": 226,
+      "Pathogenic": 59
+    },
+    "notes": [
+      "Contains patient phenotype fields; keep internal/private.",
+      "Public variant-only sources do not have comparable phenotype fields, so train/evaluate with source-aware missingness handling."
+    ]
+  },
+  "cardioboost_v2_dyna_zenodo": {
+    "dataset_number": "protein_sequence_source",
+    "role": "CardioBoost/ClinVar cardiomyopathy and arrhythmia protein sequence-pair data plus DYNA splicing sequence files.",
+    "status": "downloaded_md5_validated_processed",
+    "checked_utc": "2026-07-01",
+    "base_path": "datasets/cardioboost/public_dataset/v2_dyna_zenodo_sequence_dataset",
+    "source": {
+      "title": "DYNA: Disease-Specific Language Model for Variant Pathogenicity",
+      "doi": "10.5281/zenodo.13397296",
+      "api_record": "https://zenodo.org/api/records/13397296",
+      "license": "CC-BY-4.0"
+    },
+    "raw_files": {
+      "count": 12,
+      "manifest": "datasets/cardioboost/public_dataset/v2_dyna_zenodo_sequence_dataset/provenance/download_manifest.json",
+      "md5_status": "all matched Zenodo checksums"
+    },
+    "processed_outputs": {
+      "protein_variant_sequences": {
+        "path": "datasets/cardioboost/public_dataset/v2_dyna_zenodo_sequence_dataset/processed/cardioboost_v2_protein_variant_sequences.csv",
+        "rows": 21472,
+        "columns": 16
+      },
+      "splicing_sequence_summary": {
+        "path": "datasets/cardioboost/public_dataset/v2_dyna_zenodo_sequence_dataset/processed/dyna_splicing_sequence_summary.csv",
+        "rows": 4
+      }
+    },
+    "protein_label_counts": {
+      "VUS": 18619,
+      "Benign": 1702,
+      "Pathogenic": 1151
+    },
+    "protein_source_family_counts": {
+      "clinvar_protein_2024": 20352,
+      "cardioboost_original": 1120
+    },
+    "protein_disease_panel_counts": {
+      "cardiomyopathy": 20027,
+      "arrhythmia": 1445
+    },
+    "important_limitations": [
+      "Protein files contain sequence pairs and labels but not chromosome, position, reference allele, alternate allele, or gene symbol.",
+      "VUS-file labels are preserved as original_label, while clinical_label is set to VUS from the source filename.",
+      "This source should complement, not replace, coordinate-rich CardioBoost/ClinVar tables."
+    ]
+  }
+}

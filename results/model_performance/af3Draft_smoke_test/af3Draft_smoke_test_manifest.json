@@ -1,0 +1,159 @@
+{
+  "models": [
+    {
+      "model": "af3Draft_plus_primary_binary_fullDraft",
+      "input_table": "datasets/modeling/ready/modeling_table_with_splits_weights_hiro_emerge_rescued.tsv",
+      "split_col": "split_source_heldout",
+      "n_features": 357,
+      "n_categorical_features": 225,
+      "n_numeric_features": 132,
+      "n_af3Draft_features_used": 19,
+      "af3Draft_features_used": [
+        "af3Draft_status",
+        "af3Draft_n_long_rows",
+        "af3Draft_n_jobs",
+        "af3Draft_n_complexes",
+        "af3Draft_n_chain_gene_contexts",
+        "af3Draft_has_residue_feature",
+        "af3Draft_best_pair_support_rank",
+        "af3Draft_best_pair_support_class",
+        "af3Draft_has_strong_or_moderate_pair",
+        "af3Draft_has_strong_pair",
+        "af3Draft_best_residue_plddt",
+        "af3Draft_mean_residue_plddt",
+        "af3Draft_min_distance_to_partner_angstrom",
+        "af3Draft_within_partner_interface_5A",
+        "af3Draft_within_partner_interface_8A",
+        "af3Draft_best_pair_iptm",
+        "af3Draft_best_pair_min_pae",
+        "af3Draft_best_pair_max_contact_probability",
+        "af3Draft_nearest_partner_genes"
+      ],
+      "strict_structural_only": false,
+      "excluded_af3Draft_provenance_features": [],
+      "best_iteration": 684,
+      "notes": [
+        "Prototype AF3-draft smoke test.",
+        "Same CatBoost hyperparameters and source-held-out split as the primary binary model.",
+        "AF3 job IDs and complex names are not used as model features.",
+        "Strict structural-only mode also removes AF3 status/count/partner-gene provenance fields."
+      ],
+      "merged_table": "datasets/modeling/interim/modeling_table_with_splits_weights_plus_af3Draft.tsv",
+      "af3Draft_aggregated_features": "datasets/feature_sources/af3Draft/processed/af3Draft_variant_features_aggregated.tsv",
+      "coverage": [
+        {
+          "scope": "all_modeling_rows",
+          "rows": 85677,
+          "genes": 61,
+          "rows_with_any_af3Draft_output": 32143,
+          "rows_with_strong_or_moderate_af3Draft_pair": 13884,
+          "rows_with_strong_af3Draft_pair": 7220,
+          "pct_all_rows": 37.51648633822379,
+          "pct_binary_rows": 32.29588276343336,
+          "pct_vus_rows": 32.77543023063667
+        },
+        {
+          "scope": "primary_binary_rows",
+          "rows": 42990,
+          "genes": 53,
+          "rows_with_any_af3Draft_output": 15557,
+          "rows_with_strong_or_moderate_af3Draft_pair": 6762,
+          "rows_with_strong_af3Draft_pair": 3479,
+          "pct_all_rows": 36.187485461735285,
+          "pct_binary_rows": 15.72923935799023,
+          "pct_vus_rows": 15.962795967989424
+        },
+        {
+          "scope": "vus_rows",
+          "rows": 42361,
+          "genes": 61,
+          "rows_with_any_af3Draft_output": 16461,
+          "rows_with_strong_or_moderate_af3Draft_pair": 7059,
+          "rows_with_strong_af3Draft_pair": 3684,
+          "pct_all_rows": 38.85885602322892,
+          "pct_binary_rows": 16.420097697138868,
+          "pct_vus_rows": 16.663912561082128
+        }
+      ],
+      "baseline_metrics_file": "results/models/primary_binary_catboost_v0_strict_source_heldout_hiro_emerge_rescued/metrics.json"
+    },
+    {
+      "model": "af3Draft_plus_primary_binary_strictStructural",
+      "input_table": "datasets/modeling/ready/modeling_table_with_splits_weights_hiro_emerge_rescued.tsv",
+      "split_col": "split_source_heldout",
+      "n_features": 350,
+      "n_categorical_features": 222,
+      "n_numeric_features": 128,
+      "n_af3Draft_features_used": 12,
+      "af3Draft_features_used": [
+        "af3Draft_has_residue_feature",
+        "af3Draft_best_pair_support_rank",
+        "af3Draft_has_strong_or_moderate_pair",
+        "af3Draft_has_strong_pair",
+        "af3Draft_best_residue_plddt",
+        "af3Draft_mean_residue_plddt",
+        "af3Draft_min_distance_to_partner_angstrom",
+        "af3Draft_within_partner_interface_5A",
+        "af3Draft_within_partner_interface_8A",
+        "af3Draft_best_pair_iptm",
+        "af3Draft_best_pair_min_pae",
+        "af3Draft_best_pair_max_contact_probability"
+      ],
+      "strict_structural_only": true,
+      "excluded_af3Draft_provenance_features": [
+        "af3Draft_best_pair_support_class",
+        "af3Draft_n_chain_gene_contexts",
+        "af3Draft_n_complexes",
+        "af3Draft_n_jobs",
+        "af3Draft_n_long_rows",
+        "af3Draft_nearest_partner_genes",
+        "af3Draft_status"
+      ],
+      "best_iteration": 580,
+      "notes": [
+        "Prototype AF3-draft smoke test.",
+        "Same CatBoost hyperparameters and source-held-out split as the primary binary model.",
+        "AF3 job IDs and complex names are not used as model features.",
+        "Strict structural-only mode also removes AF3 status/count/partner-gene provenance fields."
+      ],
+      "merged_table": "datasets/modeling/interim/modeling_table_with_splits_weights_plus_af3Draft.tsv",
+      "af3Draft_aggregated_features": "datasets/feature_sources/af3Draft/processed/af3Draft_variant_features_aggregated.tsv",
+      "coverage": [
+        {
+          "scope": "all_modeling_rows",
+          "rows": 85677,
+          "genes": 61,
+          "rows_with_any_af3Draft_output": 32143,
+          "rows_with_strong_or_moderate_af3Draft_pair": 13884,
+          "rows_with_strong_af3Draft_pair": 7220,
+          "pct_all_rows": 37.51648633822379,
+          "pct_binary_rows": 32.29588276343336,
+          "pct_vus_rows": 32.77543023063667
+        },
+        {
+          "scope": "primary_binary_rows",
+          "rows": 42990,
+          "genes": 53,
+          "rows_with_any_af3Draft_output": 15557,
+          "rows_with_strong_or_moderate_af3Draft_pair": 6762,
+          "rows_with_strong_af3Draft_pair": 3479,
+          "pct_all_rows": 36.187485461735285,
+          "pct_binary_rows": 15.72923935799023,
+          "pct_vus_rows": 15.962795967989424
+        },
+        {
+          "scope": "vus_rows",
+          "rows": 42361,
+          "genes": 61,
+          "rows_with_any_af3Draft_output": 16461,
+          "rows_with_strong_or_moderate_af3Draft_pair": 7059,
+          "rows_with_strong_af3Draft_pair": 3684,
+          "pct_all_rows": 38.85885602322892,
+          "pct_binary_rows": 16.420097697138868,
+          "pct_vus_rows": 16.663912561082128
+        }
+      ],
+      "baseline_metrics_file": "results/models/primary_binary_catboost_v0_strict_source_heldout_hiro_emerge_rescued/metrics.json"
+    }
+  ]
+}

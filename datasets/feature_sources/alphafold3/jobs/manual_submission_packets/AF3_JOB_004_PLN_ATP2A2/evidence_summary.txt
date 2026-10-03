@@ -1,0 +1,8 @@
+complex_group_id: AF3_COMPLEX_PLN_ATP2A2
+complex_name: Phospholamban-SERCA2a calcium-handling complex
+combined_readiness_status: structured_evidence_ready_for_manual_af3_design
+estimated_af3_tokens: 1095
+
+Evidence rows:
+- PLN -> CA (ion): uniprot_calcium_context; PubMed=22427649;22707725;28890335; Reactome=; PDB=
+- PLN -> ATP2A2 (protein): uniprot_subunit_text_mention; PubMed=12804600;14749390;16043693;16897780;17241641;18971376;22084111;25996873;27502484;28890335;31735293;33581112;36523160; Reactome=R-HSA-5578775;R-HSA-936837; PDB=

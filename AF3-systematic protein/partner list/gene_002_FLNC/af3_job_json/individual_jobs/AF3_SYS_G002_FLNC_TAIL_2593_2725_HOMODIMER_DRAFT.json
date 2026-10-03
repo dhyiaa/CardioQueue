@@ -1,0 +1,16 @@
+[
+  {
+    "name": "AF3_SYS_G002_FLNC_TAIL_2593_2725_HOMODIMER_DRAFT",
+    "modelSeeds": [],
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "TGPRLSGGHSLHETSTVLVETVTKSSSSRGSSYSSIPKFSSDASKVVTRGPGLSQAFVGQKNSFTVDCSKAGTNMMMVGVHGPKTPCEEVYVKHMGNRVYNVTYTVKEKGDYILIVKWGDESVPGSPFKVKVP",
+          "count": 2
+        }
+      }
+    ],
+    "dialect": "alphafoldserver",
+    "version": 1
+  }
+]

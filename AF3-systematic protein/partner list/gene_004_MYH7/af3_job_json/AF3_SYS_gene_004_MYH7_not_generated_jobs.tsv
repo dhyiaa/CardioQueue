@@ -1,0 +1,3 @@
+design_id	reason	needed_before_json	source_ids
+MYH7_D4_ROD_HOMODIMER	Would add quota burden and may produce generic coiled-coil features.	not in top-3; defer unless later quota/scientific need	SRC_MYH7_ROD_PMID26150528;SRC_UNIPROT_MYH7_FUNCTION
+MYH7_D5_THIN_FILAMENT_MULTI	Better reserved for a shared thin-filament complex packet.	not in top-3; defer unless later quota/scientific need	SRC_UNIPROT_ACTC1;SRC_UNIPROT_TPM1;SRC_UNIPROT_MYH7_FUNCTION

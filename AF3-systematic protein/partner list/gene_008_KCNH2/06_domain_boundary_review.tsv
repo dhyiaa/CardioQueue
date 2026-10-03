@@ -1,0 +1,7 @@
+region	residues	source	decision	rationale	sequence_file
+full_length_KCNH2	1-1159	UniProt Q12809 canonical sequence	used in top3 homotetramer and KCNE2 comparator	Preserves full hERG channel context but requires strict output QC.	partner_sequences/KCNH2_Q12809.fasta
+PAS_domain	41-70 annotated; 1-150 submitted window	UniProt Q12809; PROSITE PRU00140	used in PAS/PAC-CNBHD compact job	N-terminal PAS/PAC region is a key hERG regulatory domain context.	partner_sequences/KCNH2_PAS_PAC_1_150.fasta
+PAC_domain	92-144 annotated; 1-150 submitted window	UniProt Q12809; PROSITE PRU00141	used in PAS/PAC-CNBHD compact job	Submitted with PAS to preserve N-terminal domain unit.	partner_sequences/KCNH2_PAS_PAC_1_150.fasta
+selectivity_filter	624-629	UniProt Q12809	covered by full-length tetramer and held channel-core tetramer	Critical channel/pore region; not modeled as separate peptide.	partner_sequences/KCNH2_Q12809.fasta
+cNMP_binding_CNBHD	742-842 annotated; 720-870 submitted window	UniProt Q12809; PROSITE PRU00060	used in compact PAS/PAC-CNBHD job	Captures C-terminal regulatory domain with flanking residues.	partner_sequences/KCNH2_CNBHD_720_870.fasta
+channel_core_sensitivity	398-870	manual window covering transmembrane/pore and CNBHD-proximal region	held optional	Potentially cleaner than full-length tetramer if terminal disorder dominates.	partner_sequences/KCNH2_CHANNEL_CORE_398_870.fasta

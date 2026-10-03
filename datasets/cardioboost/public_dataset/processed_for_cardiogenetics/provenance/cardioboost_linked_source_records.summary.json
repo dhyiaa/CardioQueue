@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "label_Benign": 156,
+    "label_Pathogenic": 199,
+    "link_status_linked_to_registry": 355,
+    "raw_rows": 355
+  },
+  "dataset": "cardioboost",
+  "duplicate_groups_with_discordant_3class_labels": 0,
+  "duplicate_groups_with_variable_phenotype_signature": 0,
+  "duplicate_resolved_source_records": 4,
+  "duplicate_resolved_variant_groups": 2,
+  "input": "datasets/cardioboost/public_dataset/processed_for_cardiogenetics/model_inputs/reannotated_ml_baseline_features.csv",
+  "notes": [
+    "Every input row is preserved as a distinct source record.",
+    "The variant-level modeling matrix may still collapse records by resolved_variant_id for leakage control."
+  ],
+  "output": "datasets/cardioboost/public_dataset/processed_for_cardiogenetics/model_inputs/cardioboost_linked_source_records.tsv",
+  "unique_resolved_variant_ids": 353
+}

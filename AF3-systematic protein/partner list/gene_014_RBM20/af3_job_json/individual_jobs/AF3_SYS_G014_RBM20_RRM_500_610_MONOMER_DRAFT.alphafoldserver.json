@@ -1,0 +1,16 @@
+[
+  {
+    "name": "AF3_SYS_G014_RBM20_RRM_500_610_MONOMER_DRAFT",
+    "modelSeeds": [],
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "TFPLASVGTTFAQRKGAGRVVHICNLPEGSCTENDVINLGLPFGKVTNYILMKSTNQAFLEMAYTEAAQAMVQYYQEKSAVINGEKLLIRMSKRYKELQLKKPGKAVAAII",
+          "count": 1
+        }
+      }
+    ],
+    "dialect": "alphafoldserver",
+    "version": 1
+  }
+]

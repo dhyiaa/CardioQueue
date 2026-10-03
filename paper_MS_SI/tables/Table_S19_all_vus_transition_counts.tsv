@@ -1,0 +1,9 @@
+cohort	transition_outcome	variants	fraction_of_historical_vus	included_in_resolved_binary_metrics
+in_scope_primary	still_vus	24879	0.9763745535889486	False
+in_scope_primary	later_benign	309	0.012126682626270554	True
+in_scope_primary	no_unambiguous_current_class	147	0.005769004356186963	False
+in_scope_primary	later_pathogenic	146	0.005729759428593854	True
+all_historical_vus_sensitivity	still_vus	25109	0.9755993317014415	False
+all_historical_vus_sensitivity	later_benign	311	0.01208377044721607	True
+all_historical_vus_sensitivity	no_unambiguous_current_class	171	0.006644131017601119	False
+all_historical_vus_sensitivity	later_pathogenic	146	0.005672766833741306	True

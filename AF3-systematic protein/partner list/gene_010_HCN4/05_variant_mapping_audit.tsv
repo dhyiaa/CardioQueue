@@ -1,0 +1,8 @@
+metric	value	note
+included_HCN4_rows	2170	Rows currently available for AF3 feature mapping context
+binary_rows	930	Benign plus pathogenic rows
+pathogenic_rows	20	Sparse P/LP; report HCN4 as sparse-pathogenic gene in downstream subgroup analyses
+benign_rows	910	Most binary signal is benign
+vus_rows	1240	Large VUS burden; AF3 features may be useful for VUS prioritization
+missing_label_rows	0	From priority table: included equals binary plus VUS here
+mapping_policy	VEP/UniProt protein positions preferred	Older protein_position fields can be sparse; final mapping must reconcile transcript residue numbering to Q9Y3Q4

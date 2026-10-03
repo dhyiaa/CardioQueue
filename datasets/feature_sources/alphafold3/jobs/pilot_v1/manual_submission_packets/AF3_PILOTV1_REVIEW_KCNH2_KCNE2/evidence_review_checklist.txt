@@ -1,0 +1,16 @@
+complex_group_id: AF3_COMPLEX_KCNH2_KCNE2
+complex_name: KCNH2-KCNE2 repolarization-channel complex
+target_genes: KCNE2,KCNH2
+protein_entities: KCNH2,KCNE2
+nonprotein_entities: none
+estimated_tokens: 1282
+
+User/manual checks before submission:
+- Confirm these entities form a plausible same-complex or pairwise biological context.
+- Confirm PubMed/Reactome/PDB/IntAct support is not only pathway-level noise.
+- Confirm full-length modeling is biologically acceptable for this complex.
+- Confirm duplicate chains or homomer stoichiometry in the AlphaFold Server UI.
+
+Evidence rows:
+- KCNE2: UniProt reports KCNE2 association with KCNH2/ERG1 and KCNH2 stable complex with KCNE2. Evidence anchor=UniProt_SUBUNIT_Reactome; UniProt PubMed=9230439;10219239;11034315;11101505;16361248;20533308;25281747;26363003;27916661; IntAct PubMed=16169070;20562859;21145461;33961781; Reactome=R-HSA-1296072;R-HSA-5576890;R-HSA-5576893; PDB=1BYW;1UJL;2L0W;2L1M;2L4R;2LE7;2M0Q;2N7G;4HP9;4HQA;5VA1;5VA2;5VA3;8IO4;8IO5;8IOB;8ZYN;8ZYO;8ZYP;8ZYQ;9CHP;9CHQ;9CHR;9CHS
+- KCNH2: UniProt reports KCNH2 forms a stable complex with KCNE2 and Reactome maps both to repolarization pathways. Evidence anchor=UniProt_SUBUNIT_Reactome; UniProt PubMed=9230439;10219239;11034315;11101505;16361248;20533308;25281747;26363003;27916661; IntAct PubMed=16169070;20562859;21145461;33961781; Reactome=R-HSA-1296072;R-HSA-5576890;R-HSA-5576893; PDB=1BYW;1UJL;2L0W;2L1M;2L4R;2LE7;2M0Q;2N7G;4HP9;4HQA;5VA1;5VA2;5VA3;8IO4;8IO5;8IOB;8ZYN;8ZYO;8ZYP;8ZYQ;9CHP;9CHQ;9CHR;9CHS

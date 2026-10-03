@@ -1,0 +1,10 @@
+{
+  "input": "results/model_performance/final_cardioqueue_three_zone_all_rows/all_registry_scores.tsv",
+  "rows": 41622,
+  "genes": 53,
+  "accelerated_review": 17258,
+  "deferred_review": 14727,
+  "lower_priority_review": 9637,
+  "excludes_hiro_linked_rows": true,
+  "required_use_statement": "Research evidence-review priority; not a clinical classification"
+}

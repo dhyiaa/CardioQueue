@@ -1,0 +1,3 @@
+design_id	reason	needed_before_json	source_ids
+FLNC_D7_MYOT_ZDISC	Do not submit until boundaries are fixed.	targeted boundary/literature review	SRC_UNIPROT_FLNC_SUBUNIT;SRC_MYOT_FLNC_PMID11038172
+FLNC_D8_ACTN2_ZDISC_CONTEXT	Needs evidence stronger than general Z-disc co-localization.	targeted boundary/literature review	SRC_ZDISC_REVIEW_PMID32295012

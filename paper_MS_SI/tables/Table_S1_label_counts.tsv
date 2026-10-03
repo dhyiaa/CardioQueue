@@ -1,0 +1,5 @@
+model_label_3class	rows	percent
+VUS	42361	49.443
+Benign	33923	39.594
+Pathogenic	9148	10.677
+<missing/conflict/non-supervised>	245	0.286

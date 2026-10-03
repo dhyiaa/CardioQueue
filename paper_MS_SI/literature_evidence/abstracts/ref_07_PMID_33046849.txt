@@ -1,0 +1,30 @@
+Reference 7
+PMID: 33046849
+Title: Disease-specific variant pathogenicity prediction significantly improves variant interpretation in inherited cardiac conditions.
+Authors: Zhang X; Walsh R; Whiffin N; Buchan R; Midwinter W; Wilk A; Govind R; Li N; et al.
+Year: 2021
+Journal: Genetics in medicine : official journal of the American College of Medical Genetics
+DOI: 10.1038/s41436-020-00972-3
+URL: https://pubmed.ncbi.nlm.nih.gov/33046849/
+Draft use: CardioBoost comparator and deferral-threshold framing
+
+Abstract:
+PURPOSE: Accurate discrimination of benign and pathogenic rare variation remains a priority for
+clinical genome interpretation. State-of-the-art machine learning variant prioritization tools are
+imprecise and ignore important parameters defining gene-disease relationships, e.g., distinct
+consequences of gain-of-function versus loss-of-function variants. We hypothesized that
+incorporating disease-specific information would improve tool performance. METHODS: We developed a
+disease-specific variant classifier, CardioBoost, that estimates the probability of pathogenicity
+for rare missense variants in inherited cardiomyopathies and arrhythmias. We assessed CardioBoost's
+ability to discriminate known pathogenic from benign variants, prioritize disease-associated
+variants, and stratify patient outcomes. RESULTS: CardioBoost has high global discrimination
+accuracy (precision recall area under the curve [AUC] 0.91 for cardiomyopathies; 0.96 for
+arrhythmias), outperforming existing tools (4-24% improvement). CardioBoost obtains excellent
+accuracy (cardiomyopathies 90.2%; arrhythmias 91.9%) for variants classified with >90% confidence,
+and increases the proportion of variants classified with high confidence more than twofold compared
+with existing tools. Variants classified as disease-causing are associated with both disease status
+and clinical severity, including a 21% increased risk (95% confidence interval [CI] 11-29%) of
+severe adverse outcomes by age 60 in patients with hypertrophic cardiomyopathy. CONCLUSIONS: A
+disease-specific variant classifier outperforms state-of-the-art genome-wide tools for rare missense
+variants in inherited cardiac conditions ( https://www.cardiodb.org/cardioboost/ ), highlighting
+broad opportunities for improved pathogenicity prediction through disease specificity.

@@ -1,0 +1,12 @@
+metric	value	interpretation
+included_KCNQ1_rows	2792	Rows currently available for AF3 feature mapping context
+binary_rows	1916	Rows with Benign or Pathogenic label
+vus_rows	852	Can be scored after model training; not binary supervised labels
+pathogenic_rows	534	Enough for meaningful KCNQ1 subgroup analysis
+benign_rows	1382	Main negative class
+missing_label_rows	24	Not trainable unless label is repaired
+rows_with_model_protein_position	44	Sparse older protein-position coverage; use VEP/UniProt reconciliation instead
+rows_with_dbNSFP_aapos	1070	dbNSFP protein-position support; transcript caveat remains
+top_uniprot_accessions	P51787:44	Checks local UniProt mapping
+source_composition	clinvar:2596;clinvar|emerge:99;emerge:53;cardioboost|clinvar:25;cardioboost:6;clinvar|hiro:3;clinvar|emerge|hiro:3;cardioboost|clinvar|emerge:3;cardioboost|emerge:3;emerge|hiro:1	Mostly ClinVar/eMERGE-derived with small HiRO overlap
+protein_variant_types	:2748;substitution:44	AF3 features primarily useful after robust protein-position mapping

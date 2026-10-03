@@ -1,0 +1,2 @@
+gene	systematic_order	included_variant_rows	unique_variant_ids	binary_rows	vus_rows	pathogenic_rows	benign_rows	rows_with_current_protein_position	min_current_protein_position	max_current_protein_position	main_sources
+RYR2	1	9465	9465	4255	5193	261	3994	18	122.0	4608.0	clinvar;clinvar|emerge;emerge;clinvar|hiro;emerge|hiro;clinvar|emerge|hiro;hiro

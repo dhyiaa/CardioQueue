@@ -1,0 +1,5 @@
+comparison	resampling_unit	metric	difference	ci_95_low	ci_95_high	bootstrap_samples	seed
+validation_calibrated_minus_raw	variant_stratified_by_outcome	brier	-0.0036726551224444057	-0.008042297785444599	0.0007603852069828224	5000	20260917
+validation_calibrated_minus_raw	variant_stratified_by_outcome	log_loss	-0.0028900857269096025	-0.019667787689446062	0.015316270888708504	5000	20260917
+validation_calibrated_minus_raw	gene_cluster	brier	-0.0036726551224444057	-0.008318620685723426	0.0015996029985220984	5000	20260917
+validation_calibrated_minus_raw	gene_cluster	log_loss	-0.0028900857269096025	-0.024481858007971327	0.017641960381915987	5000	20260917

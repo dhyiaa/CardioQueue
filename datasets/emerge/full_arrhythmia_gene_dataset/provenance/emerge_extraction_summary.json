@@ -1,0 +1,139 @@
+{
+  "s2_rows": 3550,
+  "arrhythmia_rows": 2754,
+  "candidate_rows": 50,
+  "candidate100_rows": 100,
+  "candidate100_training_matched_rows": 100,
+  "candidate300_training_matched_rows": 300,
+  "candidate_trainratio_strict_rows": 261,
+  "candidate_trainratio_300_relaxed_rows": 300,
+  "all_gene_counts": {
+    "BRCA2": 795,
+    "RYR2": 685,
+    "ANK2": 661,
+    "SCN5A": 436,
+    "CACNA1C": 302,
+    "KCNH2": 274,
+    "KCNQ1": 163,
+    "LMNA": 130,
+    "KCNE1": 48,
+    "KCNJ2": 39,
+    "KCNE2": 17
+  },
+  "arrhythmia_label_counts": {
+    "VUS": 2490,
+    "Benign": 137,
+    "Pathogenic": 127
+  },
+  "arrhythmia_eligible_label_counts": {
+    "VUS": 2409,
+    "Pathogenic": 122,
+    "Benign": 119
+  },
+  "candidate_label_counts": {
+    "Pathogenic": 20,
+    "VUS": 20,
+    "Benign": 10
+  },
+  "candidate100_label_counts": {
+    "Pathogenic": 40,
+    "VUS": 40,
+    "Benign": 20
+  },
+  "candidate100_training_matched_label_counts": {
+    "Pathogenic": 40,
+    "VUS": 40,
+    "Benign": 20
+  },
+  "candidate100_training_matched_gene_counts": {
+    "SCN5A": 25,
+    "RYR2": 24,
+    "KCNH2": 12,
+    "CACNA1C": 11,
+    "KCNQ1": 9,
+    "ANK2": 9,
+    "KCNE1": 6,
+    "LMNA": 3,
+    "KCNJ2": 1
+  },
+  "candidate100_training_matched_consequence_counts": {
+    "missense": 84,
+    "nonsense": 8,
+    "splice_region": 7,
+    "frameshift": 1
+  },
+  "candidate300_training_matched_label_counts": {
+    "Pathogenic": 100,
+    "VUS": 100,
+    "Benign": 100
+  },
+  "candidate300_training_matched_gene_counts": {
+    "SCN5A": 115,
+    "ANK2": 58,
+    "RYR2": 43,
+    "KCNQ1": 40,
+    "KCNH2": 27,
+    "CACNA1C": 7,
+    "LMNA": 6,
+    "KCNE1": 4
+  },
+  "candidate300_training_matched_consequence_counts": {
+    "missense": 241,
+    "frameshift": 34,
+    "nonsense": 15,
+    "splice_region": 10
+  },
+  "candidate_trainratio_strict_label_counts": {
+    "Benign": 119,
+    "VUS": 112,
+    "Pathogenic": 30
+  },
+  "candidate_trainratio_strict_gene_counts": {
+    "SCN5A": 152,
+    "ANK2": 48,
+    "KCNH2": 16,
+    "RYR2": 16,
+    "CACNA1C": 12,
+    "KCNQ1": 9,
+    "KCNE1": 5,
+    "KCNE2": 2,
+    "LMNA": 1
+  },
+  "candidate_trainratio_strict_consequence_counts": {
+    "missense": 236,
+    "frameshift": 9,
+    "nonsense": 9,
+    "splice_region": 5,
+    "Missing": 2
+  },
+  "candidate_trainratio_300_relaxed_label_counts": {
+    "Benign": 137,
+    "VUS": 129,
+    "Pathogenic": 34
+  },
+  "candidate_trainratio_300_relaxed_gene_counts": {
+    "SCN5A": 172,
+    "ANK2": 47,
+    "KCNH2": 30,
+    "RYR2": 18,
+    "CACNA1C": 15,
+    "KCNQ1": 9,
+    "KCNE1": 6,
+    "KCNE2": 2,
+    "LMNA": 1
+  },
+  "candidate_trainratio_300_relaxed_consequence_counts": {
+    "missense": 254,
+    "Missing": 19,
+    "nonsense": 11,
+    "frameshift": 10,
+    "splice_region": 6
+  },
+  "file_s3_disagreement_rows_in_arrhythmia": 5,
+  "file_s4_functional_rows_in_arrhythmia": 53,
+  "notes": {
+    "primary_label": "finalAnnotation2_postInvitro collapsed to Benign/VUS/Pathogenic",
+    "phenotype": "No row-level phenotype values were found in File S2; File S1 is an EHR code dictionary.",
+    "candidate_set": "Initial balanced 50-row set for review/scoring; not yet final for manuscript."
+  }
+}

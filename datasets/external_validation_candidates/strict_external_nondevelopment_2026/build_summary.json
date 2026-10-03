@@ -1,0 +1,51 @@
+{
+  "design": "legacy eMERGE and CardioBoost plus PLOS/SHaRE alleles absent from original train and validation",
+  "unique_variants": 713,
+  "pathogenic": 412,
+  "benign": 301,
+  "source_counts": {
+    "Fernandez_Falgueras_PLOS_2024": {
+      "observations": 88,
+      "pathogenic": 24,
+      "benign": 64
+    },
+    "SHaRe_HCM_2026Q1": {
+      "observations": 337,
+      "pathogenic": 198,
+      "benign": 139
+    },
+    "legacy_cardioboost": {
+      "observations": 173,
+      "pathogenic": 129,
+      "benign": 44
+    },
+    "legacy_emerge": {
+      "observations": 176,
+      "pathogenic": 96,
+      "benign": 80
+    }
+  },
+  "combined_performance": {
+    "subset": "combined_unique",
+    "rows": 713,
+    "pathogenic": 412,
+    "benign": 301,
+    "auroc": 0.9827839241363739,
+    "auprc": 0.9878662543967771,
+    "brier": 0.063443804849064,
+    "sensitivity": 0.9781553398058253,
+    "specificity": 0.8372093023255814,
+    "ppv": 0.8915929203539823,
+    "npv": 0.9655172413793104,
+    "tp": 403,
+    "fp": 49,
+    "tn": 252,
+    "fn": 9
+  },
+  "bootstrap": {
+    "unit": "gene",
+    "samples": 2000,
+    "seed": 20260925
+  },
+  "important_limitation": "Prior-nondevelopment status is not equivalent to complete absence from ClinVar or public evidence."
+}

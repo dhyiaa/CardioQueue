@@ -1,0 +1,65 @@
+{
+  "seed_summary": {
+    "combined_rows_before_gene_filter": 372,
+    "rows_after_gene_filter": 361,
+    "deduplicated_rows": 355,
+    "dropped_nonoverlap_rows": 11,
+    "exact_duplicate_rows": 12,
+    "exact_duplicate_variant_groups": 6,
+    "nonoverlap_gene_counts": {
+      "DES": 4,
+      "MYL3": 3,
+      "MYL2": 2,
+      "CALM1": 1,
+      "LAMP2": 1
+    }
+  },
+  "annotation_dir": "/Users/dheyaaal-najafi/Desktop/Cardio AI study/CG_project_python/external data validation/reannotated_cardioboost_weighted_validation_May.27.2026/annotations",
+  "model_input_dir": "/Users/dheyaaal-najafi/Desktop/Cardio AI study/CG_project_python/external data validation/reannotated_cardioboost_weighted_validation_May.27.2026/model_inputs",
+  "post_annotation_coverage": {
+    "clinvar_status": {
+      "non_missing": 355,
+      "missing": 0
+    },
+    "clinvar_classification": {
+      "non_missing": 334,
+      "missing": 21
+    },
+    "gnomad_status": {
+      "non_missing": 355,
+      "missing": 0
+    },
+    "gnomad_max_af": {
+      "non_missing": 340,
+      "missing": 15
+    },
+    "revel": {
+      "non_missing": 355,
+      "missing": 0
+    },
+    "cadd_phred": {
+      "non_missing": 329,
+      "missing": 26
+    },
+    "sift": {
+      "non_missing": 354,
+      "missing": 1
+    },
+    "polyphen2_hdiv": {
+      "non_missing": 349,
+      "missing": 6
+    },
+    "metalr": {
+      "non_missing": 355,
+      "missing": 0
+    },
+    "fathmm_xf": {
+      "non_missing": 331,
+      "missing": 24
+    },
+    "alphamissense": {
+      "non_missing": 334,
+      "missing": 21
+    }
+  }
+}

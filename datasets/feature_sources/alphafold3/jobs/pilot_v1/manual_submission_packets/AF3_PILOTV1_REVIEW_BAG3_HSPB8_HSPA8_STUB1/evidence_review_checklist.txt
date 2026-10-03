@@ -1,0 +1,15 @@
+complex_group_id: AF3_COMPLEX_BAG3_HSPB8_HSPA8_STUB1
+complex_name: BAG3 CASA chaperone complex
+target_genes: BAG3
+protein_entities: BAG3,HSPB8,HSPA8,STUB1
+nonprotein_entities: none
+estimated_tokens: 1720
+
+User/manual checks before submission:
+- Confirm these entities form a plausible same-complex or pairwise biological context.
+- Confirm PubMed/Reactome/PDB/IntAct support is not only pathway-level noise.
+- Confirm full-length modeling is biologically acceptable for this complex.
+- Confirm duplicate chains or homomer stoichiometry in the AlphaFold Server UI.
+
+Evidence rows:
+- BAG3: UniProt reports BAG3 in chaperone-assisted selective autophagy/CASA complex with HSPA8, HSPB8, and STUB1. Evidence anchor=UniProt_SUBUNIT; UniProt PubMed=9873016;10597216;10980614;20060297;22366786;23434281;24318877;26159920;27474739;27884606;28144995;30559338; IntAct PubMed=16189514;19615732;20562859;20936779;21903422;23622248;24510904;24947832;25036637;25277244;25416956;26496610;26638075;27173435;28169297;28514442;29568061;31015422;31324722;31515488;31964889;32203420;32296183;32707033;32814053;33060197;33208464;33845483;33961781;34316702;34927784;35063084;36012204;36931259;38554706;unassigned1312; Reactome=R-HSA-3371453; PDB=

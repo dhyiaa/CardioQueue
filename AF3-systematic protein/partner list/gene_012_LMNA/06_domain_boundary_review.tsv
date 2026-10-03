@@ -1,0 +1,12 @@
+region	residues	source	used_in_design	boundary_confidence	caveat
+Prelamin-A/C canonical chain	1-664	UniProt P02545 reviewed canonical sequence	reference only	high	Includes prelamin-A C-terminal processing region; not the default top-3 sequence
+Mature Lamin-A/C chain	1-646	UniProt P02545 chain annotation	LMNA mature homodimer	high	Baseline does not model farnesylated prelamin-A or lamin C isoform-specific sequence differences
+IF rod domain	31-387	UniProt P02545 domain annotation	LMNA IF rod homodimer	high	Coiled-coil register/polymerization may depend on higher-order filament context
+Head	1-33	UniProt P02545 region annotation	included in mature homodimer only	high	Short/regulatory; no separate job
+Tail	384-646	UniProt P02545 region/chain annotations	LMNA tail-EMD compact rescue	medium_high	Contains folded LTD plus flexible/disordered segments and NLS; local confidence must be checked
+LMNA LTD	428-545	UniProt P02545 domain annotation	included in tail-EMD rescue	high	Useful for mapping tail variants if AF3 confidence is adequate
+LMNA NLS motif	417-422	UniProt P02545 motif annotation	included in tail-EMD rescue	high	Functional motif, not necessarily an EMD-binding site
+EMD LEM domain	1-45	UniProt P50402 domain annotation	included in EMD 1-222 compact rescue	high	Also binds BANF1/BAF; not a direct claim that LEM is the LMNA interface
+EMD nucleoplasmic/F-actin interaction region	46-222	UniProt P50402 region annotation	included in EMD 1-222 compact rescue	medium_high	Flexible and PTM-rich; no membrane anchor
+EMD transmembrane helix	223-243	UniProt P50402 topology annotation	excluded from top-3	high	Held because AlphaFold Server job does not model the inner nuclear membrane
+TMEM43 transmembrane domains	32-52;314-334;346-366;369-389	UniProt Q9BTV4 topology annotation	held	high	Needs membrane/topology-aware design; prior full-length trimer weak

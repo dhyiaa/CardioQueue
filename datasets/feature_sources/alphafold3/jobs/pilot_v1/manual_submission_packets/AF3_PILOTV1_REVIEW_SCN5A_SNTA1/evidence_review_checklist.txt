@@ -1,0 +1,15 @@
+complex_group_id: AF3_COMPLEX_SCN5A_SNTA1
+complex_name: SCN5A-syntrophin channel-associated context
+target_genes: SNTA1
+protein_entities: SCN5A,SNTA1
+nonprotein_entities: none
+estimated_tokens: 2521
+
+User/manual checks before submission:
+- Confirm these entities form a plausible same-complex or pairwise biological context.
+- Confirm PubMed/Reactome/PDB/IntAct support is not only pathway-level noise.
+- Confirm full-length modeling is biologically acceptable for this complex.
+- Confirm duplicate chains or homomer stoichiometry in the AlphaFold Server UI.
+
+Evidence rows:
+- SNTA1: UniProt reports SNTA1 interaction with sodium channel proteins including SCN5A and DGC context. Evidence anchor=UniProt_SUBUNIT_Reactome; UniProt PubMed=15217910;15548568;15579534;19666841;21167176;21817159;21994374;22705208;25370050;26392562;26721415;37117223; IntAct PubMed=10212242;15174051;16169070;16192269;16533813;18468998;19549727;21115837;24835590;26617989;27382054;28514442;30126976;33208464;33961781;35914814;36012204;36115835;39009827; Reactome=R-HSA-445095;R-HSA-5576892;R-HSA-9913351; PDB=2KBI;2L53;4DCK;4DJC;4JQ0;4OVN;5DBR;6LQA;6MUD;7DTC;7L83;8VYJ;8VYK;9ITH;9P24;9V3S

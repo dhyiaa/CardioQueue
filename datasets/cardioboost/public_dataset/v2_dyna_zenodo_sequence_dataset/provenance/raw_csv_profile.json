@@ -1,0 +1,138 @@
+[
+  {
+    "file": "Clinvar_ARM_VUS_protein.csv",
+    "bytes": 1391733,
+    "rows": 885,
+    "columns": 3,
+    "columns_list": [
+      "wt_seq",
+      "mut_seq",
+      "labels"
+    ]
+  },
+  {
+    "file": "Clinvar_ARM_protein.csv",
+    "bytes": 143042,
+    "rows": 98,
+    "columns": 3,
+    "columns_list": [
+      "wt_seq",
+      "mut_seq",
+      "labels"
+    ]
+  },
+  {
+    "file": "Clinvar_CM_VUS_protein.csv",
+    "bytes": 27873367,
+    "rows": 17734,
+    "columns": 3,
+    "columns_list": [
+      "wt_seq",
+      "mut_seq",
+      "labels"
+    ]
+  },
+  {
+    "file": "Clinvar_CM_protein.csv",
+    "bytes": 2485780,
+    "rows": 1635,
+    "columns": 3,
+    "columns_list": [
+      "wt_seq",
+      "mut_seq",
+      "labels"
+    ]
+  },
+  {
+    "file": "arm_test_data_1024.csv",
+    "bytes": 278315,
+    "rows": 154,
+    "columns": 4,
+    "columns_list": [
+      "wt_seq",
+      "mut_seq",
+      "start_pos",
+      "labels"
+    ]
+  },
+  {
+    "file": "arm_train_data_1024.csv",
+    "bytes": 564942,
+    "rows": 308,
+    "columns": 4,
+    "columns_list": [
+      "wt_seq",
+      "mut_seq",
+      "start_pos",
+      "labels"
+    ]
+  },
+  {
+    "file": "clinvar_test.csv",
+    "bytes": 273875405,
+    "rows": 677400,
+    "columns": 3,
+    "columns_list": [
+      "seq_a",
+      "seq_b",
+      "labels"
+    ]
+  },
+  {
+    "file": "cm_test_data_1024.csv",
+    "bytes": 356340,
+    "rows": 218,
+    "columns": 4,
+    "columns_list": [
+      "wt_seq",
+      "mut_seq",
+      "start_pos",
+      "labels"
+    ]
+  },
+  {
+    "file": "cm_train_data_1024.csv",
+    "bytes": 684886,
+    "rows": 440,
+    "columns": 4,
+    "columns_list": [
+      "wt_seq",
+      "mut_seq",
+      "start_pos",
+      "labels"
+    ]
+  },
+  {
+    "file": "mfass_test.csv",
+    "bytes": 953931,
+    "rows": 2773,
+    "columns": 3,
+    "columns_list": [
+      "seq_a",
+      "seq_b",
+      "labels"
+    ]
+  },
+  {
+    "file": "mfass_train.csv",
+    "bytes": 7632003,
+    "rows": 22186,
+    "columns": 3,
+    "columns_list": [
+      "seq_a",
+      "seq_b",
+      "labels"
+    ]
+  },
+  {
+    "file": "mfass_val.csv",
+    "bytes": 954275,
+    "rows": 2774,
+    "columns": 3,
+    "columns_list": [
+      "seq_a",
+      "seq_b",
+      "labels"
+    ]
+  }
+]

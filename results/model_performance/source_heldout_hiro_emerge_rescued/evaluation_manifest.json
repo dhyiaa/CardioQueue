@@ -1,0 +1,38 @@
+{
+  "predictions": "results/models/primary_binary_catboost_v0_strict_source_heldout_hiro_emerge_rescued/primary_binary_predictions_split_source_heldout.tsv",
+  "out_dir": "results/model_performance/source_heldout_hiro_emerge_rescued",
+  "subsets": {
+    "validation": [
+      "validation"
+    ],
+    "external_all": [
+      "external_hiro",
+      "external_emerge",
+      "external_cardioboost"
+    ],
+    "external_hiro": [
+      "external_hiro"
+    ],
+    "external_emerge": [
+      "external_emerge"
+    ],
+    "external_cardioboost": [
+      "external_cardioboost"
+    ]
+  },
+  "policies": {
+    "binary_threshold_0_5": [
+      0.5,
+      0.5
+    ],
+    "defer_0.1_0.9": [
+      0.1,
+      0.9
+    ]
+  },
+  "notes": [
+    "Primary model is binary P/LP vs B/LB.",
+    "The deferral policy is a post-hoc three-call view: B/LB below lower threshold, P/LP at or above upper threshold, VUS/defer otherwise.",
+    "Exact 3-class accuracy is computed on binary-labeled rows only here, so VUS calls are counted as deferrals/errors rather than true VUS hits."
+  ]
+}

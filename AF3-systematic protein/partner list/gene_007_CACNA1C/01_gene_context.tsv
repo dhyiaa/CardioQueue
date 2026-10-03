@@ -1,0 +1,13 @@
+field	value	note
+gene	CACNA1C	Systematic AF3 gene #7
+rank_in_priority_queue	7	Top 10 high-burden gene
+included_variant_rows	3557	Current ready/modeling table
+binary_rows	1987	Benign plus Pathogenic
+benign_rows	1890	Clean 3-class label
+vus_rows	1536	VUS rows are not supervised binary training labels
+pathogenic_rows	97	P/LP collapsed to Pathogenic
+missing_label_rows	34	Rows without clean model label
+top_sources	clinvar:3231;emerge:161;clinvar|emerge:134;cardioboost|clinvar:11;cardioboost:6;clinvar|hiro:4;emerge|hiro:3;hiro:2;cardioboost|emerge:2;cardioboost|clinvar|emerge:2	Source composition for CACNA1C
+hiro_overlap_rows	10	Small patient-linked overlap in current CACNA1C table
+primary_biological_context	cardiac L-type calcium channel Cav1.2 alpha-1C with beta-2 and calmodulin regulation	AF3 jobs focus on cardiac channel regulation
+main_caveat	full-length CACNA1C is a large membrane channel and AF3 server jobs do not include membrane, voltage state, or all auxiliary subunits	Do not overinterpret full-length docking alone

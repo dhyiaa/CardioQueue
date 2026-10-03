@@ -1,0 +1,8 @@
+region	residues	source	decision	rationale	sequence_file
+full_length_KCNQ1	1-676	UniProt P51787 canonical sequence	used in top3 jobs	Full-length is feasible and preserves channel/C-terminal regulatory context.	partner_sequences/KCNQ1_P51787.fasta
+KCNQ1_CALM_A	370-382 annotated; 360-390 held window	UniProt P51787; PubMed 25441029	covered by full-length CALM job; held compact sensitivity	One of two annotated KCNQ1-CALM interaction regions.	partner_sequences/KCNQ1_CALM_A_360_390.fasta
+KCNQ1_CALM_B	515-529 annotated; 505-535 held window	UniProt P51787; PubMed 25441029	covered by full-length CALM job; held compact sensitivity	Calcium-dependent KCNQ1-CALM interaction region.	partner_sequences/KCNQ1_CALM_B_505_535.fasta
+KCNQ1_KCNE1_CTERM	KCNQ1 535-572 annotated; 530-580 held window	UniProt P51787; PubMed 25037568	covered by full-length KCNE1 jobs; held compact sensitivity	Known C-terminal KCNE1 interaction context.	partner_sequences/KCNQ1_KCNE1_CTERM_530_580.fasta
+KCNE1_CTERM	109-129	UniProt P15382; PubMed 25037568	covered by full-length KCNE1 jobs; held compact sensitivity	KCNE1 C-terminal interaction with KCNQ1 C-terminus.	partner_sequences/KCNE1_CTERM_109_129.fasta
+PIP2_binding	KCNQ1 residue 244	UniProt P51787; PDB 6V01; PubMed 31883792	held ligand review	Important channel ligand context but not a protein/partner top3 job.	not_generated
+assembly_domain	589-620	UniProt P51787; PubMed 10654932	covered by full-length tetrameric job	Tetramerization/assembly region should be included in full-length channel context.	partner_sequences/KCNQ1_P51787.fasta

@@ -1,0 +1,19 @@
+Reference 14
+PMID: 34791371
+Title: AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models.
+Authors: Varadi M; Anyango S; Deshpande M; Nair S; Natassia C; Yordanova G; Yuan D; Stroe O; et al.
+Year: 2022
+Journal: Nucleic acids research
+DOI: 10.1093/nar/gkab1061
+URL: https://pubmed.ncbi.nlm.nih.gov/34791371/
+Draft use: AlphaFold Protein Structure Database
+
+Abstract:
+The AlphaFold Protein Structure Database (AlphaFold DB, https://alphafold.ebi.ac.uk) is an openly
+accessible, extensive database of high-accuracy protein-structure predictions. Powered by AlphaFold
+v2.0 of DeepMind, it has enabled an unprecedented expansion of the structural coverage of the known
+protein-sequence space. AlphaFold DB provides programmatic access to and interactive visualization
+of predicted atomic coordinates, per-residue and pairwise model-confidence estimates and predicted
+aligned errors. The initial release of AlphaFold DB contains over 360,000 predicted structures
+across 21 model-organism proteomes, which will soon be expanded to cover most of the (over 100
+million) representative sequences from the UniRef90 data set.

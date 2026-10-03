@@ -1,0 +1,63 @@
+{
+  "matrix": "datasets/modeling/ready/modeling_table_with_splits_weights_hiro_emerge_rescued.tsv",
+  "hiro_source_records": "datasets/hiro/full_dataset/interim/hiro_linked_source_records.tsv",
+  "model": "results/models/primary_binary_catboost_v0_strict_source_heldout_hiro_emerge_rescued/primary_binary_catboost_model.cbm",
+  "feature_spec": "results/models/primary_binary_catboost_v0_strict_source_heldout_hiro_emerge_rescued/feature_columns.json",
+  "out_dir": "results/model_performance/hiro_source_record_3class",
+  "threshold_policy": {
+    "benign_if_probability_lt": 0.1,
+    "pathogenic_if_probability_ge": 0.9,
+    "vus_defer_otherwise": true
+  },
+  "variant_level_hiro_rows_scored": 240,
+  "source_record_counts": {
+    "total": 482,
+    "predicted": 408,
+    "no_prediction": 74
+  },
+  "defer_policy_metrics": {
+    "rows_total": 482,
+    "rows_with_prediction": 408,
+    "rows_no_prediction": 74,
+    "true_label_counts_total": {
+      "Benign": 220,
+      "VUS": 207,
+      "Pathogenic": 55
+    },
+    "predicted_call_counts_total": {
+      "Benign": 209,
+      "VUS": 102,
+      "Pathogenic": 97,
+      "No_prediction": 74
+    },
+    "called_exact_3class_accuracy": 0.6470588235294118,
+    "called_vus_deferral_rate": 0.25,
+    "pathogenic_to_benign_errors": 0,
+    "pathogenic_to_vus_deferrals": 5,
+    "benign_to_pathogenic_escalations": 18,
+    "vus_to_pathogenic_escalations": 38,
+    "vus_to_benign_calls": 60
+  },
+  "binary_0.5_policy_metrics": {
+    "rows_total": 482,
+    "rows_with_prediction": 408,
+    "rows_no_prediction": 74,
+    "true_label_counts_total": {
+      "Benign": 220,
+      "VUS": 207,
+      "Pathogenic": 55
+    },
+    "predicted_call_counts_total": {
+      "Benign": 269,
+      "Pathogenic": 139,
+      "No_prediction": 74
+    },
+    "called_exact_3class_accuracy": 0.5122549019607843,
+    "called_vus_deferral_rate": 0.0,
+    "pathogenic_to_benign_errors": 1,
+    "pathogenic_to_vus_deferrals": 0,
+    "benign_to_pathogenic_escalations": 26,
+    "vus_to_pathogenic_escalations": 68,
+    "vus_to_benign_calls": 104
+  }
+}

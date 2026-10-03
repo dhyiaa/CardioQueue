@@ -1,0 +1,4 @@
+rank	job_name	upload_set	reason
+1	AF3_SYS_G005_SCN5A_CALM1_CA4_FULL_LENGTH_DRAFT	top3	Prior local AF3 strong interface and direct SCN5A-CALM UniProt/PubMed evidence.
+2	AF3_SYS_G005_SCN5A_SCN1B_FULL_LENGTH_DRAFT	top3	Prior local AF3 strong interface and direct SCN5A-SCN1B UniProt/PubMed evidence.
+3	AF3_SYS_G005_SCN5A_SNTA1_FULL_LENGTH_DRAFT	top3	Cardiac sarcolemmal syntrophin scaffold context; needs output QC before feature promotion.

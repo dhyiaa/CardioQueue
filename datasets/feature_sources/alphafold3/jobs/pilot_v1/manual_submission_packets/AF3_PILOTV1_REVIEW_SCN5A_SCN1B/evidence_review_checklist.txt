@@ -1,0 +1,15 @@
+complex_group_id: AF3_COMPLEX_SCN5A_SCN1B
+complex_name: SCN5A/Nav1.5 beta-1 subunit context
+target_genes: SCN1B
+protein_entities: SCN5A,SCN1B
+nonprotein_entities: none
+estimated_tokens: 2234
+
+User/manual checks before submission:
+- Confirm these entities form a plausible same-complex or pairwise biological context.
+- Confirm PubMed/Reactome/PDB/IntAct support is not only pathway-level noise.
+- Confirm full-length modeling is biologically acceptable for this complex.
+- Confirm duplicate chains or homomer stoichiometry in the AlphaFold Server UI.
+
+Evidence rows:
+- SCN1B: UniProt reports SCN1B interaction/regulatory subunit relationship with SCN5A/Nav1.5. Evidence anchor=UniProt_SUBUNIT_Reactome; UniProt PubMed=8125980;15217910;15525788;15548568;15579534;17928445;19666841;21167176;21817159;21994374;22705208;25370050;26392562;26721415;26900580;30190309;36696443;36823201;37117223; IntAct PubMed=15174051;16169070;23622248;33208464;33961781;36115835;39009827; Reactome=R-HSA-445095;R-HSA-5576892;R-HSA-9717207; PDB=21TP;21TQ;25IH;25II;25IJ;2KBI;2L53;4DCK;4DJC;4JQ0;4OVN;5DBR;6AGF;6J8G;6J8H;6J8I;6J8J;6LQA;6MUD;7DTC;7L83;7W77;7W7F;7W9K;7W9L;7W9M;7W9P;7W9T;7XM9;7XMF;7XMG;7XVE;7XVF;8FHD;8G1A;8GZ1;8GZ2;8I5B;8I5G;8I5X;8I5Y;8J4F;8S9B;8S9C;8THG;8THH;8VYJ;8VYK;8XMM;8XMN;8XMO;9DK5;9ITH;9P24;9V3S

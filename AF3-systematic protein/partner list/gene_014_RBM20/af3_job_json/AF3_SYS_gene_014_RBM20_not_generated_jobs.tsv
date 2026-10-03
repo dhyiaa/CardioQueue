@@ -1,0 +1,5 @@
+held_design	reason	what_would_be_needed
+RBM20 RRM/RS plus RNA 5-UCUU-3 motif	Mechanistically important but RNA sequence/context and AlphaFold Server RNA JSON schema need explicit review	Define longer pre-mRNA motif, transcript context, and validated AF3 RNA upload schema
+RBM20 plus U1/U2 snRNP components	UniProt reports association, but no specific protein/RNA components are curated enough for a first-pass AF3 job	Spliceosome-focused partner review and size/stoichiometry design
+RBM20 plus NTAQ1/LNX1/EGLN3/other IntAct hits	Local IntAct hits are high-throughput/proximity/noisy and not cardiac-splicing-specific	Targeted literature confirming cardiac RBM20 mechanism partner
+RBM20 full-length monomer	Large disordered protein; likely low-confidence and less informative than domain-focused jobs	Only run after domain jobs if needed for coverage

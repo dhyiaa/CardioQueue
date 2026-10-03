@@ -1,0 +1,10 @@
+field	value	note
+gene	DSG2	Gene 013 in AF3 systematic queue
+included_variant_rows	2034	Current rescue-aware included rows from priority table
+binary_rows	812	Benign plus pathogenic rows
+vus_rows	1222	VUS rows that may later receive AF3-derived context features
+pathogenic_rows	129	Moderate P/LP count for desmosomal subgroup analysis
+benign_rows	683	Benign comparator rows
+frequency_rank	13	Rank 13 in included variant burden
+disease_context	arrhythmogenic cardiomyopathy desmosomal cadherin gene	Primary cardiogenetics/desmosome gene
+af3_scope	desmosomal cadherin adhesion plus PKP2 plaque context	Prior full-length DSG2-DSC2 was weak, so compact extracellular and cytoplasmic-tail jobs are prioritized

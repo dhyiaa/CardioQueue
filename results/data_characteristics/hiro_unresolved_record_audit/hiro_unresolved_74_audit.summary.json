@@ -1,0 +1,109 @@
+{
+  "input_linked_source_records": "datasets/hiro/full_dataset/interim/hiro_linked_source_records.tsv",
+  "input_rescue_candidates": "datasets/hiro/full_dataset/interim/hiro_coordinate_rescue_candidates.tsv",
+  "input_modeling_matrix": "datasets/modeling/ready/modeling_table_with_splits_weights_hiro_emerge_rescued.tsv",
+  "output_dir": "results/data_characteristics/hiro_unresolved_record_audit",
+  "total_hiro_source_records": 482,
+  "linked_to_registry": 408,
+  "unresolved_or_not_promoted": 74,
+  "unresolved_status_counts": [
+    [
+      "unresolved_no_coordinates",
+      73
+    ],
+    [
+      "rescued_but_not_in_promoted_registry",
+      1
+    ]
+  ],
+  "label_counts": [
+    [
+      "VUS",
+      35
+    ],
+    [
+      "Benign",
+      30
+    ],
+    [
+      "Pathogenic",
+      9
+    ]
+  ],
+  "blocker_counts": [
+    [
+      "needs_hgvs_normalization_missense",
+      26
+    ],
+    [
+      "needs_hgvs_normalization_indel_splice_lof",
+      22
+    ],
+    [
+      "no_variant_text_or_hgvs",
+      15
+    ],
+    [
+      "gene_symbol_or_readthrough_cleanup",
+      5
+    ],
+    [
+      "clinvar_review_candidate_not_promoted",
+      3
+    ],
+    [
+      "partial_coordinate_or_allele",
+      1
+    ],
+    [
+      "needs_manual_review",
+      1
+    ],
+    [
+      "rescued_coordinate_not_promoted",
+      1
+    ]
+  ],
+  "recommendation_counts": [
+    [
+      "Run online VEP HGVS, VariantValidator, Mutalyzer, or a local transcript-aware HGVS normalizer.",
+      45
+    ],
+    [
+      "Cannot rescue from current processed table; return to raw source/report.",
+      15
+    ],
+    [
+      "Clean gene alias/readthrough first, then run HGVS normalization.",
+      5
+    ],
+    [
+      "Manual ClinVar/HGVS review; do not auto-promote.",
+      3
+    ],
+    [
+      "Review for promotion: unique internal matrix gene+cDNA candidate.",
+      2
+    ],
+    [
+      "Manual review.",
+      2
+    ],
+    [
+      "Recover missing allele fields from original VCF/report or normalize HGVS.",
+      1
+    ],
+    [
+      "Manual review only: unique protein-level candidate may be isoform-dependent.",
+      1
+    ]
+  ],
+  "unique_internal_cdna_candidates": 2,
+  "unique_internal_protein_candidates": 1,
+  "clinvar_review_candidates": 3,
+  "notes": [
+    "No registry/modeling table is modified by this audit.",
+    "The two unique internal cDNA candidates are review/promote candidates, not automatically promoted here.",
+    "VEP offline cannot parse HGVS input; remaining records need online VEP, VariantValidator, Mutalyzer, or a local transcript-aware HGVS normalizer."
+  ]
+}

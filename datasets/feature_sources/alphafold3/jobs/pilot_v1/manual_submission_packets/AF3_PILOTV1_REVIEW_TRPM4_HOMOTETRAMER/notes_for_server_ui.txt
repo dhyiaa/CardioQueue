@@ -1,0 +1,4 @@
+This is a second-wave review packet, not an approved submission packet.
+Submit only after the evidence_review_checklist.txt items are manually approved.
+Use the reviewed UniProt sequences in entities.fasta.
+After AF3 output is downloaded, place the zip or extracted folder in raw/pilot_v1_server_outputs/ and record it in af3_pilot_v1_completed_job_manifest_template.tsv.

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "AF3_SYS_G010_HCN4_CLINKER_CNBD_518_724_CAMP4_TETRAMER_DRAFT",
+    "modelSeeds": [],
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "QSLDSSRRQYQEKYKQVEQYMSFHKLPPDTRQRIHDYYEHRYQGKMFDEESILGELSEPLREEIINFNCRKLVASMPLFANADPNFVTSMLTKLRFEVFQPGDYIIREGTIGKKMYFIQHGVVSVLTKGNKETKLADGSYFGEICLLTRGRRTASVRADTYCRLYSLSVDNFNEVLEEYPMMRRAFETVALDRLDRIGKKNSILLHK",
+          "count": 4
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "CCD_CMP",
+          "count": 4
+        }
+      }
+    ],
+    "dialect": "alphafoldserver",
+    "version": 1
+  }
+]

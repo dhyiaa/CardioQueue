@@ -1,0 +1,44 @@
+[
+  {
+    "name": "AF3_SYS_G014_RBM20_ZNF_RRM_RS_390_660_MONOMER_DRAFT",
+    "modelSeeds": [],
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "SVRPLQAHELNDFHGVAPLHLPHICSICDKKVFDLKDWELHVKGKLHAQKCLVFSENAGIRCILGSAEGTLCASPNSTAVYNPAGNEDYASNLGTSYVPIPARSFTQSSPTFPLASVGTTFAQRKGAGRVVHICNLPEGSCTENDVINLGLPFGKVTNYILMKSTNQAFLEMAYTEAAQAMVQYYQEKSAVINGEKLLIRMSKRYKELQLKKPGKAVAAIIQDIHSQRERDMFREADRYGPERPRSRSPVSRSLSPRSHTPSFTSCSSSHS",
+          "count": 1
+        }
+      }
+    ],
+    "dialect": "alphafoldserver",
+    "version": 1
+  },
+  {
+    "name": "AF3_SYS_G014_RBM20_RRM_500_610_MONOMER_DRAFT",
+    "modelSeeds": [],
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "TFPLASVGTTFAQRKGAGRVVHICNLPEGSCTENDVINLGLPFGKVTNYILMKSTNQAFLEMAYTEAAQAMVQYYQEKSAVINGEKLLIRMSKRYKELQLKKPGKAVAAII",
+          "count": 1
+        }
+      }
+    ],
+    "dialect": "alphafoldserver",
+    "version": 1
+  },
+  {
+    "name": "AF3_SYS_G014_RBM20_CTERM_ZNF_1140_1227_MONOMER_DRAFT",
+    "modelSeeds": [],
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "EDVFSELSIPLGVEFVVPRTGFYCKLCGLFYTSEETAKMSHCRSAVHYRNLQKYLSQLAEEGLKETEGADSPRPEDSGIVPRFERKKL",
+          "count": 1
+        }
+      }
+    ],
+    "dialect": "alphafoldserver",
+    "version": 1
+  }
+]

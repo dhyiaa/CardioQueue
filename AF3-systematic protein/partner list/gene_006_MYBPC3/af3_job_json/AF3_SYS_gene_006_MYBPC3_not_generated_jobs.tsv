@@ -1,0 +1,5 @@
+job_name	reason
+AF3_SYS_G006_MYBPC3_FULL_LENGTH_MYH7_S2_HELD	Full MYBPC3 plus MYH7 S2 may be feasible but less interpretable because MYBPC3 is modular/disordered.
+AF3_SYS_G006_MYBPC3_EXPANDED_THIN_FILAMENT_HELD	Expanded ACTC1/TPM1/TNNI3/TNNT2 context is better as a shared sarcomere packet.
+AF3_SYS_G006_MYBPC3_MYL2_MYL3_HELD	Light-chain context is handled in MYH7 packet and is not a direct MYBPC3-first interaction.
+AF3_SYS_G006_MYBPC3_PDE4DIP_OR_NOISY_INTACT_HELD	IntAct contains several noisy/non-core hits; not promoted without cardiac-specific evidence.

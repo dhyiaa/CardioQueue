@@ -1,0 +1,17 @@
+Reference 8
+PMID: 27268795
+Title: The Ensembl Variant Effect Predictor.
+Authors: McLaren W; Gil L; Hunt SE; Riat HS; Ritchie GR; Thormann A; Flicek P; Cunningham F
+Year: 2016
+Journal: Genome biology
+DOI: 10.1186/s13059-016-0974-4
+URL: https://pubmed.ncbi.nlm.nih.gov/27268795/
+Draft use: VEP consequence and HGVS annotation
+
+Abstract:
+The Ensembl Variant Effect Predictor is a powerful toolset for the analysis, annotation, and
+prioritization of genomic variants in coding and non-coding regions. It provides access to an
+extensive collection of genomic annotation, with a variety of interfaces to suit different
+requirements, and simple options for configuring and extending analysis. It is open source, free to
+use, and supports full reproducibility of results. The Ensembl Variant Effect Predictor can simplify
+and accelerate variant interpretation in a wide range of study designs.

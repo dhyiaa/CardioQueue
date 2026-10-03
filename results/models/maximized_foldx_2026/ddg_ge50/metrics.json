@@ -1,0 +1,148 @@
+{
+  "input_table": "datasets/external_validation_candidates/expanded_external_2026/modeling_table_expanded_external_annotated.tsv",
+  "output_dir": "results/models/maximized_foldx_2026/ddg_ge50",
+  "split_col": "split_source_heldout",
+  "slice_col": "training_slice_primary_binary",
+  "weight_col": "sample_weight",
+  "augmentation_table": "datasets/feature_sources/protein_structure/interim/maximized_foldx_augmentations/ddg_features_ge50.tsv",
+  "augmentation_features": [
+    "maxfoldx_ge50_eligible",
+    "maxfoldx_ge50_numeric_available",
+    "maxfoldx_ge50_ddg_kcal_mol",
+    "maxfoldx_ge50_abs_ddg"
+  ],
+  "excluded_feature_prefixes": [
+    "hiro_",
+    "foldx_ddg_"
+  ],
+  "excluded_feature_regexes": [],
+  "thread_count": -1,
+  "n_features": 288,
+  "n_categorical_features": 193,
+  "n_numeric_features": 95,
+  "best_iteration": 270,
+  "splits": {
+    "train": {
+      "rows": 35796,
+      "positives_pathogenic": 7236,
+      "negatives_benign": 28560,
+      "auroc": 0.9997922749116229,
+      "auprc": 0.9991827632564019,
+      "brier": 0.0026060397446907055,
+      "log_loss": 0.011901491515823731,
+      "threshold_0_5": {
+        "threshold": 0.5,
+        "tp": 7183,
+        "fp": 61,
+        "tn": 28499,
+        "fn": 53,
+        "sensitivity_recall_pathogenic": 0.9926755113322278,
+        "specificity_benign": 0.9978641456582633,
+        "precision_ppv_pathogenic": 0.9915792379900608
+      },
+      "threshold_specificity_0_90": {
+        "threshold": 0.007223327852720796,
+        "tp": 7233,
+        "fp": 2224,
+        "tn": 26336,
+        "fn": 3,
+        "sensitivity_recall_pathogenic": 0.9995854063018242,
+        "specificity_benign": 0.9221288515406163,
+        "precision_ppv_pathogenic": 0.7648302844453844
+      },
+      "threshold_specificity_0_95": {
+        "threshold": 0.009928661706447408,
+        "tp": 7231,
+        "fp": 1361,
+        "tn": 27199,
+        "fn": 5,
+        "sensitivity_recall_pathogenic": 0.9993090105030403,
+        "specificity_benign": 0.9523459383753501,
+        "precision_ppv_pathogenic": 0.841596834264432
+      }
+    },
+    "validation": {
+      "rows": 6317,
+      "positives_pathogenic": 1277,
+      "negatives_benign": 5040,
+      "auroc": 0.999844781295447,
+      "auprc": 0.9994202057581413,
+      "brier": 0.0031257156283909966,
+      "log_loss": 0.013359631617161541,
+      "threshold_0_5": {
+        "threshold": 0.5,
+        "tp": 1269,
+        "fp": 17,
+        "tn": 5023,
+        "fn": 8,
+        "sensitivity_recall_pathogenic": 0.9937353171495693,
+        "specificity_benign": 0.9966269841269841,
+        "precision_ppv_pathogenic": 0.9867807153965785
+      },
+      "threshold_specificity_0_90": {
+        "threshold": 0.011879253835328892,
+        "tp": 1277,
+        "fp": 225,
+        "tn": 4815,
+        "fn": 0,
+        "sensitivity_recall_pathogenic": 1.0,
+        "specificity_benign": 0.9553571428571429,
+        "precision_ppv_pathogenic": 0.8501997336884154
+      },
+      "threshold_specificity_0_95": {
+        "threshold": 0.011879253835328892,
+        "tp": 1277,
+        "fp": 225,
+        "tn": 4815,
+        "fn": 0,
+        "sensitivity_recall_pathogenic": 1.0,
+        "specificity_benign": 0.9553571428571429,
+        "precision_ppv_pathogenic": 0.8501997336884154
+      }
+    },
+    "external_expanded": {
+      "rows": 1233,
+      "positives_pathogenic": 801,
+      "negatives_benign": 432,
+      "auroc": 0.984718176353632,
+      "auprc": 0.9920202687630219,
+      "brier": 0.04982318097802823,
+      "log_loss": 0.16680859643807674,
+      "threshold_0_5": {
+        "threshold": 0.5,
+        "tp": 774,
+        "fp": 54,
+        "tn": 378,
+        "fn": 27,
+        "sensitivity_recall_pathogenic": 0.9662921348314607,
+        "specificity_benign": 0.875,
+        "precision_ppv_pathogenic": 0.9347826086956522
+      },
+      "threshold_specificity_0_90": {
+        "threshold": 0.7062407367487618,
+        "tp": 764,
+        "fp": 43,
+        "tn": 389,
+        "fn": 37,
+        "sensitivity_recall_pathogenic": 0.9538077403245943,
+        "specificity_benign": 0.9004629629629629,
+        "precision_ppv_pathogenic": 0.9467162329615861
+      },
+      "threshold_specificity_0_95": {
+        "threshold": 0.8769014028944468,
+        "tp": 742,
+        "fp": 21,
+        "tn": 411,
+        "fn": 59,
+        "sensitivity_recall_pathogenic": 0.9263420724094882,
+        "specificity_benign": 0.9513888888888888,
+        "precision_ppv_pathogenic": 0.9724770642201835
+      }
+    }
+  },
+  "notes": [
+    "Binary model trained from rows selected by training_slice_primary_binary on split_source_heldout.",
+    "Feature selection excludes labels, review stars, source flags, and source-derived label counts to reduce leakage.",
+    "Rows weighted with sample_weight."
+  ]
+}

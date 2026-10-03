@@ -1,0 +1,7 @@
+entity	uniprot_accession	entry_name	sequence_source	residues	length	status	caveat
+RBM20 canonical	Q5T481	RBM20_HUMAN	local reviewed UniProt FASTA	1-1227	1227	ready_reference	Large RNA-binding/splicing regulator; many disordered regions and phosphorylation sites; full-length monomer not default top-3
+RBM20 U1 zinc finger/RRM/RS hotspot region	Q5T481	RBM20_HUMAN	derived from reviewed UniProt canonical	390-660	271	top3_review_grade	Captures U1-type zinc finger 409-443, RRM 518-593, RS region 628-655, and pathogenic hotspot around 634-638; monomeric only
+RBM20 RRM context	Q5T481	RBM20_HUMAN	derived from reviewed UniProt canonical	500-610	111	top3_review_grade	Protein-only RRM context; no RNA motif included
+RBM20 C-terminal matrin-type zinc finger context	Q5T481	RBM20_HUMAN	derived from reviewed UniProt canonical	1140-1227	88	top3_review_grade	Captures matrin-type zinc finger 1161-1192 and C-terminal truncation-sensitive region, but likely disordered outside zinc finger
+RNA motif 5-UCUU-3	not_applicable	RBM20_target_motif	UniProt functional text/literature	RNA motif	4 nt	held_not_json_generated	Important mechanistic entity, but AF3 RNA design needs explicit sequence/context and server JSON schema review
+U1/U2 snRNP components	multiple	spliceosome complex	UniProt subunit text	not_selected	variable	held_not_json_generated	RBM20 associates with components of U1/U2 snRNP complexes, but no specific protein partner set is curated enough for top-3

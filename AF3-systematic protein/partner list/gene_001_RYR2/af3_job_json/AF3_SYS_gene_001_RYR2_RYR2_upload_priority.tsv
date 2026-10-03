@@ -1,0 +1,5 @@
+rank	job_name	upload_set	reason
+1	AF3_SYS_G001_RYR2_CaMBD2_3580_3611_CALM1_CA4_DRAFT	top3_submit_first	calmodulin-domain jobs are the most direct cardiac regulatory context; LL1-CASQ2 is optional because first result was weak/unsupported.
+2	AF3_SYS_G001_RYR2_CaMBD3_4246_4275_CALM1_CA5_DRAFT	top3_submit_first	calmodulin-domain jobs are the most direct cardiac regulatory context; LL1-CASQ2 is optional because first result was weak/unsupported.
+3	AF3_SYS_G001_RYR2_CaMBD1_1940_1965_CALM1_CA4_DRAFT	top3_submit_first	calmodulin-domain jobs are the most direct cardiac regulatory context; LL1-CASQ2 is optional because first result was weak/unsupported.
+4	AF3_SYS_G001_RYR2_LL1_4521_4573_CASQ2_DRAFT	optional_4th_only_if_quota	calmodulin-domain jobs are the most direct cardiac regulatory context; LL1-CASQ2 is optional because first result was weak/unsupported.

@@ -1,0 +1,27 @@
+Reference 11
+PMID: 26014595
+Title: ClinGen--the Clinical Genome Resource.
+Authors: Rehm HL; Berg JS; Brooks LD; Bustamante CD; Evans JP; Landrum MJ; Ledbetter DH; Maglott DR; et al.
+Year: 2015
+Journal: The New England journal of medicine
+DOI: 10.1056/NEJMsr1406261
+URL: https://pubmed.ncbi.nlm.nih.gov/26014595/
+Draft use: ClinGen gene-disease validity context
+
+Abstract:
+On autopsy, a patient is found to have hypertrophic cardiomyopathy. The patient’s family pursues
+genetic testing that shows a “likely pathogenic” variant for the condition on the basis of a study
+in an original research publication. Given the dominant inheritance of the condition and the risk of
+sudden cardiac death, other family members are tested for the genetic variant to determine their
+risk. Several family members test negative and are told that they are not at risk for hypertrophic
+cardiomyopathy and sudden cardiac death, and those who test positive are told that they need to be
+regularly monitored for cardiomyopathy on echocardiography. Five years later, during a routine
+clinic visit of one of the genotype-positive family members, the cardiologist queries a database for
+current knowledge on the genetic variant and discovers that the variant is now interpreted as
+“likely benign” by another laboratory that uses more recently derived population-frequency data. A
+newly available testing panel for additional genes that are implicated in hypertrophic
+cardiomyopathy is initiated on an affected family member, and a different variant is found that is
+determined to be pathogenic. Family members are retested, and one member who previously tested
+negative is now found to be positive for this new variant. An immediate clinical workup detects
+evidence of cardiomyopathy, and an intracardiac defibrillator is implanted to reduce the risk of
+sudden cardiac death.

@@ -1,0 +1,25 @@
+Reference 19
+PMID: 28967166
+Title: VariantValidator: Accurate validation, mapping, and formatting of sequence variation descriptions.
+Authors: Freeman PJ; Hart RK; Gretton LJ; Brookes AJ; Dalgleish R
+Year: 2018
+Journal: Human mutation
+DOI: 10.1002/humu.23348
+URL: https://pubmed.ncbi.nlm.nih.gov/28967166/
+Draft use: VariantValidator/HGVS mapping support
+
+Abstract:
+The Human Genome Variation Society (HGVS) variant nomenclature is widely used to describe sequence
+variants in scientific publications, clinical reports, and databases. However, the HGVS
+recommendations are complex and this often results in inaccurate variant descriptions being
+reported. The open-source hgvs Python package (https://github.com/biocommons/hgvs) provides a
+programmatic interface for parsing, manipulating, formatting, and validating of variants according
+to the HGVS recommendations, but does not provide a user-friendly Web interface. We have developed a
+Web-based variant validation tool, VariantValidator (https://variantvalidator.org/), which utilizes
+the hgvs Python package and provides additional functionality to assist users who wish to accurately
+describe and report sequence-level variations that are compliant with the HGVS recommendations.
+VariantValidator was designed to ensure that users are guided through the intricacies of the HGVS
+nomenclature, for example, if the user makes a mistake, VariantValidator automatically corrects the
+mistake if it can, or provides helpful guidance if it cannot. In addition, VariantValidator has the
+facility to interconvert genomic variant descriptions in HGVS and Variant Call Format with a degree
+of accuracy that surpasses most competing solutions.

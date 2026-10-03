@@ -1,0 +1,35 @@
+{
+  "matrix_rows": 86889,
+  "matrix_columns": 463,
+  "binary_supervised_rows": 43282,
+  "figures": [
+    "feature_group_coverage.png",
+    "gnomad_status_counts.png",
+    "label_distribution_by_source.png",
+    "protein_structure_status.png",
+    "source_records_vs_matrix_rows.png",
+    "source_records_vs_matrix_rows_non_clinvar_zoom.png",
+    "top_genes_label_distribution.png",
+    "vep_consequence_distribution.png"
+  ],
+  "tables": [
+    "clinvar_confidence.tsv",
+    "data_inventory.tsv",
+    "feature_group_coverage.tsv",
+    "feature_subscore_coverage.tsv",
+    "gene_label_counts.tsv",
+    "gnomad_status_counts.tsv",
+    "hiro_482_to_240_flow.tsv",
+    "hiro_emerge_cardioboost_source_identity_audit.tsv",
+    "hiro_matrix_set_mismatch_audit.tsv",
+    "hiro_resolved_variant_source_record_counts.tsv",
+    "label_by_source.tsv",
+    "label_counts.tsv",
+    "qc_feature_group_coverage_status_based.tsv",
+    "source_overlap.tsv",
+    "source_record_summary.tsv",
+    "sparse_pathogenic_genes.tsv",
+    "variant_type_counts.tsv",
+    "vep_consequence_counts.tsv"
+  ]
+}

@@ -1,0 +1,32 @@
+Arvin comments:
+
+​​general comments:  
+- too much techy (describing code) stuff in it. such as "We repaired this gap without altering the frozen matrix"  
+- tablesa t the end also they have way too many columns. e.g BrierScore is meaningless for clinical papers  
+- have we made several models? I want it to be names properly with no wiered acronyms or psudonomys (e.g 300-feature model?)  
+- no need to go into details of numbers of class weigthings etc. if people are interested to know exactly the seed and the tree count etc they can go to code otherwise this can just be "hey we trained this type of model with these overall parameters"  
+- introduction needs more info on cardiomyopathy and genetics.  
+- for the additional files keep it brief we dont need too much for the folks. xlsx for all of tables in one file pdf for all the figures (gpt can bake in desc at the bottom).  
+- for references if we want to use zotero its better if its in text in format of [link](https://xxxx)
+
+also tell gpt to be non-vague no childish lagnuage
+
+23 supplementary tables is mental brother
+
+also our catboost ? just make sure maning is consistent everywhere
+
+Flow charts are placeholders→ remove and thenounproject
+
+figures  
+1. too much text  
+2. use common.legend (and R ggsci ggpubr ggplot2) makes it nicer  
+3. too many figures that look like each other each one should tell a story congrent to a results section
+
+
+***we will publish the model and public code about analysis ---> all public datasets as well except the HIRO which is internal*** so we can be less tech in the MS, move most to SI and refer to the Github repo as well
+Arvin new comments:
+No abstract 
+Remove keywords author etc. no need till yet
+Computer language: . Categorical missing values were represented as __MISSING__; numeric missing values remained NaN for native CatBoost handling. ← no need to 
+Avoid SI unless necessary likely u wont need SI for this project
+Tables and figures at the end. Proper title etc. 

@@ -1,0 +1,28 @@
+[
+  {
+    "name": "AF3_SYS_G001_RYR2_CaMBD3_4246_4275_CALM1_CA5_DRAFT",
+    "modelSeeds": [],
+    "sequences": [
+      {
+        "proteinChain": {
+          "sequence": "FALRYNILTLMRMLSLKSLKKQMKKVKKMT",
+          "count": 1
+        }
+      },
+      {
+        "proteinChain": {
+          "sequence": "MADQLTEEQIAEFKEAFSLFDKDGDGTITTKELGTVMRSLGQNPTEAELQDMINEVDADGNGTIDFPEFLTMMARKMKDTDSEEEIREAFRVFDKDGNGYISAAELRHVMTNLGEKLTDEEVDEMIREADIDGDGQVNYEEFVQMMTAK",
+          "count": 1
+        }
+      },
+      {
+        "ion": {
+          "ion": "CA",
+          "count": 5
+        }
+      }
+    ],
+    "dialect": "alphafoldserver",
+    "version": 1
+  }
+]

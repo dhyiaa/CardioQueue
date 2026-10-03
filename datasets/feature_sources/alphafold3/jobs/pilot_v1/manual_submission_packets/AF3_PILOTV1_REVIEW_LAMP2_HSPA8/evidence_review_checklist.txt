@@ -1,0 +1,15 @@
+complex_group_id: AF3_COMPLEX_LAMP2_HSPA8
+complex_name: LAMP2-HSPA8 chaperone-mediated autophagy context
+target_genes: LAMP2
+protein_entities: LAMP2,HSPA8
+nonprotein_entities: none
+estimated_tokens: 1056
+
+User/manual checks before submission:
+- Confirm these entities form a plausible same-complex or pairwise biological context.
+- Confirm PubMed/Reactome/PDB/IntAct support is not only pathway-level noise.
+- Confirm full-length modeling is biologically acceptable for this complex.
+- Confirm duplicate chains or homomer stoichiometry in the AlphaFold Server UI.
+
+Evidence rows:
+- LAMP2: UniProt reports LAMP2 interaction with HSPA8 in chaperone-mediated autophagy; Reactome supports CMA pathway context. Evidence anchor=UniProt_SUBUNIT_Reactome; UniProt PubMed=18644871;22641697;24880125;25342746;32295904;36481789;37390818; IntAct PubMed=20217867;21656680;21674799;21988832;23394946;23416715;23455607;23953116;27173435;28199315;28380382;31527615;32814053;33208464;33452816;33961781;36012204;38554706; Reactome=R-HSA-114608;R-HSA-6798695;R-HSA-9613829; PDB=2MOF;2MOM

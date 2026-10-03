@@ -1,0 +1,7 @@
+comparator	rows	pathogenic	target_recall	cardioqueue_review_rows	comparator_review_rows_tie_median	comparator_review_rows_tie_ci_95_low	comparator_review_rows_tie_ci_95_high	reviews_avoided_vs_comparator_median
+VEP consequence severity	430	255	0.8	207	313.0	298.0	326.0	106.0
+CADD PHRED	348	214	0.8	175	187.0	187.0	187.0	12.0
+gnomAD rarity	358	188	0.8	155	182.0	182.0	182.0	27.0
+REVEL	305	173	0.8	141	152.0	152.0	152.0	11.0
+AlphaMissense direct	271	164	0.8	134	141.0	141.0	141.0	7.0
+AlphaMissense direct+fallback	307	175	0.8	142	153.0	153.0	153.0	11.0

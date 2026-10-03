@@ -1,0 +1,9 @@
+ref_no: 17
+title: CatBoost: unbiased boosting with categorical features
+authors: Prokhorenkova L; Gusev G; Vorobev A; Dorogush AV; Gulin A
+year: 2018
+journal: NeurIPS
+doi: NR
+url: https://papers.nips.cc/paper/7898-catboost-unbiased-boosting-with-categorical-features
+draft_use: Primary machine-learning algorithm
+abstract: NeurIPS paper introducing CatBoost, ordered boosting, and categorical-feature handling; PubMed abstract not available.

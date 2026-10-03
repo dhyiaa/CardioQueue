@@ -1,0 +1,33 @@
+{
+  "unique_external_variants": 1233,
+  "source_observations": 1328,
+  "bootstrap": {
+    "unit": "gene",
+    "samples": 2000,
+    "seed": 20260925
+  },
+  "combined": {
+    "subset": "combined_unique",
+    "rows": 1233,
+    "pathogenic": 801,
+    "benign": 432,
+    "auroc": 0.9824871688167568,
+    "auprc": 0.9910816759851442,
+    "brier": 0.05236193563932081,
+    "sensitivity": 0.9612983770287141,
+    "specificity": 0.8657407407407407,
+    "ppv": 0.9299516908212561,
+    "npv": 0.9234567901234568,
+    "tp": 770,
+    "fp": 58,
+    "tn": 374,
+    "fn": 31,
+    "calibration_intercept": -0.6025994914001724,
+    "calibration_slope": 0.9320766787683898
+  },
+  "warnings": [
+    "These are retrospective source-held-out cohorts, not prospective clinical validation.",
+    "Some external labels draw on public evidence ecosystems that overlap ClinVar conceptually.",
+    "Source-specific rows are observations; the combined analysis is deduplicated by GRCh38 allele."
+  ]
+}

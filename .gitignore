@@ -1,0 +1,93 @@
+# macOS, editors, Python, R, and local environments
+.DS_Store
+**/.DS_Store
+.idea/
+.vscode/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.Rhistory
+*.RData
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+.tools/
+tmp/
+*.log
+
+# Local rollback copies. Git history replaces these after publication.
+backups/
+
+# Raw, intermediate, and analysis-ready data are intentionally not published.
+# Scripts, READMEs, metadata, and small JSON manifests under datasets/ remain tracked.
+datasets/**/raw/
+datasets/**/interim/
+datasets/**/processed/
+datasets/**/ready/
+datasets/**/archive/
+datasets/**/*.tsv
+datasets/**/*.csv
+datasets/**/*.xlsx
+datasets/**/*.xls
+datasets/**/*.parquet
+datasets/**/*.feather
+datasets/**/*.vcf
+datasets/**/*.vcf.gz
+datasets/**/*.bed
+datasets/**/*.bed.gz
+datasets/**/*.bgz
+datasets/**/*.gz
+datasets/**/*.zip
+datasets/**/*.tar
+datasets/**/*.tgz
+datasets/**/*.bz2
+datasets/**/*.zst
+datasets/**/*.h5
+datasets/**/*.hdf5
+datasets/**/*.pkl
+datasets/**/*.pickle
+datasets/**/*.npy
+datasets/**/*.npz
+datasets/**/*.fa
+datasets/**/*.fasta
+datasets/**/*.fai
+datasets/**/*.tbi
+datasets/**/*.csi
+datasets/**/*.dssp
+datasets/VIP/*.txt
+
+# Participant-linked/internal HiRO artifacts must never be committed.
+datasets/hiro/**/*.txt
+datasets/hiro/**/*.json
+datasets/hiro/**/*.jsonl
+datasets/hiro/**/*.xml
+
+# Heavy AlphaFold/AF3 server outputs and local structure files.
+datasets/feature_sources/alphafold3/raw/
+AF3-systematic protein/**/af3_job_results/
+results/af3/
+*.a3m
+*.cif
+*.pdb
+
+# Training products and row-level result tables are local. The compact public
+# release under release/cardioqueue_v1.0/ is explicitly retained below.
+results/**/*.cbm
+results/**/*.tsv
+results/**/*.csv
+results/**/*.xlsx
+results/**/*.parquet
+results/**/*.pkl
+results/**/*.pickle
+results/**/*.npy
+results/**/*.npz
+
+# The release model and explicitly public worklist are intended for sharing.
+!release/cardioqueue_v1.0/model/cardioqueue_v1.0.cbm
+!release/cardioqueue_v1.0/model/feature_importance.tsv
+!release/cardioqueue_v1.0/worklists/public_source_vus_research_worklist.tsv

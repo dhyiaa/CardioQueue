@@ -1,0 +1,16 @@
+plddt_tier	model	feature	importance	overall_rank
+ge70	eligibility_ge70	maxfoldx_ge70_eligible	0.0429914728357287	116
+ge70	ddg_ge70	maxfoldx_ge70_abs_ddg	1.4121336041907363e-05	131
+ge70	ddg_ge70	maxfoldx_ge70_ddg_kcal_mol	0.0	137
+ge70	ddg_ge70	maxfoldx_ge70_numeric_available	0.0	141
+ge70	ddg_ge70	maxfoldx_ge70_eligible	0.0	149
+ge50	eligibility_ge50	maxfoldx_ge50_eligible	0.0696595440026587	103
+ge50	ddg_ge50	maxfoldx_ge50_abs_ddg	0.0455459918175361	107
+ge50	ddg_ge50	maxfoldx_ge50_eligible	0.0	169
+ge50	ddg_ge50	maxfoldx_ge50_numeric_available	0.0	170
+ge50	ddg_ge50	maxfoldx_ge50_ddg_kcal_mol	0.0	172
+any	eligibility_any	maxfoldx_any_eligible	0.0	285
+any	ddg_any	maxfoldx_any_ddg_kcal_mol	0.026137138262973	104
+any	ddg_any	maxfoldx_any_numeric_available	0.0	131
+any	ddg_any	maxfoldx_any_eligible	0.0	140
+any	ddg_any	maxfoldx_any_abs_ddg	0.0	288

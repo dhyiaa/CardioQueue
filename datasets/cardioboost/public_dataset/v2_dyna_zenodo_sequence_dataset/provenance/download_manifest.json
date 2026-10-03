@@ -1,0 +1,74 @@
+[
+  {
+    "filename": "Clinvar_ARM_protein.csv",
+    "bytes": 143042,
+    "md5": "fd912fd72b1298078321a16c1e28eefb",
+    "source_url": "https://zenodo.org/api/records/13397296/files/Clinvar_ARM_protein.csv/content"
+  },
+  {
+    "filename": "Clinvar_CM_protein.csv",
+    "bytes": 2485780,
+    "md5": "bee5ec8a6470e11b0e4a4f599d133af8",
+    "source_url": "https://zenodo.org/api/records/13397296/files/Clinvar_CM_protein.csv/content"
+  },
+  {
+    "filename": "Clinvar_CM_VUS_protein.csv",
+    "bytes": 27873367,
+    "md5": "2044747d894dd833be6a8386031fd1e0",
+    "source_url": "https://zenodo.org/api/records/13397296/files/Clinvar_CM_VUS_protein.csv/content"
+  },
+  {
+    "filename": "mfass_test.csv",
+    "bytes": 953931,
+    "md5": "df4f8dae9b3458913ae07a39a3d3d683",
+    "source_url": "https://zenodo.org/api/records/13397296/files/mfass_test.csv/content"
+  },
+  {
+    "filename": "mfass_val.csv",
+    "bytes": 954275,
+    "md5": "1a6e9c653036d4f67a4709111d74711c",
+    "source_url": "https://zenodo.org/api/records/13397296/files/mfass_val.csv/content"
+  },
+  {
+    "filename": "arm_test_data_1024.csv",
+    "bytes": 278315,
+    "md5": "c7b7d16262f30ad4db84e894d39b93e5",
+    "source_url": "https://zenodo.org/api/records/13397296/files/arm_test_data_1024.csv/content"
+  },
+  {
+    "filename": "arm_train_data_1024.csv",
+    "bytes": 564942,
+    "md5": "cdf1eb35325eb627afee8a661ee9af9b",
+    "source_url": "https://zenodo.org/api/records/13397296/files/arm_train_data_1024.csv/content"
+  },
+  {
+    "filename": "cm_test_data_1024.csv",
+    "bytes": 356340,
+    "md5": "7eeed96d4982daa21b8beb5acca2cb4f",
+    "source_url": "https://zenodo.org/api/records/13397296/files/cm_test_data_1024.csv/content"
+  },
+  {
+    "filename": "cm_train_data_1024.csv",
+    "bytes": 684886,
+    "md5": "23fd25ad920e7acc9630f6236f0613dd",
+    "source_url": "https://zenodo.org/api/records/13397296/files/cm_train_data_1024.csv/content"
+  },
+  {
+    "filename": "mfass_train.csv",
+    "bytes": 7632003,
+    "md5": "7612cc465e2fb20de6d929837d0ac05b",
+    "source_url": "https://zenodo.org/api/records/13397296/files/mfass_train.csv/content"
+  },
+  {
+    "filename": "clinvar_test.csv",
+    "bytes": 273875405,
+    "md5": "ad20aa7c406d61930178091d5c8afcdd",
+    "source_url": "https://zenodo.org/api/records/13397296/files/clinvar_test.csv/content"
+  },
+  {
+    "filename": "Clinvar_ARM_VUS_protein.csv",
+    "bytes": 1391733,
+    "md5": "fabc4276c3aa37374a2b2462772c0068",
+    "source_url": "https://zenodo.org/api/records/13397296/files/Clinvar_ARM_VUS_protein.csv/content"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "label_Benign": 137,
+    "label_Pathogenic": 127,
+    "label_VUS": 2490,
+    "link_status_linked_to_registry": 2754,
+    "raw_rows": 2754
+  },
+  "dataset": "emerge",
+  "duplicate_groups_with_discordant_3class_labels": 0,
+  "duplicate_groups_with_variable_phenotype_signature": 0,
+  "duplicate_resolved_source_records": 0,
+  "duplicate_resolved_variant_groups": 0,
+  "input": "datasets/emerge/full_arrhythmia_gene_dataset/data/emerge_arrhythmia_ml_baseline_features.csv",
+  "notes": [
+    "Every input row is preserved as a distinct source record.",
+    "The variant-level modeling matrix may still collapse records by resolved_variant_id for leakage control."
+  ],
+  "output": "datasets/emerge/full_arrhythmia_gene_dataset/data/emerge_linked_source_records.tsv",
+  "unique_resolved_variant_ids": 2754
+}

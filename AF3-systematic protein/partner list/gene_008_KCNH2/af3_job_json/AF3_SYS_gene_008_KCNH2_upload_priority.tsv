@@ -1,0 +1,4 @@
+priority	job_id	upload_class	why
+1	AF3_SYS_G008_KCNH2_HOMOTETRAMER_FULL_LENGTH_DRAFT	top3_submit_first	KCNH2 systematic top-3 design; homotetramer and PAS/CNBHD first, KCNE2 only as cautionary comparator.
+2	AF3_SYS_G008_KCNH2_PAS_PAC_1_150_CNBHD_720_870_DRAFT	top3_submit_first	KCNH2 systematic top-3 design; homotetramer and PAS/CNBHD first, KCNE2 only as cautionary comparator.
+3	AF3_SYS_G008_KCNH2_KCNE2_FULL_LENGTH_COMPARATOR_DRAFT	top3_low_priority_comparator	KCNH2 systematic top-3 design; homotetramer and PAS/CNBHD first, KCNE2 only as cautionary comparator.

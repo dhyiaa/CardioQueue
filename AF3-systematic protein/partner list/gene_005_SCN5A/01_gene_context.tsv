@@ -1,0 +1,17 @@
+field	value
+systematic_gene_number	5
+gene	SCN5A
+protein_name	Nav1.5 sodium channel alpha subunit
+uniprot_accession	Q14524
+reviewed_uniprot_sequence	yes
+canonical_length_aa	2016
+priority_reason	Top-10 high-burden gene and major inherited arrhythmia gene.
+included_variant_rows_priority_file	4603
+binary_rows_priority_file	2123
+vus_rows_priority_file	2429
+pathogenic_rows_priority_file	530
+benign_rows_priority_file	1593
+missing_label_rows_ready_model_table	51
+source_mix_ready_model_table	clinvar 4120; clinvar|emerge 247; emerge 148; cardioboost/merged minor sources 88
+protein_position_mapping_note	Ready table has VEP protein position for all 4603 SCN5A rows, dbNSFP protein position for 2603 rows, and older protein_position for only 89 rows.
+main_caveat	AF3 Server full-length channel jobs do not include lipid membrane, voltage state, gating state, glycosylation, or full native channel microdomain.

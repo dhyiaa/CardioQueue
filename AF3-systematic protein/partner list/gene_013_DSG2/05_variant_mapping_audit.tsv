@@ -1,0 +1,9 @@
+metric	value	note
+included_DSG2_rows	2034	Rows currently available for AF3 feature mapping context
+binary_rows	812	Benign plus pathogenic rows
+pathogenic_rows	129	Moderate P/LP count for DSG2 subgroup analysis
+benign_rows	683	Benign comparator rows
+vus_rows	1222	Large VUS burden for AF3-informed prioritization
+prior_AF3_full_length_feature_coverage	1647 mapped DSG2 rows in old pilot-v2 feature table	Old full-length DSG2-DSC2 output was not interface-usable; do not treat coverage as positive evidence
+mapping_policy	VEP/UniProt protein positions preferred	Final mapping should reconcile transcript residue numbering to DSG2 Q14126 canonical sequence
+main_feature_context	extracellular cadherin adhesion and cytoplasmic plaque-tail context	Feature extraction should use only AF3 designs passing pairwise ipTM/PAE/contact QC

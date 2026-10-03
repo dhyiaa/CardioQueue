@@ -1,0 +1,10 @@
+field	value	note
+gene	HCN4	Gene 010 in AF3 systematic queue
+included_variant_rows	2170	Current rescue-aware included rows from priority table
+binary_rows	930	Benign plus pathogenic rows
+vus_rows	1240	VUS rows that may later receive AF3-derived context features
+pathogenic_rows	20	Sparse P/LP signal; AF3 useful mostly for mechanistic context and VUS triage
+benign_rows	910	Large benign/VUS-heavy gene slice
+frequency_rank	10	Top-10 high-burden gene by included variant rows
+disease_context	sinus node dysfunction, bradycardia, arrhythmia/cardiac pacemaker biology	HCN4 is retained in primary cardiogenetics gene panel
+af3_scope	protein-only homotetramer plus CNBD/cAMP sensitivity	No membrane, voltage state, phosphorylation, or palmitoylation in baseline

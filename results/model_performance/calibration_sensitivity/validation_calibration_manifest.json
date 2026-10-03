@@ -1,0 +1,10 @@
+{
+  "prediction_file": "results/models/cardioqueue_v1_source_heldout/primary_binary_predictions_split_source_heldout.tsv",
+  "fit_split": "validation",
+  "fit_rows": 6384,
+  "evaluation_rows": 430,
+  "intercept": -0.9279410618319361,
+  "slope": 1.1107462712788347,
+  "bootstrap_samples": 5000,
+  "seed": 20260917
+}

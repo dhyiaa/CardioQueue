@@ -1,0 +1,29 @@
+Reference 3
+PMID: 27666373
+Title: REVEL: An Ensemble Method for Predicting the Pathogenicity of Rare Missense Variants.
+Authors: Ioannidis NM; Rothstein JH; Pejaver V; Middha S; McDonnell SK; Baheti S; Musolf A; Li Q; et al.
+Year: 2016
+Journal: American journal of human genetics
+DOI: 10.1016/j.ajhg.2016.08.016
+URL: https://pubmed.ncbi.nlm.nih.gov/27666373/
+Draft use: REVEL in silico missense pathogenicity score
+
+Abstract:
+The vast majority of coding variants are rare, and assessment of the contribution of rare variants
+to complex traits is hampered by low statistical power and limited functional data. Improved methods
+for predicting the pathogenicity of rare coding variants are needed to facilitate the discovery of
+disease variants from exome sequencing studies. We developed REVEL (rare exome variant ensemble
+learner), an ensemble method for predicting the pathogenicity of missense variants on the basis of
+individual tools: MutPred, FATHMM, VEST, PolyPhen, SIFT, PROVEAN, MutationAssessor, MutationTaster,
+LRT, GERP, SiPhy, phyloP, and phastCons. REVEL was trained with recently discovered pathogenic and
+rare neutral missense variants, excluding those previously used to train its constituent tools. When
+applied to two independent test sets, REVEL had the best overall performance (p < 10-12) as compared
+to any individual tool and seven ensemble methods: MetaSVM, MetaLR, KGGSeq, Condel, CADD, DANN, and
+Eigen. Importantly, REVEL also had the best performance for distinguishing pathogenic from rare
+neutral variants with allele frequencies <0.5%. The area under the receiver operating characteristic
+curve (AUC) for REVEL was 0.046-0.182 higher in an independent test set of 935 recent SwissVar
+disease variants and 123,935 putatively neutral exome sequencing variants and 0.027-0.143 higher in
+an independent test set of 1,953 pathogenic and 2,406 benign variants recently reported in ClinVar
+than the AUCs for other ensemble methods. We provide pre-computed REVEL scores for all possible
+human missense variants to facilitate the identification of pathogenic variants in the sea of rare
+variants discovered as sequencing studies expand in scale.

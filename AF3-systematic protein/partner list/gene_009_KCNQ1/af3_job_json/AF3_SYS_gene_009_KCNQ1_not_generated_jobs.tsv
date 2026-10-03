@@ -1,0 +1,6 @@
+design_id	reason_not_generated	what_is_needed
+AF3_SYS_G009_KCNQ1_CALM_DOMAINS_360_390_505_535_CALM1_CA4_HELD	Top3 limit. Generate if full-length KCNQ1-CALM1 is unclear or if variants cluster in annotated CALM regions.	Review full-length CALM pair output and variant clustering.
+AF3_SYS_G009_KCNQ1_KCNE1_CTERM_530_580_109_129_HELD	Top3 limit and full-length KCNQ1-KCNE1 pair already included.	Generate if full-length pair fails or to isolate C-terminal interaction.
+AF3_SYS_G009_KCNQ1_KCNE2_HELD	KCNE2 is not the primary IKs cardiogenetics auxiliary subunit for this KCNQ1 packet.	Use only as sensitivity after KCNE1 jobs and if cardiac-context rationale is needed.
+AF3_SYS_G009_KCNQ1_AKAP9_HELD	AKAP9 is quarantined/excluded from primary cardiac classifier despite a KCNQ1 region annotation.	Separate gene-panel decision and disease-validity review before AF3 use.
+AF3_SYS_G009_KCNQ1_PIP2_LIGAND_HELD	PIP2 is ligand-aware modeling, not protein-partner top3; requires CCD and membrane/context review.	Decide ligand setup and whether AF3 server supports the intended PIP2 representation.

@@ -1,0 +1,10 @@
+{
+  "hiro_source_rows": 482,
+  "linked_to_registry_source_rows": 408,
+  "unique_linked_resolved_variants": 238,
+  "unresolved_no_coordinate_source_rows": 73,
+  "rescued_not_promoted_source_rows": 1,
+  "final_matrix_hiro_variant_rows": 240,
+  "duplicate_resolved_variant_groups": 46,
+  "source_rows_in_duplicate_groups": 216
+}

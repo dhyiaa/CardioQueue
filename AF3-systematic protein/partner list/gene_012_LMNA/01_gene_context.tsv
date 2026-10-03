@@ -1,0 +1,10 @@
+field	value	note
+gene	LMNA	Gene 012 in AF3 systematic queue
+included_variant_rows	2073	Current rescue-aware included rows from priority table
+binary_rows	1153	Benign plus pathogenic rows
+vus_rows	912	VUS rows that may later receive AF3-derived context features
+pathogenic_rows	529	Strong P/LP count for laminopathy subgroup analysis
+benign_rows	624	Benign comparator rows
+frequency_rank	12	Rank 12 in included variant burden
+disease_context	cardiolaminopathy / nuclear envelope cardiomyopathy gene	Primary cardiogenetics gene; also syndromic muscular/nuclear envelope biology
+af3_scope	lamin assembly plus emerin nuclear-envelope rescue designs	Prior full-length LMNA-EMD and TMEM43-EMD-LMNA jobs were weak, so compact designs are prioritized

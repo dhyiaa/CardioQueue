@@ -1,0 +1,35 @@
+{
+  "combined_rows_before_gene_filter": 372,
+  "combined_rows_after_gene_filter": 361,
+  "combined_unique_exact_variants_after_gene_filter": 355,
+  "dropped_nonoverlap_rows": 11,
+  "exact_duplicate_rows_after_gene_filter": 12,
+  "exact_duplicate_variant_groups_after_gene_filter": 6,
+  "row_level_rows": 361,
+  "deduplicated_rows": 355,
+  "source_files": [
+    "/Users/dheyaaal-najafi/Desktop/Cardio AI study/CG_project_python/external data validation/CardioBoost_manuscript/data/arrhythmia/arm_holdout_test.RData",
+    "/Users/dheyaaal-najafi/Desktop/Cardio AI study/CG_project_python/external data validation/CardioBoost_manuscript/data/cardiomyopathy/cm_holdout_test.RData"
+  ],
+  "mapping_notes": {
+    "included_rows": "Only CardioBoost holdout rows whose gene symbol appears in the local 57-gene training cohort.",
+    "population_frequency": "gnomad_max_af uses gnomAD_AF when available, otherwise AF_Adj. gnomad_status is 'matched' when either is available, otherwise 'absent'.",
+    "hgvs_mapping": "gene_refgene preserves the original CardioBoost transcript-qualified HGVSc token. hgvs_c strips the transcript prefix. hgvs_p is normalized and hgvs_p_one_letter is derived with the local annotation helper.",
+    "unsupported_model_features": [
+      "cadd_phred",
+      "fathmm_xf",
+      "alphamissense",
+      "all phenotype-derived numeric features",
+      "all phenotype-derived categorical features"
+    ],
+    "unsupported_model_feature_policy": "Fields without a valid CardioBoost analogue were left empty for numeric inputs and set to 'Missing' for categorical inputs.",
+    "deduplication": "The deduplicated file removes exact duplicate gene+position+REF+ALT variants that appear in both disease panels. Duplicate panels were retained in cardioboost_duplicate_panels."
+  },
+  "nonoverlap_gene_counts": {
+    "DES": 4,
+    "MYL3": 3,
+    "MYL2": 2,
+    "CALM1": 1,
+    "LAMP2": 1
+  }
+}

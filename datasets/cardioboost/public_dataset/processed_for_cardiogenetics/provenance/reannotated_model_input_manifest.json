@@ -1,0 +1,648 @@
+{
+  "all_missing_ml_baseline_columns": [
+    "patient_age_at_diagnosis",
+    "patient_followup_presyncope_yes_count",
+    "patient_followup_presyncope_uncertain_count",
+    "patient_followup_presyncope_known_count",
+    "patient_followup_syncope_yes_count",
+    "patient_followup_syncope_uncertain_count",
+    "patient_followup_syncope_known_count",
+    "patient_followup_palpitations_yes_count",
+    "patient_followup_palpitations_uncertain_count",
+    "patient_followup_palpitations_known_count",
+    "patient_followup_chest_pain_yes_count",
+    "patient_followup_chest_pain_uncertain_count",
+    "patient_followup_chest_pain_known_count",
+    "patient_followup_cardiac_arrest_yes_count",
+    "patient_followup_cardiac_arrest_uncertain_count",
+    "patient_followup_cardiac_arrest_known_count",
+    "patient_followup_death_yes_count",
+    "patient_followup_death_uncertain_count",
+    "patient_followup_death_known_count",
+    "patient_followup_other_symptom_yes_count",
+    "patient_followup_other_symptom_uncertain_count",
+    "patient_followup_other_symptom_known_count",
+    "patient_followup_circumstances_known_count",
+    "patient_qt_first",
+    "patient_qt_latest",
+    "patient_qt_min",
+    "patient_qt_max",
+    "patient_qt_count",
+    "patient_lvef_first",
+    "patient_lvef_latest",
+    "patient_lvef_min",
+    "patient_lvef_max",
+    "patient_lvef_count",
+    "patient_sex",
+    "patient_sym_presyncope",
+    "patient_sym_syncope",
+    "patient_sym_palpitations",
+    "patient_sym_chest_pain",
+    "patient_sym_cardiac_arrest",
+    "patient_sym_death",
+    "patient_sym_other",
+    "patient_sym_circumstances",
+    "patient_family_history_flags",
+    "patient_followup_presyncope_any",
+    "patient_followup_presyncope_latest",
+    "patient_followup_syncope_any",
+    "patient_followup_syncope_latest",
+    "patient_followup_palpitations_any",
+    "patient_followup_palpitations_latest",
+    "patient_followup_chest_pain_any",
+    "patient_followup_chest_pain_latest",
+    "patient_followup_cardiac_arrest_any",
+    "patient_followup_cardiac_arrest_latest",
+    "patient_followup_death_any",
+    "patient_followup_death_latest",
+    "patient_followup_other_symptom_any",
+    "patient_followup_other_symptom_latest",
+    "patient_followup_circumstances_latest"
+  ],
+  "all_missing_ml_enriched_columns": [
+    "patient_age_at_diagnosis",
+    "patient_followup_presyncope_yes_count",
+    "patient_followup_presyncope_uncertain_count",
+    "patient_followup_presyncope_known_count",
+    "patient_followup_syncope_yes_count",
+    "patient_followup_syncope_uncertain_count",
+    "patient_followup_syncope_known_count",
+    "patient_followup_palpitations_yes_count",
+    "patient_followup_palpitations_uncertain_count",
+    "patient_followup_palpitations_known_count",
+    "patient_followup_chest_pain_yes_count",
+    "patient_followup_chest_pain_uncertain_count",
+    "patient_followup_chest_pain_known_count",
+    "patient_followup_cardiac_arrest_yes_count",
+    "patient_followup_cardiac_arrest_uncertain_count",
+    "patient_followup_cardiac_arrest_known_count",
+    "patient_followup_death_yes_count",
+    "patient_followup_death_uncertain_count",
+    "patient_followup_death_known_count",
+    "patient_followup_other_symptom_yes_count",
+    "patient_followup_other_symptom_uncertain_count",
+    "patient_followup_other_symptom_known_count",
+    "patient_followup_circumstances_known_count",
+    "patient_qt_first",
+    "patient_qt_latest",
+    "patient_qt_min",
+    "patient_qt_max",
+    "patient_qt_count",
+    "patient_lvef_first",
+    "patient_lvef_latest",
+    "patient_lvef_min",
+    "patient_lvef_max",
+    "patient_lvef_count",
+    "patient_sex",
+    "patient_sym_presyncope",
+    "patient_sym_syncope",
+    "patient_sym_palpitations",
+    "patient_sym_chest_pain",
+    "patient_sym_cardiac_arrest",
+    "patient_sym_death",
+    "patient_sym_other",
+    "patient_sym_circumstances",
+    "patient_family_history_flags",
+    "patient_followup_presyncope_any",
+    "patient_followup_presyncope_latest",
+    "patient_followup_syncope_any",
+    "patient_followup_syncope_latest",
+    "patient_followup_palpitations_any",
+    "patient_followup_palpitations_latest",
+    "patient_followup_chest_pain_any",
+    "patient_followup_chest_pain_latest",
+    "patient_followup_cardiac_arrest_any",
+    "patient_followup_cardiac_arrest_latest",
+    "patient_followup_death_any",
+    "patient_followup_death_latest",
+    "patient_followup_other_symptom_any",
+    "patient_followup_other_symptom_latest",
+    "patient_followup_circumstances_latest"
+  ],
+  "annotation_status_by_study": {
+    "CardioBoost_reannotated_arrhythmia": {
+      "complete": 146,
+      "no_external_match": 5,
+      "partial": 1,
+      "partial_with_error": 1
+    },
+    "CardioBoost_reannotated_cardiomyopathy": {
+      "complete": 187,
+      "no_external_match": 11,
+      "partial": 4
+    }
+  },
+  "annotation_status_counts": {
+    "complete": 333,
+    "no_external_match": 16,
+    "partial": 5,
+    "partial_with_error": 1
+  },
+  "class_balance_all_preferred_labeled": {
+    "Benign": 156,
+    "Pathogenic": 199
+  },
+  "class_balance_primary_modeling": {
+    "Benign": 156,
+    "Pathogenic": 199
+  },
+  "clinvar_status_by_class": {
+    "Benign": {
+      "matched": 142,
+      "no_match": 14
+    },
+    "Pathogenic": {
+      "matched": 192,
+      "no_match": 7
+    }
+  },
+  "clinvar_status_counts": {
+    "matched": 334,
+    "no_match": 21
+  },
+  "criterion_reference_source": "GC-applied ACMG criteria from the April 2026 CASPER WES / VERDICT files",
+  "excluded_from_primary_features": [
+    "criteria_raw",
+    "criteria_codes",
+    "criteria_uncertain",
+    "criteria_strengths",
+    "criteria_count",
+    "patient_working_diagnosis_raw",
+    "patient_working_diagnosis",
+    "patient_diagnosis_strength_raw",
+    "patient_diagnosis_strength",
+    "patient_diagnosis_feature_role"
+  ],
+  "excluded_rows": 0,
+  "gnomad_status_by_class": {
+    "Benign": {
+      "absent": 10,
+      "matched": 133,
+      "skipped": 13
+    },
+    "Pathogenic": {
+      "absent": 96,
+      "matched": 100,
+      "skipped": 3
+    }
+  },
+  "gnomad_status_counts": {
+    "absent": 106,
+    "matched": 233,
+    "skipped": 16
+  },
+  "input_rows": 355,
+  "llm_baseline_clinvar_policy": "Includes safe ClinVar metadata only; no explicit ClinVar classification cue.",
+  "llm_enriched_clinvar_policy": "Adds explicit ClinVar classification as clinvar_label_hint.",
+  "ml_baseline_categorical_features": [
+    "gene",
+    "gene_refgene",
+    "hgvs_c",
+    "hgvs_p",
+    "hgvs_p_one_letter",
+    "inferred_consequence",
+    "chrom",
+    "ref",
+    "alt",
+    "gnomad_status",
+    "gnomad_absent",
+    "gnomad_max_af_source",
+    "patient_sex",
+    "patient_sym_presyncope",
+    "patient_sym_syncope",
+    "patient_sym_palpitations",
+    "patient_sym_chest_pain",
+    "patient_sym_cardiac_arrest",
+    "patient_sym_death",
+    "patient_sym_other",
+    "patient_sym_circumstances",
+    "patient_family_history_flags",
+    "patient_followup_presyncope_any",
+    "patient_followup_presyncope_latest",
+    "patient_followup_syncope_any",
+    "patient_followup_syncope_latest",
+    "patient_followup_palpitations_any",
+    "patient_followup_palpitations_latest",
+    "patient_followup_chest_pain_any",
+    "patient_followup_chest_pain_latest",
+    "patient_followup_cardiac_arrest_any",
+    "patient_followup_cardiac_arrest_latest",
+    "patient_followup_death_any",
+    "patient_followup_death_latest",
+    "patient_followup_other_symptom_any",
+    "patient_followup_other_symptom_latest",
+    "patient_followup_circumstances_latest"
+  ],
+  "ml_baseline_numeric_features": [
+    "pos",
+    "gnomad_max_af",
+    "revel",
+    "cadd_phred",
+    "sift",
+    "polyphen2_hdiv",
+    "metalr",
+    "fathmm_xf",
+    "alphamissense",
+    "patient_age_at_diagnosis",
+    "patient_followup_presyncope_yes_count",
+    "patient_followup_presyncope_uncertain_count",
+    "patient_followup_presyncope_known_count",
+    "patient_followup_syncope_yes_count",
+    "patient_followup_syncope_uncertain_count",
+    "patient_followup_syncope_known_count",
+    "patient_followup_palpitations_yes_count",
+    "patient_followup_palpitations_uncertain_count",
+    "patient_followup_palpitations_known_count",
+    "patient_followup_chest_pain_yes_count",
+    "patient_followup_chest_pain_uncertain_count",
+    "patient_followup_chest_pain_known_count",
+    "patient_followup_cardiac_arrest_yes_count",
+    "patient_followup_cardiac_arrest_uncertain_count",
+    "patient_followup_cardiac_arrest_known_count",
+    "patient_followup_death_yes_count",
+    "patient_followup_death_uncertain_count",
+    "patient_followup_death_known_count",
+    "patient_followup_other_symptom_yes_count",
+    "patient_followup_other_symptom_uncertain_count",
+    "patient_followup_other_symptom_known_count",
+    "patient_followup_circumstances_known_count",
+    "patient_qt_first",
+    "patient_qt_latest",
+    "patient_qt_min",
+    "patient_qt_max",
+    "patient_qt_count",
+    "patient_lvef_first",
+    "patient_lvef_latest",
+    "patient_lvef_min",
+    "patient_lvef_max",
+    "patient_lvef_count"
+  ],
+  "ml_enriched_categorical_features": [
+    "gene",
+    "gene_refgene",
+    "hgvs_c",
+    "hgvs_p",
+    "hgvs_p_one_letter",
+    "inferred_consequence",
+    "chrom",
+    "ref",
+    "alt",
+    "gnomad_status",
+    "gnomad_absent",
+    "gnomad_max_af_source",
+    "patient_sex",
+    "patient_sym_presyncope",
+    "patient_sym_syncope",
+    "patient_sym_palpitations",
+    "patient_sym_chest_pain",
+    "patient_sym_cardiac_arrest",
+    "patient_sym_death",
+    "patient_sym_other",
+    "patient_sym_circumstances",
+    "patient_family_history_flags",
+    "patient_followup_presyncope_any",
+    "patient_followup_presyncope_latest",
+    "patient_followup_syncope_any",
+    "patient_followup_syncope_latest",
+    "patient_followup_palpitations_any",
+    "patient_followup_palpitations_latest",
+    "patient_followup_chest_pain_any",
+    "patient_followup_chest_pain_latest",
+    "patient_followup_cardiac_arrest_any",
+    "patient_followup_cardiac_arrest_latest",
+    "patient_followup_death_any",
+    "patient_followup_death_latest",
+    "patient_followup_other_symptom_any",
+    "patient_followup_other_symptom_latest",
+    "patient_followup_circumstances_latest",
+    "clinvar_status",
+    "clinvar_classification",
+    "clinvar_review_status",
+    "clinvar_conflicting"
+  ],
+  "ml_enriched_numeric_features": [
+    "pos",
+    "gnomad_max_af",
+    "revel",
+    "cadd_phred",
+    "sift",
+    "polyphen2_hdiv",
+    "metalr",
+    "fathmm_xf",
+    "alphamissense",
+    "patient_age_at_diagnosis",
+    "patient_followup_presyncope_yes_count",
+    "patient_followup_presyncope_uncertain_count",
+    "patient_followup_presyncope_known_count",
+    "patient_followup_syncope_yes_count",
+    "patient_followup_syncope_uncertain_count",
+    "patient_followup_syncope_known_count",
+    "patient_followup_palpitations_yes_count",
+    "patient_followup_palpitations_uncertain_count",
+    "patient_followup_palpitations_known_count",
+    "patient_followup_chest_pain_yes_count",
+    "patient_followup_chest_pain_uncertain_count",
+    "patient_followup_chest_pain_known_count",
+    "patient_followup_cardiac_arrest_yes_count",
+    "patient_followup_cardiac_arrest_uncertain_count",
+    "patient_followup_cardiac_arrest_known_count",
+    "patient_followup_death_yes_count",
+    "patient_followup_death_uncertain_count",
+    "patient_followup_death_known_count",
+    "patient_followup_other_symptom_yes_count",
+    "patient_followup_other_symptom_uncertain_count",
+    "patient_followup_other_symptom_known_count",
+    "patient_followup_circumstances_known_count",
+    "patient_qt_first",
+    "patient_qt_latest",
+    "patient_qt_min",
+    "patient_qt_max",
+    "patient_qt_count",
+    "patient_lvef_first",
+    "patient_lvef_latest",
+    "patient_lvef_min",
+    "patient_lvef_max",
+    "patient_lvef_count",
+    "clinvar_stars",
+    "clinvar_submitters"
+  ],
+  "myvariant_status_by_class": {
+    "Benign": {
+      "error": 1,
+      "matched": 142,
+      "no_match": 13
+    },
+    "Pathogenic": {
+      "matched": 196,
+      "no_match": 3
+    }
+  },
+  "myvariant_status_counts": {
+    "error": 1,
+    "matched": 338,
+    "no_match": 16
+  },
+  "patient_match_counts_input": {
+    "true": 355
+  },
+  "phenotype_missingness_primary_modeling": {
+    "patient_age_at_diagnosis": {
+      "missing": 355,
+      "missing_fraction": 1.0,
+      "non_missing": 0
+    },
+    "patient_family_history_flags": {
+      "missing": 0,
+      "missing_fraction": 0.0,
+      "non_missing": 355
+    },
+    "patient_lvef_latest": {
+      "missing": 355,
+      "missing_fraction": 1.0,
+      "non_missing": 0
+    },
+    "patient_lvef_min": {
+      "missing": 355,
+      "missing_fraction": 1.0,
+      "non_missing": 0
+    },
+    "patient_qt_latest": {
+      "missing": 355,
+      "missing_fraction": 1.0,
+      "non_missing": 0
+    },
+    "patient_qt_max": {
+      "missing": 355,
+      "missing_fraction": 1.0,
+      "non_missing": 0
+    },
+    "patient_sex": {
+      "missing": 0,
+      "missing_fraction": 0.0,
+      "non_missing": 355
+    },
+    "patient_sym_cardiac_arrest": {
+      "missing": 0,
+      "missing_fraction": 0.0,
+      "non_missing": 355
+    },
+    "patient_sym_syncope": {
+      "missing": 0,
+      "missing_fraction": 0.0,
+      "non_missing": 355
+    }
+  },
+  "preferred_labeled_rows": 355,
+  "primary_model_rows_with_phenotype": 355,
+  "score_coverage_by_class": {
+    "Benign": {
+      "alphamissense": {
+        "missing": 14,
+        "missing_fraction": 0.0897,
+        "non_missing": 142
+      },
+      "cadd_phred": {
+        "missing": 16,
+        "missing_fraction": 0.1026,
+        "non_missing": 140
+      },
+      "fathmm_xf": {
+        "missing": 17,
+        "missing_fraction": 0.109,
+        "non_missing": 139
+      },
+      "metalr": {
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "non_missing": 156
+      },
+      "polyphen2_hdiv": {
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "non_missing": 156
+      },
+      "revel": {
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "non_missing": 156
+      },
+      "sift": {
+        "missing": 1,
+        "missing_fraction": 0.0064,
+        "non_missing": 155
+      }
+    },
+    "Pathogenic": {
+      "alphamissense": {
+        "missing": 7,
+        "missing_fraction": 0.0352,
+        "non_missing": 192
+      },
+      "cadd_phred": {
+        "missing": 10,
+        "missing_fraction": 0.0503,
+        "non_missing": 189
+      },
+      "fathmm_xf": {
+        "missing": 7,
+        "missing_fraction": 0.0352,
+        "non_missing": 192
+      },
+      "metalr": {
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "non_missing": 199
+      },
+      "polyphen2_hdiv": {
+        "missing": 6,
+        "missing_fraction": 0.0302,
+        "non_missing": 193
+      },
+      "revel": {
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "non_missing": 199
+      },
+      "sift": {
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "non_missing": 199
+      }
+    }
+  },
+  "score_coverage_by_study": {
+    "CardioBoost_reannotated_arrhythmia": {
+      "alphamissense": {
+        "missing": 9,
+        "missing_fraction": 0.0588,
+        "non_missing": 144
+      },
+      "cadd_phred": {
+        "missing": 8,
+        "missing_fraction": 0.0523,
+        "non_missing": 145
+      },
+      "fathmm_xf": {
+        "missing": 6,
+        "missing_fraction": 0.0392,
+        "non_missing": 147
+      },
+      "metalr": {
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "non_missing": 153
+      },
+      "polyphen2_hdiv": {
+        "missing": 6,
+        "missing_fraction": 0.0392,
+        "non_missing": 147
+      },
+      "revel": {
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "non_missing": 153
+      },
+      "sift": {
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "non_missing": 153
+      }
+    },
+    "CardioBoost_reannotated_cardiomyopathy": {
+      "alphamissense": {
+        "missing": 12,
+        "missing_fraction": 0.0594,
+        "non_missing": 190
+      },
+      "cadd_phred": {
+        "missing": 18,
+        "missing_fraction": 0.0891,
+        "non_missing": 184
+      },
+      "fathmm_xf": {
+        "missing": 18,
+        "missing_fraction": 0.0891,
+        "non_missing": 184
+      },
+      "metalr": {
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "non_missing": 202
+      },
+      "polyphen2_hdiv": {
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "non_missing": 202
+      },
+      "revel": {
+        "missing": 0,
+        "missing_fraction": 0.0,
+        "non_missing": 202
+      },
+      "sift": {
+        "missing": 1,
+        "missing_fraction": 0.005,
+        "non_missing": 201
+      }
+    }
+  },
+  "score_coverage_primary_modeling": {
+    "alphamissense": {
+      "missing": 21,
+      "missing_fraction": 0.0592,
+      "non_missing": 334
+    },
+    "cadd_phred": {
+      "missing": 26,
+      "missing_fraction": 0.0732,
+      "non_missing": 329
+    },
+    "fathmm_xf": {
+      "missing": 24,
+      "missing_fraction": 0.0676,
+      "non_missing": 331
+    },
+    "metalr": {
+      "missing": 0,
+      "missing_fraction": 0.0,
+      "non_missing": 355
+    },
+    "polyphen2_hdiv": {
+      "missing": 6,
+      "missing_fraction": 0.0169,
+      "non_missing": 349
+    },
+    "revel": {
+      "missing": 0,
+      "missing_fraction": 0.0,
+      "non_missing": 355
+    },
+    "sift": {
+      "missing": 1,
+      "missing_fraction": 0.0028,
+      "non_missing": 354
+    }
+  },
+  "study_balance_primary_modeling": {
+    "CardioBoost_reannotated_arrhythmia": 153,
+    "CardioBoost_reannotated_cardiomyopathy": 202
+  },
+  "top_genes_primary_modeling": {
+    "ACTC1": 1,
+    "CACNA1C": 22,
+    "CALM2": 6,
+    "GLA": 6,
+    "KCNH2": 41,
+    "KCNQ1": 37,
+    "LMNA": 12,
+    "MYBPC3": 41,
+    "MYH7": 77,
+    "PLN": 1,
+    "PRKAG2": 9,
+    "PTPN11": 3,
+    "SCN5A": 68,
+    "TNNI3": 12,
+    "TNNT2": 10,
+    "TPM1": 9
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "purpose": "Track protein-structure, AlphaFold, and stability feature coverage for Point E.",
+  "role": "Feature engineering only; not a variant source and not a clinical label source.",
+  "minimum_features": [
+    "uniprot_accession",
+    "protein_position",
+    "alphafold_latest_version",
+    "alphafold_global_plddt",
+    "alphafold_residue_plddt",
+    "alphafold_residue_confidence_bin",
+    "in_confident_af_region",
+    "alphafold_status",
+    "alphafold_missing_reason"
+  ],
+  "structural_context_features": [
+    "secondary_structure",
+    "relative_solvent_accessibility",
+    "buried_core_flag",
+    "domain_membership",
+    "functional_site_distance",
+    "known_pathogenic_residue_distance",
+    "coiled_coil_or_repeat_region",
+    "interface_or_complex_context"
+  ],
+  "stability_features": [
+    "ddg_method",
+    "ddg_kcal_mol",
+    "ddg_abs",
+    "ddg_destabilizing_flag",
+    "ddg_strong_destabilizing_flag",
+    "ddg_status",
+    "ddg_missing_reason"
+  ],
+  "candidate_tools": {
+    "alphafold_db": {
+      "status": "targeted_api_workflow_validated",
+      "purpose": "Model metadata, pLDDT confidence, PAE links, model URLs"
+    },
+    "foldx": {
+      "status": "pending_license_install_decision",
+      "purpose": "Fast local mutation delta-delta-G candidate"
+    },
+    "rosetta_cartesian_ddg": {
+      "status": "pending_install_compute_decision",
+      "purpose": "More computationally expensive mutation delta-delta-G candidate"
+    },
+    "dssp_mkdssp": {
+      "status": "pending_local_model_download",
+      "purpose": "Secondary structure and solvent accessibility"
+    },
+    "freesasa": {
+      "status": "pending_local_model_download",
+      "purpose": "Relative solvent accessibility and buried/core flags"
+    },
+    "uniprot_pfam_interpro": {
+      "status": "pending_feature_extraction",
+      "purpose": "Domains, repeats, functional sites, and region annotations"
+    }
+  },
+  "qc_rules": [
+    "Do not infer protein-position features without validated transcript-to-UniProt mapping.",
+    "Wild-type amino acid must match the selected UniProt sequence before residue-level features are trusted.",
+    "Missense variants are the primary target for residue pLDDT and delta-delta-G.",
+    "Do not compute missense delta-delta-G for synonymous, intronic, UTR, or splice-only variants.",
+    "Do not mix delta-delta-G engines without recording ddg_method.",
+    "Every output must include source-specific status and missing-reason columns.",
+    "Low-pLDDT residues must be flagged so structural features are not overinterpreted."
+  ]
+}

@@ -1,0 +1,558 @@
+[
+  {
+    "name": "train",
+    "rows": 36297,
+    "labels": {
+      "0.0": 28698,
+      "1.0": 7599
+    },
+    "genes": {
+      "RYR2": 3601,
+      "FLNC": 2530,
+      "DSP": 2268,
+      "MYBPC3": 1960,
+      "MYH7": 1941,
+      "SCN5A": 1756,
+      "CACNA1C": 1666,
+      "KCNQ1": 1596,
+      "KCNH2": 1581,
+      "GLA": 1176,
+      "LMNA": 985,
+      "PKP2": 869,
+      "RBM20": 816,
+      "HCN4": 809,
+      "TRDN": 740,
+      "DSG2": 672,
+      "SLC22A5": 667,
+      "DSC2": 627,
+      "PRKAG2": 564,
+      "RAF1": 542
+    },
+    "prob_summary": {
+      "count": 36297.0,
+      "mean": 0.21217123652421568,
+      "std": 0.40136485200755445,
+      "min": 0.0005298439914752,
+      "5%": 0.0008680049465186,
+      "10%": 0.00103408351766404,
+      "25%": 0.0014526126514945,
+      "50%": 0.0027208506313526,
+      "75%": 0.0126033621660654,
+      "90%": 0.9965476950259968,
+      "95%": 0.9980331922256303,
+      "max": 0.9993496479515253
+    },
+    "auroc": 0.9997208612065159,
+    "auprc": 0.9990212893771762,
+    "dbnsfp_status": {
+      "not_found": 30777,
+      "ok": 5520
+    },
+    "gnomad_final_status": {
+      "observed": 23589,
+      "confirmed_absent": 10031,
+      "not_joined": 2677
+    },
+    "alphamissense_direct_status": {
+      "not_applicable_or_not_found": 33366,
+      "ok": 2931
+    },
+    "protein_feature_status": {
+      "not_available": 36297
+    },
+    "foldx_ddg_status": {
+      "not_available": 36297
+    },
+    "spliceai_status": {
+      "ok": 31347,
+      "missing": 4950
+    },
+    "vep_impact": {
+      "LOW": 19757,
+      "MODIFIER": 8250,
+      "HIGH": 5046,
+      "MODERATE": 3244
+    },
+    "vep_consequence": {
+      "synonymous_variant": 15242,
+      "intron_variant": 6757,
+      "missense_variant": 2999,
+      "frameshift_variant": 2750,
+      "splice_polypyrimidine_tract_variant,intron_variant": 2310,
+      "splice_region_variant,splice_polypyrimidine_tract_variant,intron_variant": 1260,
+      "stop_gained": 1222,
+      "non_coding_transcript_exon_variant": 596,
+      "splice_region_variant,intron_variant": 531,
+      "3_prime_UTR_variant": 434,
+      "splice_donor_variant": 396,
+      "splice_acceptor_variant": 323,
+      "splice_region_variant,synonymous_variant": 270,
+      "5_prime_UTR_variant": 247,
+      "inframe_deletion": 116
+    },
+    "vep_any_missense_true_frac": 0.13114031462655315,
+    "vep_any_frameshift_true_frac": 0.0816871917789349,
+    "vep_any_stop_gained_true_frac": 0.039286993415433784,
+    "vep_any_splice_region_true_frac": 0.1750833402209549,
+    "vep_any_high_impact_true_frac": 0.14827671708405654,
+    "vep_any_moderate_impact_true_frac": 0.1356585943741907,
+    "gnomad_observed_flag_true_frac": 0.6498884205306223,
+    "gnomad_confirmed_absent_flag_true_frac": 0.27635892773507453,
+    "missing_fraction": {
+      "revel_score_max": 0.9132435187481059,
+      "dbnsfp_CADD_phred": 0.8479213158112241,
+      "sift_score_min": 0.9140975838223545,
+      "alphamissense_direct_score": 0.9192495247541119,
+      "alphamissense_dbnsfp_score_max": 0.9108741769292228,
+      "esm1b_score_max": 0.8714769815687247,
+      "gnomad_final_af": 0.10135823897291787,
+      "gnomad_final_popmax_af": 0.07383530319310136,
+      "foldx_ddg_kcal_mol": 1.0,
+      "vep_SpliceAI_pred_DS_AG": 0.13637490701710886,
+      "vep_SpliceAI_pred_DS_AL": 0.13637490701710886,
+      "vep_SpliceAI_pred_DS_DG": 0.13637490701710886,
+      "vep_SpliceAI_pred_DS_DL": 0.13637490701710886
+    }
+  },
+  {
+    "name": "validation",
+    "rows": 6406,
+    "labels": {
+      "0.0": 5065,
+      "1.0": 1341
+    },
+    "genes": {
+      "RYR2": 627,
+      "FLNC": 438,
+      "DSP": 382,
+      "MYBPC3": 358,
+      "MYH7": 338,
+      "SCN5A": 323,
+      "CACNA1C": 321,
+      "KCNQ1": 298,
+      "KCNH2": 268,
+      "GLA": 219,
+      "LMNA": 158,
+      "PKP2": 151,
+      "RBM20": 147,
+      "TRDN": 133,
+      "DSG2": 131,
+      "HCN4": 121,
+      "DSC2": 117,
+      "PRKAG2": 113,
+      "PTPN11": 98,
+      "SLC22A5": 95
+    },
+    "prob_summary": {
+      "count": 6406.0,
+      "mean": 0.2125144786229285,
+      "std": 0.40111534207220617,
+      "min": 0.0005455577762931,
+      "5%": 0.0008723828796086,
+      "10%": 0.0010454576711532,
+      "25%": 0.00146096717001955,
+      "50%": 0.0028075923613637,
+      "75%": 0.0137021277173875,
+      "90%": 0.9964161321013054,
+      "95%": 0.9980048417380004,
+      "max": 0.9993395619576784
+    },
+    "auroc": 0.9992896962897692,
+    "auprc": 0.997205770857316,
+    "dbnsfp_status": {
+      "not_found": 5413,
+      "ok": 993
+    },
+    "gnomad_final_status": {
+      "observed": 4181,
+      "confirmed_absent": 1744,
+      "not_joined": 481
+    },
+    "alphamissense_direct_status": {
+      "not_applicable_or_not_found": 5888,
+      "ok": 518
+    },
+    "protein_feature_status": {
+      "not_available": 6406
+    },
+    "foldx_ddg_status": {
+      "not_available": 6406
+    },
+    "spliceai_status": {
+      "ok": 5538,
+      "missing": 868
+    },
+    "vep_impact": {
+      "LOW": 3493,
+      "MODIFIER": 1453,
+      "HIGH": 867,
+      "MODERATE": 593
+    },
+    "vep_consequence": {
+      "synonymous_variant": 2707,
+      "intron_variant": 1169,
+      "missense_variant": 547,
+      "frameshift_variant": 465,
+      "splice_polypyrimidine_tract_variant,intron_variant": 405,
+      "stop_gained": 225,
+      "splice_region_variant,splice_polypyrimidine_tract_variant,intron_variant": 208,
+      "non_coding_transcript_exon_variant": 115,
+      "splice_region_variant,intron_variant": 96,
+      "3_prime_UTR_variant": 84,
+      "splice_acceptor_variant": 60,
+      "splice_donor_variant": 60,
+      "splice_region_variant,synonymous_variant": 53,
+      "5_prime_UTR_variant": 39,
+      "upstream_gene_variant": 22
+    },
+    "vep_any_missense_true_frac": 0.13783952544489542,
+    "vep_any_frameshift_true_frac": 0.07727130814861068,
+    "vep_any_stop_gained_true_frac": 0.04167967530440212,
+    "vep_any_splice_region_true_frac": 0.1718701217608492,
+    "vep_any_high_impact_true_frac": 0.14345925694661255,
+    "vep_any_moderate_impact_true_frac": 0.14330315329378707,
+    "gnomad_observed_flag_true_frac": 0.6526693724633157,
+    "gnomad_confirmed_absent_flag_true_frac": 0.27224477052763035,
+    "missing_fraction": {
+      "revel_score_max": 0.911489228847955,
+      "dbnsfp_CADD_phred": 0.8449890727443022,
+      "sift_score_min": 0.9119575398064315,
+      "alphamissense_direct_score": 0.9191383078364034,
+      "alphamissense_dbnsfp_score_max": 0.9093037777083984,
+      "esm1b_score_max": 0.869185138932251,
+      "gnomad_final_af": 0.10552606931002186,
+      "gnomad_final_popmax_af": 0.07508585700905401,
+      "foldx_ddg_kcal_mol": 1.0,
+      "vep_SpliceAI_pred_DS_AG": 0.13549797065251326,
+      "vep_SpliceAI_pred_DS_AL": 0.13549797065251326,
+      "vep_SpliceAI_pred_DS_DG": 0.13549797065251326,
+      "vep_SpliceAI_pred_DS_DL": 0.13549797065251326
+    }
+  },
+  {
+    "name": "external_hiro",
+    "rows": 70,
+    "labels": {
+      "0.0": 43,
+      "1.0": 27
+    },
+    "genes": {
+      "DSP": 12,
+      "DSG2": 9,
+      "SCN5A": 8,
+      "RYR2": 5,
+      "PKP2": 5,
+      "KCNQ1": 3,
+      "KCNH2": 3,
+      "MYBPC3": 3,
+      "DSC2": 3,
+      "MYH7": 2,
+      "TMEM43": 2,
+      "SCN1B": 2,
+      "LMNA": 2,
+      "CACNA1C": 2,
+      "KCNE1": 1,
+      "SNTA1": 1,
+      "CASQ2": 1,
+      "PTPN11": 1,
+      "RBM20": 1,
+      "TRDN": 1
+    },
+    "prob_summary": {
+      "count": 70.0,
+      "mean": 0.43339338053793613,
+      "std": 0.46455926389444896,
+      "min": 0.0005972953866449,
+      "5%": 0.000936649320784735,
+      "10%": 0.0014097653820611998,
+      "25%": 0.003243039065262575,
+      "50%": 0.09756295043119076,
+      "75%": 0.9874377872876382,
+      "90%": 0.9959915869571713,
+      "95%": 0.996902450049937,
+      "max": 0.9981481042776936
+    },
+    "auroc": 0.9931093884582256,
+    "auprc": 0.9903815453384417,
+    "dbnsfp_status": {
+      "ok": 47,
+      "not_found": 20,
+      "not_joined": 3
+    },
+    "gnomad_final_status": {
+      "observed": 54,
+      "confirmed_absent": 10,
+      "not_joined": 6
+    },
+    "alphamissense_direct_status": {
+      "ok": 34,
+      "not_applicable_or_not_found": 33,
+      "not_joined": 3
+    },
+    "protein_feature_status": {
+      "ok": 51,
+      "not_available": 13,
+      "not_mapped": 6
+    },
+    "foldx_ddg_status": {
+      "not_available": 49,
+      "ok": 19,
+      "ref_mismatch": 2
+    },
+    "spliceai_status": {
+      "ok": 63,
+      "missing": 7
+    },
+    "vep_impact": {
+      "MODERATE": 40,
+      "LOW": 16,
+      "HIGH": 12,
+      "MODIFIER": 2
+    },
+    "vep_consequence": {
+      "missense_variant": 38,
+      "synonymous_variant": 13,
+      "stop_gained": 7,
+      "splice_donor_variant": 2,
+      "frameshift_variant": 2,
+      "missense_variant,splice_region_variant": 2,
+      "splice_region_variant,splice_polypyrimidine_tract_variant,intron_variant": 2,
+      "coding_sequence_variant": 1,
+      "splice_acceptor_variant": 1,
+      "splice_donor_region_variant,intron_variant": 1,
+      "intron_variant": 1
+    },
+    "vep_any_missense_true_frac": 0.6142857142857143,
+    "vep_any_frameshift_true_frac": 0.02857142857142857,
+    "vep_any_stop_gained_true_frac": 0.1,
+    "vep_any_splice_region_true_frac": 0.12857142857142856,
+    "vep_any_high_impact_true_frac": 0.17142857142857143,
+    "vep_any_moderate_impact_true_frac": 0.6142857142857143,
+    "gnomad_observed_flag_true_frac": 0.7714285714285715,
+    "gnomad_confirmed_absent_flag_true_frac": 0.14285714285714285,
+    "missing_fraction": {
+      "revel_score_max": 0.4714285714285714,
+      "dbnsfp_CADD_phred": 0.32857142857142857,
+      "sift_score_min": 0.4714285714285714,
+      "alphamissense_direct_score": 0.5142857142857142,
+      "alphamissense_dbnsfp_score_max": 0.4714285714285714,
+      "esm1b_score_max": 0.37142857142857144,
+      "gnomad_final_af": 0.2,
+      "gnomad_final_popmax_af": 0.08571428571428572,
+      "foldx_ddg_kcal_mol": 0.7285714285714285,
+      "vep_SpliceAI_pred_DS_AG": 0.1,
+      "vep_SpliceAI_pred_DS_AL": 0.1,
+      "vep_SpliceAI_pred_DS_DG": 0.1,
+      "vep_SpliceAI_pred_DS_DL": 0.1
+    }
+  },
+  {
+    "name": "external_emerge",
+    "rows": 203,
+    "labels": {
+      "1.0": 113,
+      "0.0": 90
+    },
+    "genes": {
+      "SCN5A": 48,
+      "RYR2": 46,
+      "KCNQ1": 38,
+      "KCNH2": 34,
+      "CACNA1C": 19,
+      "LMNA": 9,
+      "KCNE1": 5,
+      "KCNE2": 4
+    },
+    "prob_summary": {
+      "count": 203.0,
+      "mean": 0.029462464412869007,
+      "std": 0.13472084686567048,
+      "min": 0.0019556272101942,
+      "5%": 0.0025822024227274,
+      "10%": 0.0025822024227274,
+      "25%": 0.0060735909004654,
+      "50%": 0.0069721795568581,
+      "75%": 0.0114129255229898,
+      "90%": 0.020550146134796134,
+      "95%": 0.0269741452792209,
+      "max": 0.988897989905122
+    },
+    "auroc": 0.5801868239921337,
+    "auprc": 0.6429442581219191,
+    "dbnsfp_status": {
+      "not_found": 203
+    },
+    "gnomad_final_status": {
+      "confirmed_absent": 201,
+      "observed": 2
+    },
+    "alphamissense_direct_status": {
+      "not_applicable_or_not_found": 203
+    },
+    "protein_feature_status": {
+      "ok": 134,
+      "not_mapped": 69
+    },
+    "foldx_ddg_status": {
+      "not_available": 136,
+      "ok": 66,
+      "ref_mismatch": 1
+    },
+    "spliceai_status": {
+      "missing": 186,
+      "ok": 17
+    },
+    "vep_impact": {
+      "MODIFIER": 195,
+      "LOW": 4,
+      "MODERATE": 3,
+      "HIGH": 1
+    },
+    "vep_consequence": {
+      "intron_variant": 105,
+      "intergenic_variant": 42,
+      "intron_variant,non_coding_transcript_variant": 28,
+      "non_coding_transcript_exon_variant": 9,
+      "downstream_gene_variant": 4,
+      "upstream_gene_variant": 4,
+      "synonymous_variant": 3,
+      "missense_variant": 3,
+      "5_prime_UTR_variant,NMD_transcript_variant": 1,
+      "splice_polypyrimidine_tract_variant,intron_variant": 1,
+      "frameshift_variant": 1,
+      "3_prime_UTR_variant": 1,
+      "5_prime_UTR_variant": 1
+    },
+    "vep_any_missense_true_frac": 0.014778325123152709,
+    "vep_any_frameshift_true_frac": 0.0049261083743842365,
+    "vep_any_stop_gained_true_frac": 0.0049261083743842365,
+    "vep_any_splice_region_true_frac": 0.009852216748768473,
+    "vep_any_high_impact_true_frac": 0.009852216748768473,
+    "vep_any_moderate_impact_true_frac": 0.014778325123152709,
+    "gnomad_observed_flag_true_frac": 0.009852216748768473,
+    "gnomad_confirmed_absent_flag_true_frac": 0.9901477832512315,
+    "missing_fraction": {
+      "revel_score_max": 1.0,
+      "dbnsfp_CADD_phred": 1.0,
+      "sift_score_min": 1.0,
+      "alphamissense_direct_score": 1.0,
+      "alphamissense_dbnsfp_score_max": 1.0,
+      "esm1b_score_max": 1.0,
+      "gnomad_final_af": 0.0,
+      "gnomad_final_popmax_af": 0.0,
+      "foldx_ddg_kcal_mol": 0.6748768472906403,
+      "vep_SpliceAI_pred_DS_AG": 0.916256157635468,
+      "vep_SpliceAI_pred_DS_AL": 0.916256157635468,
+      "vep_SpliceAI_pred_DS_DG": 0.916256157635468,
+      "vep_SpliceAI_pred_DS_DL": 0.916256157635468
+    }
+  },
+  {
+    "name": "external_cardioboost",
+    "rows": 225,
+    "labels": {
+      "1.0": 143,
+      "0.0": 82
+    },
+    "genes": {
+      "MYH7": 51,
+      "SCN5A": 44,
+      "KCNQ1": 28,
+      "MYBPC3": 25,
+      "KCNH2": 22,
+      "CACNA1C": 11,
+      "TNNI3": 9,
+      "TNNT2": 8,
+      "LMNA": 6,
+      "CALM2": 6,
+      "PRKAG2": 6,
+      "GLA": 5,
+      "PTPN11": 2,
+      "TPM1": 2
+    },
+    "prob_summary": {
+      "count": 225.0,
+      "mean": 0.6981444520163149,
+      "std": 0.39853395842895706,
+      "min": 0.0050291268649304,
+      "5%": 0.00709871743161822,
+      "10%": 0.0282417741047455,
+      "25%": 0.2526359910550887,
+      "50%": 0.9764962049233056,
+      "75%": 0.9940690487572402,
+      "90%": 0.9965595281186818,
+      "95%": 0.9977159118563139,
+      "max": 0.9986464421769612
+    },
+    "auroc": 0.9481920518505884,
+    "auprc": 0.9746779312003423,
+    "dbnsfp_status": {
+      "ok": 207,
+      "not_found": 18
+    },
+    "gnomad_final_status": {
+      "observed": 172,
+      "not_joined": 36,
+      "confirmed_absent": 17
+    },
+    "alphamissense_direct_status": {
+      "ok": 188,
+      "not_applicable_or_not_found": 37
+    },
+    "protein_feature_status": {
+      "ok": 225
+    },
+    "foldx_ddg_status": {
+      "ok": 160,
+      "not_available": 61,
+      "ref_mismatch": 4
+    },
+    "spliceai_status": {
+      "ok": 209,
+      "missing": 16
+    },
+    "vep_impact": {
+      "MODERATE": 201,
+      "MODIFIER": 17,
+      "HIGH": 5,
+      "LOW": 2
+    },
+    "vep_consequence": {
+      "missense_variant": 189,
+      "missense_variant,splice_region_variant": 11,
+      "intron_variant": 7,
+      "intergenic_variant": 6,
+      "stop_gained": 4,
+      "intron_variant,non_coding_transcript_variant": 2,
+      "frameshift_variant": 1,
+      "splice_polypyrimidine_tract_variant,intron_variant": 1,
+      "5_prime_UTR_variant": 1,
+      "inframe_deletion": 1,
+      "upstream_gene_variant": 1,
+      "splice_region_variant,splice_polypyrimidine_tract_variant,intron_variant": 1
+    },
+    "vep_any_missense_true_frac": 0.9022222222222223,
+    "vep_any_frameshift_true_frac": 0.0044444444444444444,
+    "vep_any_stop_gained_true_frac": 0.022222222222222223,
+    "vep_any_splice_region_true_frac": 0.08,
+    "vep_any_high_impact_true_frac": 0.035555555555555556,
+    "vep_any_moderate_impact_true_frac": 0.9066666666666666,
+    "gnomad_observed_flag_true_frac": 0.7644444444444445,
+    "gnomad_confirmed_absent_flag_true_frac": 0.07555555555555556,
+    "missing_fraction": {
+      "revel_score_max": 0.10666666666666667,
+      "dbnsfp_CADD_phred": 0.08,
+      "sift_score_min": 0.10666666666666667,
+      "alphamissense_direct_score": 0.16444444444444445,
+      "alphamissense_dbnsfp_score_max": 0.10222222222222223,
+      "esm1b_score_max": 0.08444444444444445,
+      "gnomad_final_af": 0.3377777777777778,
+      "gnomad_final_popmax_af": 0.16,
+      "foldx_ddg_kcal_mol": 0.28888888888888886,
+      "vep_SpliceAI_pred_DS_AG": 0.07111111111111111,
+      "vep_SpliceAI_pred_DS_AL": 0.07111111111111111,
+      "vep_SpliceAI_pred_DS_DG": 0.07111111111111111,
+      "vep_SpliceAI_pred_DS_DL": 0.07111111111111111
+    }
+  }
+]

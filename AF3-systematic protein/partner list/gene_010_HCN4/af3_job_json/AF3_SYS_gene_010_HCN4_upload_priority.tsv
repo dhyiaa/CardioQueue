@@ -1,0 +1,4 @@
+priority	job_id	upload_decision	reason
+1	AF3_SYS_G010_HCN4_HOMOTETRAMER_FULL_LENGTH_DRAFT	submit_first_if_server_allows_size	Most complete homotetramer channel context but near size ceiling
+2	AF3_SYS_G010_HCN4_CLINKER_CNBD_518_724_CAMP4_TETRAMER_DRAFT	submit_first_with_ligand_qc	Compact cAMP/CNBD regulatory context; verify CCD_CMP accepted
+3	AF3_SYS_G010_HCN4_CORE_209_724_TETRAMER_DRAFT	submit_first	Safer compact tetramer preserving assembly/channel/CNBD regions

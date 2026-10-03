@@ -1,0 +1,6 @@
+job_folder	best_model_index	ranking_score	iptm	ptm	fraction_disordered	has_clash	num_recycles	n_chains	entities	best_protein_pair_support	n_strong_protein_pairs	n_moderate_protein_pairs	n_unsupported_protein_pairs
+af3_sys_g001_casq2_trdn_full_length_draft	0	0.58	0.21	0.38	0.68	0.0	10.0	2	A=CASQ2;B=TRDN	unsupported_or_low_confidence	0	0	1
+af3_sys_g001_ryr2_cambd1_1940_1965_calm1_ca4_draft	0	0.66	0.52	0.72	0.19	0.0	10.0	6	A=RYR2_fragment;B=CALM1;C=CA;D=CA;E=CA;F=CA	moderate_supported_interface	0	1	0
+af3_sys_g001_ryr2_cambd2_3580_3611_calm1_ca4_draft	0	0.94	0.85	0.85	0.18	0.0	10.0	6	A=RYR2_fragment;B=CALM1;C=CA;D=CA;E=CA;F=CA	strong_supported_interface	1	0	0
+af3_sys_g001_ryr2_cambd3_4246_4275_calm1_ca5_draft	0	0.61	0.45	0.71	0.21	0.0	10.0	7	A=RYR2_fragment;B=CALM1;C=CA;D=CA;E=CA;F=CA;G=CA	unsupported_or_low_confidence	0	0	1
+af3_sys_g001_ryr2_ll1_4521_4573_casq2_draft	0	0.4	0.16	0.73	0.25	0.0	10.0	2	A=RYR2_LL1_fragment;B=CASQ2	unsupported_or_low_confidence	0	0	1

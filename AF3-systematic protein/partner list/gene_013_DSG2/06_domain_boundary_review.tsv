@@ -1,0 +1,9 @@
+region	residues	source	used_in_design	boundary_confidence	caveat
+DSG2 canonical chain	1-1118	UniProt Q14126 reviewed canonical sequence	reference only	high	Full-length includes membrane and unmodeled PTMs; prior full-length pair weak
+DSG2 extracellular cadherin proxy	50-608	UniProt Q14126 topology/domain evidence and local desmosome design review	DSG2-DSC2 ectodomain; DSG2 homodimer	medium_high	Boundary is pragmatic; exact mature ectodomain/propeptide cleavage and glycosylation should be manually checked before final manuscript claims
+DSG2 transmembrane helix / membrane-proximal region	~609-634	UniProt Q14126 topology/local design convention	excluded	medium	Excluded because no membrane is modeled in AlphaFold Server jobs
+DSG2 cytoplasmic tail	635-1118	UniProt Q14126 topology and prior local PKP2 held-design boundary	DSG2-PKP2 plaque job	medium_high	Flexible and PTM-rich; inspect pLDDT/PAE carefully
+DSC2 extracellular cadherin proxy	53-690	UniProt Q02487 topology/domain evidence and local desmosome design review	DSG2-DSC2 ectodomain	medium_high	Boundary is pragmatic; Ca2+ and glycosylation omitted
+DSC2 cytoplasmic tail	716-901	UniProt Q02487 topology and prior local PKP2 held-design boundary	held	medium_high	Better handled in DSC2 packet
+PKP2 full-length	1-881	UniProt Q99959 reviewed canonical sequence	DSG2 cytoplasmic tail-PKP2 job	high	PKP2 may need plaque assembly/PTM context
+JUP full-length	1-745	UniProt P14923 reviewed canonical sequence	held	high	Held because DSG2-JUP direct evidence is not as strong in local stack

@@ -1,0 +1,51 @@
+{
+  "input_table": "datasets/external_validation_candidates/expanded_external_2026/annotations/structure_input.tsv",
+  "rows": 291,
+  "candidate_substitutions": 170,
+  "mapped_accessions": 28,
+  "reference_check_failures": 0,
+  "feature_columns": [
+    "structure_available",
+    "structure_plddt",
+    "structure_plddt_bin",
+    "structure_dssp_code",
+    "structure_dssp_class",
+    "structure_dssp_acc",
+    "structure_dssp_phi",
+    "structure_dssp_psi",
+    "structure_freesasa_total",
+    "structure_freesasa_polar",
+    "structure_freesasa_apolar",
+    "structure_freesasa_relative",
+    "structure_freesasa_exposure_bin"
+  ],
+  "fragment_offset": 200,
+  "fragment_selection": "maximal distance from fragment edge; lower fragment index breaks ties",
+  "requested_fragments": 35,
+  "mapping_status_counts": {
+    "ok": 170,
+    "not_mapped": 121
+  },
+  "calculation_status_counts": {
+    "ok": 170,
+    "not_mapped": 121
+  },
+  "tool_status_counts": {
+    "dssp_ok": 35,
+    "freesasa_ok": 35
+  },
+  "coverage_by_split": {
+    "external_expanded": {
+      "sum": 170,
+      "count": 291
+    }
+  },
+  "primary_binary_coverage_by_split": {
+    "external_expanded": {
+      "sum": 170,
+      "count": 291
+    }
+  },
+  "output": "datasets/external_validation_candidates/expanded_external_2026/annotations/structure_features.tsv",
+  "audit_output": "datasets/external_validation_candidates/expanded_external_2026/annotations/structure_mapping_audit.tsv"
+}

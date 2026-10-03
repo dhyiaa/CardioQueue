@@ -1,0 +1,10 @@
+{
+  "prediction_file": "results/models/cardioqueue_v1_source_heldout/primary_binary_predictions_split_source_heldout.tsv",
+  "modeling_table": "datasets/modeling/ready/modeling_table_with_splits_weights_hiro_emerge_rescued.tsv",
+  "external_rows": 430,
+  "bootstrap_samples": 5000,
+  "tie_permutations": 10000,
+  "seed": 20260919,
+  "primary_endpoint": "Paired difference in P/LP recall at a 20% review budget on each comparator-specific shared cohort.",
+  "missing_score_policy": "Comparator-specific complete cases; missing scores were never imputed as benign."
+}

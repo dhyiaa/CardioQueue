@@ -1,0 +1,17 @@
+{
+  "baseline_model": "results/models/cardioqueue_v1_source_heldout",
+  "ablation_model": "results/models/cardioqueue_v1_no_precomputed_effect_predictors_source_heldout",
+  "removed_feature_count": 58,
+  "removed_families": [
+    "SIFT",
+    "PolyPhen-2",
+    "REVEL",
+    "MetaLR",
+    "FATHMM-XF",
+    "CADD",
+    "AlphaMissense",
+    "ESM-1b"
+  ],
+  "bootstrap_seed": 20260924,
+  "bootstrap_samples": 5000
+}

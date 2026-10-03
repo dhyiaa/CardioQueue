@@ -1,0 +1,4 @@
+split	cohort_rows	mapped_any_plddt	plddt_ge50	plddt_ge70	plddt_ge90	not_exact_missense	missense_mapping_unresolved
+train	35796	3031	2639	2404	1574	31180	1585
+validation	6317	509	450	416	288	5548	260
+external_expanded	1233	717	620	526	233	475	41

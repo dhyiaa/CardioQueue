@@ -1,0 +1,24 @@
+{
+  "prediction_file": "results/models/cardioqueue_v1_source_heldout/primary_binary_predictions_split_source_heldout.tsv",
+  "external_rows": 430,
+  "pathogenic_rows": 255,
+  "benign_rows": 175,
+  "budgets": [
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "targets": [
+    0.5,
+    0.8,
+    0.9,
+    0.95
+  ],
+  "bootstrap_samples": 5000,
+  "random_order_simulations": 10000,
+  "seed": 20260917,
+  "random_order_interpretation": "Proxy for an arrival-order queue only when arrival order is unrelated to pathogenicity."
+}

@@ -1,0 +1,12 @@
+metric	value	interpretation
+included_CACNA1C_rows	3557	Rows currently available for AF3 feature mapping context
+binary_rows	1987	Rows with Benign or Pathogenic label
+vus_rows	1536	Can be scored after model training; not binary supervised labels
+pathogenic_rows	97	Small compared with benign/VUS but clinically important
+benign_rows	1890	Main negative class
+missing_label_rows	34	Not trainable unless label is repaired
+rows_with_model_protein_position	31	Existing protein position column coverage in ready table
+rows_with_dbNSFP_aapos	1525	dbNSFP protein-position support; use with transcript caution
+top_uniprot_accessions	Q13936:31	Checks dominant UniProt mapping
+source_composition	clinvar:3231;emerge:161;clinvar|emerge:134;cardioboost|clinvar:11;cardioboost:6;clinvar|hiro:4;emerge|hiro:3;hiro:2;cardioboost|emerge:2;cardioboost|clinvar|emerge:2	Most CACNA1C rows are ClinVar/eMERGE-derived; HiRO overlap is small
+protein_variant_types	:3526;substitution:31	AF3 interface features are mainly useful for missense/in-frame protein-changing rows

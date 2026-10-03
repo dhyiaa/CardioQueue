@@ -1,0 +1,23 @@
+Reference 18
+PMID: 24487276
+Title: A general framework for estimating the relative pathogenicity of human genetic variants.
+Authors: Kircher M; Witten DM; Jain P; O'Roak BJ; Cooper GM; Shendure J
+Year: 2014
+Journal: Nature genetics
+DOI: 10.1038/ng.2892
+URL: https://pubmed.ncbi.nlm.nih.gov/24487276/
+Draft use: CADD benchmark comparator and deleteriousness score
+
+Abstract:
+Current methods for annotating and interpreting human genetic variation tend to exploit a single
+information type (for example, conservation) and/or are restricted in scope (for example, to
+missense changes). Here we describe Combined Annotation-Dependent Depletion (CADD), a method for
+objectively integrating many diverse annotations into a single measure (C score) for each variant.
+We implement CADD as a support vector machine trained to differentiate 14.7 million high-frequency
+human-derived alleles from 14.7 million simulated variants. We precompute C scores for all 8.6
+billion possible human single-nucleotide variants and enable scoring of short insertions-deletions.
+C scores correlate with allelic diversity, annotations of functionality, pathogenicity, disease
+severity, experimentally measured regulatory effects and complex trait associations, and they highly
+rank known pathogenic variants within individual genomes. The ability of CADD to prioritize
+functional, deleterious and pathogenic variants across many functional categories, effect sizes and
+genetic architectures is unmatched by any current single-annotation method.

@@ -1,0 +1,13 @@
+section	item	benign	vus	pathogenic	rows_or_weight	note
+split	Train	28631	NA	7545	36176	Primary source-held-out binary training set
+split	Validation	5053	NA	1331	6384	Primary source-held-out binary validation set
+split	External HiRO	42	NA	27	69	Patient-linked external binary stratum
+split	External eMERGE	80	NA	96	176	Rescued GRCh38 external binary stratum
+split	External CardioBoost	53	NA	132	185	Public comparator external binary stratum
+weight	Benign baseline	NA	NA	NA	1.0	Reference class weight before source-confidence modifiers
+weight	Pathogenic class	NA	NA	NA	upweighted	Pathogenic class is smaller and false negatives are clinically costly
+weight	ClinVar 2-star or 3-star	NA	NA	NA	higher confidence	Higher confidence contribution than 1-star assertions
+weight	ClinVar 1-star	NA	NA	NA	lower confidence	Retained in primary model with lower confidence contribution
+weight	HiRO patient-linked records	NA	NA	NA	high-trust/report separately	Preserved at source-record level for interpretation
+weight	VUS	NA	NA	NA	excluded from binary training	Scored after binary training as clinical triage
+weight	Conflict or non-supervised label	NA	NA	NA	excluded from supervised training	Retained for audit where applicable

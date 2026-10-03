@@ -1,0 +1,32 @@
+{
+  "matrix": "datasets/modeling/ready/modeling_table_with_splits_weights_hiro_emerge_rescued.tsv",
+  "predictions": "results/models/cardioqueue_v1_source_heldout/primary_binary_predictions_split_source_heldout.tsv",
+  "output": "results/manuscript_figures_tables",
+  "figures": [
+    "external_all_stratified_performance_heatmap.png",
+    "feature_group_coverage_manuscript.png",
+    "primary_binary_calibration_reliability.png",
+    "primary_binary_roc_pr_panel.png",
+    "source_flow_modeling_rows.png",
+    "vus_three_zone_triage_distribution.png"
+  ],
+  "tables": [
+    "calibration_brier_summary.tsv",
+    "calibration_curve_points.tsv",
+    "external_validation_bootstrap_ci.tsv",
+    "external_validation_performance.tsv",
+    "feature_group_coverage_manuscript.tsv",
+    "primary_binary_three_zone_all_labels_confusions_long.tsv",
+    "primary_binary_three_zone_all_labels_summary.tsv",
+    "source_flow_modeling_rows.tsv",
+    "stratified_performance.tsv",
+    "triage_confusion_all_variant_rows.tsv",
+    "triage_confusion_cardioboost_source_records.tsv",
+    "triage_confusion_cardioboost_variant_rows.tsv",
+    "triage_confusion_clinvar_variant_rows.tsv",
+    "triage_confusion_emerge_source_records.tsv",
+    "triage_confusion_emerge_variant_rows.tsv",
+    "triage_confusion_hiro_source_records.tsv",
+    "triage_confusion_hiro_variant_rows.tsv"
+  ]
+}

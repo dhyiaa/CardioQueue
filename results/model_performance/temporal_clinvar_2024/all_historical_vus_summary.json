@@ -1,0 +1,28 @@
+{
+  "historical_vus_rows": 25737,
+  "in_scope_historical_vus_rows": 25481,
+  "transition_counts_all": {
+    "still_vus": 25109,
+    "later_benign": 311,
+    "no_unambiguous_current_class": 171,
+    "later_pathogenic": 146
+  },
+  "transition_counts_in_scope": {
+    "still_vus": 24879,
+    "later_benign": 309,
+    "no_unambiguous_current_class": 147,
+    "later_pathogenic": 146
+  },
+  "models": {
+    "full_300": 300,
+    "no_precomputed_effect_242": 242,
+    "low_circularity": 191,
+    "static_molecular": 19
+  },
+  "bootstrap_replicates": 5000,
+  "bootstrap_unit": "primary_gene",
+  "random_orderings": 10000,
+  "primary_endpoint": "Recovery of variants observed as P/LP by the current release from the complete January-2024 VUS queue.",
+  "resolved_only_endpoint": "Secondary discrimination of later P/LP versus later B/LB among variants with a current binary class.",
+  "caution": "Still-VUS and currently unresolved records are not treated as benign; reclassification is influenced by scrutiny and evidence availability."
+}

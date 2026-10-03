@@ -1,0 +1,9 @@
+{
+  "baseline_model": "results/models/primary_binary_catboost_v0_strict_source_heldout_hiro_emerge_rescued",
+  "enhanced_model": "results/models/primary_binary_catboost_structure_enhanced_source_heldout",
+  "structure_features": "datasets/feature_sources/protein_structure/interim/registry_structure_features.tsv",
+  "bootstrap_samples": 5000,
+  "seed": 20260917,
+  "external_rows": 430,
+  "structure_covered_external_rows": 271
+}

@@ -1,0 +1,6 @@
+entity	gene	uniprot_accession	entry_name	sequence_length	reviewed	sequence_policy	ptm_or_isoform_caveat	local_sequence_file
+target	CACNA1C	Q13936	CAC1C_HUMAN	2221	true	reviewed UniProt canonical amino-acid sequence	baseline excludes phosphorylation, membrane state, channel conformation, and transcript isoform differences	partner_sequences/CACNA1C_Q13936.fasta
+partner	CACNB2	Q08289	CACB2_HUMAN	660	true	reviewed UniProt canonical amino-acid sequence	beta-subunit isoforms and disordered termini may affect interface interpretation	partner_sequences/CACNB2_Q08289.fasta
+partner	CALM1	P0DP23	CALM1_HUMAN	149	true	CALM1 used as calmodulin protein-sequence proxy for CALM1/2/3 when sequence-identical	calcium occupancy modeled by adding four CA ions; AF3 does not prove biochemical calcium state	partner_sequences/CALM1_P0DP23.fasta
+proxy	CALM2	P0DP24	CALM2_HUMAN	149	true	sequence-identical local calmodulin paralog tracked for variant mapping	gene-specific disease variants map to same calmodulin protein sequence but gene label remains separate	partner_sequences/CALM2_P0DP24.fasta
+proxy	CALM3	P0DP25	CALM3_HUMAN	149	true	sequence-identical local calmodulin paralog tracked for variant mapping	gene-specific disease variants map to same calmodulin protein sequence but gene label remains separate	partner_sequences/CALM3_P0DP25.fasta

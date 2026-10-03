@@ -1,0 +1,49 @@
+{
+  "inputs": {
+    "share_csv": "/tmp/share_browser-20260925/HCM_Gen_Variant_Annotation_2026Q1.csv",
+    "share_sha256": "f119e47ea6205d874c0dfe3b3a350617509d10a906a91fe1f998abc98eb53a45",
+    "plos_xlsx": "datasets/external_validation_candidates/plos_cardiovascular_reinterpretation/pone.0297914.s001.xlsx",
+    "plos_sha256": "79eae13f642c14ddadbef5913728745a32315f0164d1f3b6be8ded8e3dd5fbce"
+  },
+  "share": {
+    "rows": 2637,
+    "binary_rows": 822,
+    "binary_labels": {
+      "P/LP": 561,
+      "B/LB": 261
+    },
+    "genes": 26,
+    "exact_modeling_matrix_overlap": 505,
+    "current_development_overlap": 419,
+    "current_external_overlap": 47,
+    "potential_new_rows_after_existing_external_precedence": 775
+  },
+  "plos": {
+    "listed_rows": 1261,
+    "all_final_classes": {
+      "VUS": 826,
+      "B": 176,
+      "LB": 128,
+      "LP": 72,
+      "P": 58,
+      "NaN": 1
+    },
+    "panel_binary_rows": 197,
+    "panel_binary_labels": {
+      "P/LP": 103,
+      "B/LB": 94
+    },
+    "panel_binary_genes": 38
+  },
+  "cross_source": {
+    "share_plos_gene_cdna_overlap": 43,
+    "binary_label_discordances": 0,
+    "preliminary_nonduplicate_share_plus_plos": 976
+  },
+  "warnings": [
+    "Gene/cDNA overlap is preliminary; final deduplication requires normalized GRCh38 alleles.",
+    "The PLOS source lacks transcript accessions and genomic coordinates.",
+    "SHaRe publication reuse requires confirmation because the repository states all rights reserved.",
+    "Every evaluation allele must be quarantined before rebuilding train/validation and retraining."
+  ]
+}

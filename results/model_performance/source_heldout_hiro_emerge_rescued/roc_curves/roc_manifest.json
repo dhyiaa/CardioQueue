@@ -1,0 +1,14 @@
+{
+  "outputs": {
+    "roc_internal_grouped": "results/model_performance/source_heldout_hiro_emerge_rescued/roc_curves/roc_internal_grouped.png",
+    "roc_source_heldout": "results/model_performance/source_heldout_hiro_emerge_rescued/roc_curves/roc_source_heldout.png",
+    "roc_gene_stress": "results/model_performance/source_heldout_hiro_emerge_rescued/roc_curves/roc_gene_stress.png",
+    "roc_external_validation_sets": "results/model_performance/source_heldout_hiro_emerge_rescued/roc_curves/roc_external_validation_sets.png",
+    "summary": "results/model_performance/source_heldout_hiro_emerge_rescued/roc_curves/roc_auc_summary.tsv"
+  },
+  "inputs": {
+    "internal_grouped": "results/models/primary_binary_catboost_v0_strict_internal_hiro_emerge_rescued/primary_binary_predictions_split_internal_grouped.tsv",
+    "source_heldout": "results/models/primary_binary_catboost_v0_strict_source_heldout_hiro_emerge_rescued/primary_binary_predictions_split_source_heldout.tsv",
+    "gene_stress": "results/models/primary_binary_catboost_v0_strict_gene_stress_hiro_emerge_rescued/primary_binary_predictions_split_gene_stress.tsv"
+  }
+}

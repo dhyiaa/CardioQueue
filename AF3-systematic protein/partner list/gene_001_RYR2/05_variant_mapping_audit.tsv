@@ -1,0 +1,2 @@
+gene	ready_matrix_rows	rows_with_current_protein_position	current_mapping_fraction	interpretation	action_before_model_features
+RYR2	9465	18	0.001902	Current ready matrix has poor direct protein-position coverage for RYR2. AF3 feature extraction will require improved protein-position mapping from VEP/dbNSFP/HGVS before full utility.	Improve RYR2 protein-position mapping, then map positions to chosen RYR2 domain jobs.

@@ -1,0 +1,4 @@
+job_id	total_protein_residues	server_size_status	note
+AF3_SYS_G012_LMNA_MATURE_1_646_HOMODIMER_DRAFT	1292	comfortable	Well below practical 5000-residue ceiling used in prior AF3 planning
+AF3_SYS_G012_LMNA_TAIL_384_646_EMD_NUC_1_222_DRAFT	485	small	Compact rescue design for failed full-length LMNA-EMD
+AF3_SYS_G012_LMNA_IF_ROD_31_387_HOMODIMER_DRAFT	714	small	Domain-level assembly proxy
