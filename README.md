@@ -12,4 +12,3 @@ The current paper files are:
 - [`paper_MS_SI/COMPLETION_AUDIT.md`](paper_MS_SI/COMPLETION_AUDIT.md)
 
 Large raw/intermediate datasets, local software environments, licensed FoldX software, AlphaFold/AF3 bulk outputs, row-level private HiRO data, and redundant trained models are deliberately excluded from Git. See the handoff document for what is and is not reproducible from a clone.
-
